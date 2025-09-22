@@ -1,7 +1,7 @@
 // components/HomeBanner.js
 
 import Link from "next/link";
-import homeBannerData from "@/utils/homeBannerData";
+import homeBannerData from "@/utils/json/homeBannerData";
 import { Carousel, Col, Container, Row } from "react-bootstrap";
 import { FaArrowRightLong } from "react-icons/fa6";
 

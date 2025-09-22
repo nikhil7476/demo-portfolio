@@ -10,11 +10,7 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <Navbar
-      expand="lg" // Better breakpoint for responsiveness (you can change sm, md, lg, xl)
-      fixed="top"
-      className="navbar-transparent"
-    >
+    <Navbar expand="lg" fixed="top" className="navbar-transparent">
       <Container>
         {/* Brand */}
         <Navbar.Brand

@@ -10,10 +10,39 @@ import {
   FaPhoneAlt,
   FaTwitter,
 } from "react-icons/fa";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 function Footer() {
   return (
     <>
+      <section>
+        <Container>
+          <Row>
+            <Col
+              xl={6}
+              lg={6}
+              md={6}
+              sm={12}
+              xs={12}
+              className="mb-3 align-content-center"
+            >
+              <h2>Ready To Elevate Your Digital Presence? Contact Us Now!</h2>
+            </Col>
+            <Col
+              xl={6}
+              lg={6}
+              md={6}
+              sm={12}
+              xs={12}
+              className="mb-3 align-content-center text-end"
+            >
+              <Link href="/contact-us" title="Contact Us" className="ctaButton">
+                Contact Us <FaArrowRightLong />
+              </Link>
+            </Col>
+          </Row>
+        </Container>
+      </section>
       <section>
         <Container>
           <Row className="my-5">
@@ -59,7 +88,7 @@ function Footer() {
                 </li>
                 <li className="mb-2">
                   <Link href="/blog" title="Our Blogs">
-                    Blog
+                    Our Blog
                   </Link>
                 </li>
                 <li className="mb-2">
@@ -124,20 +153,20 @@ function Footer() {
               <ul className="list-unstyled">
                 <li className="mb-2">
                   <Link
-                    href="tel:+91-9027917476"
-                    title="Call Me"
+                    href="tel:+91-1234567890"
+                    title="Call Us"
                     className="text-decoration-none"
                   >
-                    <FaPhoneAlt /> +91-(902)-791-7476
+                    <FaPhoneAlt /> +91-(123)-456-7890
                   </Link>
                 </li>
                 <li className="mb-2">
                   <Link
-                    href="mailto:nkm7476@gmail.com"
-                    title="Mail Me"
+                    href="mailto:contact@gmail.com"
+                    title="Mail Us"
                     className="text-decoration-none"
                   >
-                    <FaEnvelope /> nkm7476@gmail.com
+                    <FaEnvelope /> contact@gmail.com
                   </Link>
                 </li>
               </ul>

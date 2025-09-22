@@ -1,4 +1,4 @@
-import blogData from "@/utils/blogData";
+import blogData from "@/utils/json/blogData";
 import Link from "next/link";
 import Image from "next/image";
 import { Col, Row } from "react-bootstrap";

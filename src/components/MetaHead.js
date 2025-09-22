@@ -2,7 +2,7 @@
 
 import Head from "next/head";
 import { useRouter } from "next/router";
-import metaData from "@/utils/metaData";
+import metaData from "@/utils/json/metaData";
 
 const MetaHead = ({ page }) => {
   const router = useRouter();
