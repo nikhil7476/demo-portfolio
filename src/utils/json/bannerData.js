@@ -33,54 +33,68 @@ const bannerData = {
     },
   ],
   about: {
-    subHeading: "Who I Am",
-    heading: "Discover My Journey",
-    bgImage: "/website-assets/about-banner.jpg",
+    subHeading: "Who We Are",
+    heading: "Discover Our Journey",
+    bgImage: "/assets/about/about-banner.jpg",
     breadcrumb: [
       { label: "Home", href: "/" },
-      { label: "About Me", href: "/about-me" },
+      { label: "About Us", href: "/about-us" },
     ],
   },
   services: {
-    subHeading: "What I Do",
-    heading: "Crafting Digital Experiences",
-    bgImage: "/service-assets/services-banner.jpg",
-    breadcrumb: [
-      { label: "Home", href: "/" },
-      { label: "Services", href: "/services" },
+    main: [
+      {
+        subHeading: "What We Do",
+        heading: "Crafting Digital Experiences",
+        bgImage: "/assets/services/services-banner.jpg",
+        breadcrumb: [
+          { label: "Home", href: "/" },
+          { label: "Services", href: "/our-services" },
+        ],
+      },
     ],
+    "software-development": {
+      subHeading: "What I Do",
+      heading: "Crafting Digital Experiences",
+      bgImage: "/assets/services/web-development-banner.png",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Services", href: "/our-services" },
+        { label: "Software Development", href: "/software-development" },
+      ],
+    },
   },
   portfolio: {
     subHeading: "My Work",
     heading: "Showcasing Creativity & Impact",
-    bgImage: "/portfolio-assets/portfolio-banner.jpg",
+    bgImage: "/assets/portfolio/portfolio-banner.jpg",
     breadcrumb: [
       { label: "Home", href: "/" },
-      { label: "Portfolio", href: "/portfolio" },
+      { label: "Portfolio", href: "/our-portfolio" },
     ],
   },
   products: {
     subHeading: "Tech Stack",
     heading: "Powering Ideas with Innovation",
-    bgImage: "/tool-assets/tools-banner.jpg",
+    bgImage: "/assets/products/products-banner.jpg",
     breadcrumb: [
       { label: "Home", href: "/" },
-      { label: "Tools", href: "/tools" },
+      { label: "Products", href: "/products" },
     ],
   },
   blogs: {
     subHeading: "My Words",
     heading: "Insights, Stories & Knowledge",
-    bgImage: "/article-assets/article-banner.jpg",
+    bgImage: "/assets/blog/blog-banner.jpg",
     breadcrumb: [
       { label: "Home", href: "/" },
-      { label: "Articles", href: "/articles" },
+      { label: "Blog", href: "/blog" },
     ],
   },
   contact: {
     subHeading: "Let’s Talk",
     heading: "Start a Conversation Today",
-    bgImage: "/website-assets/contact-banner.jpg",
+    bgImage: "/assets/contact/contact-banner.jpg",
     breadcrumb: [
       { label: "Home", href: "/" },
       { label: "Contact Us", href: "/contact-us" },

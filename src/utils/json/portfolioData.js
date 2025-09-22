@@ -1,7 +1,7 @@
 // src/utils/portfolioData.js
 const portfolioData = {
   portfolioMain: {
-    subheading: "Our Services",
+    subheading: "Our Portfolio",
     title: "Build your brand",
     description:
       "From the inception of a project to its completion, we employ a comprehensive and holistic approach that ensures all aspects and stages are thoughtfully and thoroughly addressed.",
@@ -9,12 +9,11 @@ const portfolioData = {
   myportfolio: [
     {
       id: 1,
-      slug: "web-development",
-      subtitle: "Web Development",
-      title: "Web Development",
-      metaDescription: "I build responsive and SEO-friendly web applications.",
-      bannerImage: "/service-assets/web-development-banner.png",
-      featuredImage: "/service-assets/web-development-featured.png",
+      slug: "transport-logistics",
+      subtitle: "Transport Logistics",
+      title: "Transport Logistics",
+      bannerImage: "/assets/portfolio/transport-logistics-banner.png",
+      featuredImage: "/assets/portfolio/transport-logistics-featured.png",
     },
     {
       id: 2,

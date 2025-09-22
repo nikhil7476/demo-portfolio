@@ -34,8 +34,24 @@ const metaData = {
       ogImage: "/nikhil-logo.jpeg",
     },
   ],
-  services: [
-    {
+  services: {
+    main: [
+      {
+        metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+        metaDescription:
+          "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
+        keywords: [
+          "web development services",
+          "frontend development",
+          "backend development",
+          "Next.js services",
+          "React developer services",
+          "freelance web developer",
+        ],
+        ogImage: "/nikhil-logo.jpeg",
+      },
+    ],
+    "software-development": {
       metaTitle: "Services | Web Development & Design by Nikhil Mishra",
       metaDescription:
         "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
@@ -49,7 +65,133 @@ const metaData = {
       ],
       ogImage: "/nikhil-logo.jpeg",
     },
-  ],
+    "website-development": {
+      metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+      metaDescription:
+        "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
+      keywords: [
+        "web development services",
+        "frontend development",
+        "backend development",
+        "Next.js services",
+        "React developer services",
+        "freelance web developer",
+      ],
+      ogImage: "/nikhil-logo.jpeg",
+    },
+    "mobile-app-development": {
+      metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+      metaDescription:
+        "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
+      keywords: [
+        "web development services",
+        "frontend development",
+        "backend development",
+        "Next.js services",
+        "React developer services",
+        "freelance web developer",
+      ],
+      ogImage: "/nikhil-logo.jpeg",
+    },
+    "ui-ux-design": {
+      metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+      metaDescription:
+        "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
+      keywords: [
+        "web development services",
+        "frontend development",
+        "backend development",
+        "Next.js services",
+        "React developer services",
+        "freelance web developer",
+      ],
+      ogImage: "/nikhil-logo.jpeg",
+    },
+    "digital-marketing": {
+      metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+      metaDescription:
+        "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
+      keywords: [
+        "web development services",
+        "frontend development",
+        "backend development",
+        "Next.js services",
+        "React developer services",
+        "freelance web developer",
+      ],
+      ogImage: "/nikhil-logo.jpeg",
+    },
+    "ecommerce-solutions": {
+      metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+      metaDescription:
+        "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
+      keywords: [
+        "web development services",
+        "frontend development",
+        "backend development",
+        "Next.js services",
+        "React developer services",
+        "freelance web developer",
+      ],
+      ogImage: "/nikhil-logo.jpeg",
+    },
+    "cyber-security-solutions": {
+      metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+      metaDescription:
+        "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
+      keywords: [
+        "web development services",
+        "frontend development",
+        "backend development",
+        "Next.js services",
+        "React developer services",
+        "freelance web developer",
+      ],
+      ogImage: "/nikhil-logo.jpeg",
+    },
+    "artificial-intelligence-solutions": {
+      metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+      metaDescription:
+        "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
+      keywords: [
+        "web development services",
+        "frontend development",
+        "backend development",
+        "Next.js services",
+        "React developer services",
+        "freelance web developer",
+      ],
+      ogImage: "/nikhil-logo.jpeg",
+    },
+    "hire-dedicated-devlopers": {
+      metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+      metaDescription:
+        "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
+      keywords: [
+        "web development services",
+        "frontend development",
+        "backend development",
+        "Next.js services",
+        "React developer services",
+        "freelance web developer",
+      ],
+      ogImage: "/nikhil-logo.jpeg",
+    },
+    "hire-proxy-developers": {
+      metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+      metaDescription:
+        "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
+      keywords: [
+        "web development services",
+        "frontend development",
+        "backend development",
+        "Next.js services",
+        "React developer services",
+        "freelance web developer",
+      ],
+      ogImage: "/nikhil-logo.jpeg",
+    },
+  },
   blogs: [
     {
       metaTitle: "Articles | Web Development Insights by Nikhil Mishra",

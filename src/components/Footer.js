@@ -174,15 +174,6 @@ function Footer() {
               <ul className="list-unstyled d-flex gap-3">
                 <li className="mb-2">
                   <Link
-                    href="https://github.com/nikhil7476/"
-                    title="GitHub: nikhil7476"
-                    target="_blank"
-                  >
-                    <FaGithub />
-                  </Link>
-                </li>
-                <li className="mb-2">
-                  <Link
                     href="https://www.instagram.com/mishra_nikhil01/"
                     title="Instagram: mishra_nikhil01"
                     target="_blank"

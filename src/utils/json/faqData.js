@@ -41,8 +41,7 @@ const faqData = {
           "Yes, we work with businesses of all sizes, from new startups to established enterprises, offering scalable solutions for every stage.",
       },
     ],
-
-    "web-development": [
+    "software-development": [
       {
         id: 1,
         title: "What technologies do you use for web development?",
@@ -62,7 +61,26 @@ const faqData = {
           "Absolutely, we build fully responsive websites that work seamlessly across desktops, tablets, and smartphones.",
       },
     ],
-
+    "website-development": [
+      {
+        id: 1,
+        title: "What technologies do you use for web development?",
+        content:
+          "We use modern frameworks like React, Next.js, and Node.js to build fast, secure, and scalable websites.",
+      },
+      {
+        id: 2,
+        title: "Can you redesign or upgrade an existing website?",
+        content:
+          "Yes, we specialize in revamping outdated websites with fresh designs, improved performance, and modern functionality.",
+      },
+      {
+        id: 3,
+        title: "Do your websites work on all devices?",
+        content:
+          "Absolutely, we build fully responsive websites that work seamlessly across desktops, tablets, and smartphones.",
+      },
+    ],
     "mobile-app-development": [
       {
         id: 1,
@@ -83,7 +101,6 @@ const faqData = {
           "Yes, we can connect your app with existing systems, websites, and third-party tools for seamless integration.",
       },
     ],
-
     "ui-ux-design": [
       {
         id: 1,
@@ -104,7 +121,6 @@ const faqData = {
           "Definitely, we specialize in modernizing and improving existing designs for better usability and appeal.",
       },
     ],
-
     "digital-marketing": [
       {
         id: 1,
@@ -125,8 +141,7 @@ const faqData = {
           "Yes, we tailor every digital marketing plan to your brand goals, audience, and industry trends.",
       },
     ],
-
-    "seo-services": [
+    "ecommerce-solutions": [
       {
         id: 1,
         title: "How long does it take to see SEO results?",
@@ -146,8 +161,67 @@ const faqData = {
           "Absolutely, we optimize your business for local search, Google Maps, and location-based keywords to attract nearby customers.",
       },
     ],
-
-    "wordpress-development": [
+    "cyber-security-solutions": [
+      {
+        id: 1,
+        title: "Do you build custom WordPress themes and plugins?",
+        content:
+          "Yes, we create tailored themes and plugins to deliver unique designs and functionality for your website.",
+      },
+      {
+        id: 2,
+        title: "Will my WordPress site be secure and fast?",
+        content:
+          "We follow best practices for performance, security, and scalability to ensure your WordPress site runs smoothly.",
+      },
+      {
+        id: 3,
+        title: "Can you maintain and update my WordPress website?",
+        content:
+          "Yes, we provide ongoing maintenance, updates, and support to keep your site secure and up to date.",
+      },
+    ],
+    "artificial-intelligence-solutions": [
+      {
+        id: 1,
+        title: "Do you build custom WordPress themes and plugins?",
+        content:
+          "Yes, we create tailored themes and plugins to deliver unique designs and functionality for your website.",
+      },
+      {
+        id: 2,
+        title: "Will my WordPress site be secure and fast?",
+        content:
+          "We follow best practices for performance, security, and scalability to ensure your WordPress site runs smoothly.",
+      },
+      {
+        id: 3,
+        title: "Can you maintain and update my WordPress website?",
+        content:
+          "Yes, we provide ongoing maintenance, updates, and support to keep your site secure and up to date.",
+      },
+    ],
+    "hire-dedicated-devlopers": [
+      {
+        id: 1,
+        title: "Do you build custom WordPress themes and plugins?",
+        content:
+          "Yes, we create tailored themes and plugins to deliver unique designs and functionality for your website.",
+      },
+      {
+        id: 2,
+        title: "Will my WordPress site be secure and fast?",
+        content:
+          "We follow best practices for performance, security, and scalability to ensure your WordPress site runs smoothly.",
+      },
+      {
+        id: 3,
+        title: "Can you maintain and update my WordPress website?",
+        content:
+          "Yes, we provide ongoing maintenance, updates, and support to keep your site secure and up to date.",
+      },
+    ],
+    "hire-proxy-developers": [
       {
         id: 1,
         title: "Do you build custom WordPress themes and plugins?",
@@ -188,7 +262,7 @@ const faqData = {
         "Absolutely. My portfolio represents only some of my work. I’m open to building custom projects tailored specifically to your requirements.",
     },
   ],
-  tools: [
+  products: [
     {
       id: 1,
       title: "What development tools do you use most often?",
