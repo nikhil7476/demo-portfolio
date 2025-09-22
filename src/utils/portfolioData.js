@@ -1,0 +1,68 @@
+// src/utils/portfolioData.js
+const portfolioData = {
+  portfolioMain: {
+    subheading: "Our Services",
+    title: "Build your brand",
+    description:
+      "From the inception of a project to its completion, we employ a comprehensive and holistic approach that ensures all aspects and stages are thoughtfully and thoroughly addressed.",
+  },
+  myportfolio: [
+    {
+      id: 1,
+      slug: "web-development",
+      subtitle: "Web Development",
+      title: "Web Development",
+      metaDescription: "I build responsive and SEO-friendly web applications.",
+      bannerImage: "/service-assets/web-development-banner.png",
+      featuredImage: "/service-assets/web-development-featured.png",
+    },
+    {
+      id: 2,
+      slug: "ui-ux-design",
+      subtitle: "UI/UX Design",
+      title: "UI/UX Design",
+      metaDescription:
+        "I create secure and scalable REST APIs with Node.js & MongoDB.",
+      bannerImage: "/service-assets/ui-ux-design-banner.png",
+      featuredImage: "/service-assets/ui-ux-design-featured.png",
+    },
+    {
+      id: 3,
+      slug: "mobile-app-development",
+      subtitle: "Mobile App Development",
+      title: "Mobile App Development",
+      metaDescription: "Cross-platform mobile apps built with React Native.",
+      bannerImage: "/service-assets/mobile-app-development-banner.png",
+      featuredImage: "/service-assets/mobile-app-development-featured.png",
+    },
+    {
+      id: 4,
+      slug: "digital-marketing",
+      subtitle: "Digital Marketing",
+      title: "Digital Marketing",
+      metaDescription: "Cross-platform mobile apps built with React Native.",
+      bannerImage: "/service-assets/digital-marketing-banner.png",
+      featuredImage: "/service-assets/digital-marketing-featured.png",
+    },
+    {
+      id: 5,
+      slug: "seo-services",
+      subtitle: "SEO Services",
+      title: "SEO Services",
+      metaDescription: "Cross-platform mobile apps built with React Native.",
+      bannerImage: "/service-assets/seo-services-banner.png",
+      featuredImage: "/service-assets/seo-services-featured.png",
+    },
+    {
+      id: 6,
+      slug: "wordpress-development",
+      subtitle: "WordPress Development",
+      title: "WordPress Development",
+      metaDescription: "Cross-platform mobile apps built with React Native.",
+      bannerImage: "/service-assets/wordpress-development-banner.png",
+      featuredImage: "/service-assets/wordpress-development-featured.png",
+    },
+  ],
+};
+
+export default portfolioData;

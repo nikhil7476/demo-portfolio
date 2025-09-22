@@ -1,42 +1,283 @@
+/* ===== Root Theme Variables ===== */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary: #caef45;
+  --secondary: #28292f;
+  --accent: #caef45;
+
+  --border: #eaeaea;
+  --shadow: rgba(0, 0, 0, 0.1);
+
+  --font-heading: "Urbanist", "Poppins", sans-serif;
+  --font-body: "Urbanist", "Poppins", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #28292f;
+  --foreground: #ecf6ed;
+
+  --heading: #ffffff;
+  --text: #c1c1c1;
+  --muted-text: #2c2c2c;
+
+  --divider: #caef45;
+  --icon: #caef45;
+  --section: #1c1d20;
+
+  --link: #c1c1c1;
+  --link-hover: #caef45;
+
+  --button-bg: #caef45;
+  --button-text: #233050;
+  --button-border: #caef45;
+  --button-hover-bg: #ffffff;
+  --button-hover-text: #233050;
+  --button-hover-border: #ffffff;
+
+  --input-bg: #ffffff;
+  --input-border: #c1c1c1;
+  --input-focus-bg: #ffffff;
+  --input-focus-border: #c1c1c1;
 }
 
+/* ===== Base Styles ===== */
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--background) !important;
+  color: var(--foreground) !important;
+  font-family: var(--font-body) !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 * {
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: var(--link) !important;
+  text-decoration: none !important;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: var(--link-hover) !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+section {
+  padding: 30px 0px;
+}
+
+section:nth-child(odd) {
+  background: var(--section) !important;
+}
+
+.row,
+.col {
+  padding: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading) !important;
+  font-weight: 600 !important;
+  text-transform: capitalize;
+  line-height: 1.2em;
+  font-family: var(--font-heading) !important;
+}
+
+h1 {
+  font-size: 36px !important;
+}
+h2 {
+  font-size: 30px !important;
+}
+h3 {
+  font-size: 25px !important;
+}
+h4 {
+  font-size: 20px !important;
+}
+h5 {
+  font-size: 18px !important;
+}
+h6 {
+  font-size: 16px !important;
+}
+
+hr {
+  color: var(--divider) !important;
+  height: 5px;
+  background-color: var(--divider);
+}
+
+p {
+  color: var(--text);
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  margin-bottom: 20px !important;
+  line-height: 1.6em;
+}
+
+span {
+  color: var(--accent);
+  text-transform: uppercase;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+}
+
+ul li {
+  font-size: 18px;
+  color: var(--text);
+}
+
+.breadcrumb-item.active,
+.breadcrumb-item:before {
+  color: var(--text) !important;
+}
+
+/* ===== Buttons ===== */
+button {
+  background: var(--button-bg) !important;
+  color: var(--button-text) !important;
+  border: 1px solid var(--button-border) !important;
+  box-shadow: none !important;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: var(--button-hover-bg) !important;
+  color: var(--button-hover-text) !important;
+  border: 1px solid var(--button-hover-border) !important;
+}
+
+.ctaButton {
+  background: var(--button-bg);
+  color: var(--button-text) !important;
+  border: 1px solid var(--button-border) !important;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.ctaButton:hover {
+  background: var(--button-hover-bg) !important;
+  color: var(--button-hover-text) !important;
+  border: 1px solid var(--button-hover-border) !important;
+}
+
+/* ===== Inputs ===== */
+input,
+textarea {
+  background: var(--input-bg) !important;
+  border: 1px solid var(--input-border) !important;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: border-color 0.3s ease, background 0.3s ease;
+}
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+  background: var(--input-focus-bg) !important;
+  border: 1px solid var(--input-focus-border) !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* ===== Navbar Styling ===== */
+.navbar-transparent {
+  background-color: rgba(28, 29, 32, 0.75) !important;
+}
+
+/* ===== Stats Styling ===== */
+.statValue {
+  color: #ffffff00;
+  font-size: 100px !important;
+  -webkit-text-stroke-width: 2px;
+  stroke-width: 2px;
+  -webkit-text-stroke-color: var(--primary);
+  stroke: var(--primary);
+  text-shadow: 15px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* ===== Banner Styles ==== */
+.banner {
+  position: relative;
+  min-height: 450px;
+  z-index: 1;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5) !important;
+  z-index: 0;
+}
+
+.banner .container,
+.banner .row,
+.banner .col {
+  position: relative;
+  z-index: 1;
+}
+
+/* ===== Responsive Typography ===== */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px !important;
+  }
+  h2 {
+    font-size: 25px !important;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 26px !important;
+  }
+  h2 {
+    font-size: 20px !important;
+  }
+  h3 {
+    font-size: 18px !important;
+  }
+  p {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 22px !important;
+  }
+  h2 {
+    font-size: 18px !important;
+  }
+  h3 {
+    font-size: 16px !important;
+  }
+  p {
+    font-size: 14px !important;
   }
 }
