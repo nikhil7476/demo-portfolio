@@ -10,7 +10,6 @@ import {
   FaPhoneAlt,
   FaTwitter,
 } from "react-icons/fa";
-import { MdAddLocationAlt } from "react-icons/md";
 
 function Footer() {
   return (
@@ -29,53 +28,64 @@ function Footer() {
                   style={{ width: "75%", height: "auto" }}
                   className="mb-3"
                 />
-                <h2>Nikhil Mishra</h2>
               </Link>
+              <p>
+                Empowering Innovation | Crafting Solutions | Portfolio - Where
+                Technology Meets Excellence
+              </p>
             </Col>
             <Col xl={3} lg={3} md={6} sm={12} xs={12} className="mb-3">
-              <h3>Explore Me</h3>
+              <h3>Our Company</h3>
               <ul className="list-unstyled">
                 <li className="mb-2">
-                  <Link href="/about-me" title="About Me">
-                    About Me
+                  <Link href="/about-us" title="About Us">
+                    About Us
                   </Link>
                 </li>
                 <li className="mb-2">
-                  <Link href="/services" title="My Services">
-                    Services
+                  <Link href="/our-services" title="Our Services">
+                    Our Services
                   </Link>
                 </li>
                 <li className="mb-2">
-                  <Link href="/portfolio" title="My Portfolio">
-                    Portfolio
+                  <Link href="/our-portfolio" title="Our Portfolio">
+                    Our Portfolio
                   </Link>
                 </li>
                 <li className="mb-2">
-                  <Link href="/tools" title="My Tools">
-                    Tools
+                  <Link href="/our-products" title="Our Products">
+                    Our Products
                   </Link>
                 </li>
                 <li className="mb-2">
-                  <Link href="/articles" title="My Articles">
-                    Articles
+                  <Link href="/blog" title="Our Blogs">
+                    Blog
                   </Link>
                 </li>
                 <li className="mb-2">
-                  <Link href="/contact-me" title="Contact Me">
-                    Contact Me
+                  <Link href="/contact-us" title="Contact Us">
+                    Contact Us
                   </Link>
                 </li>
               </ul>
             </Col>
             <Col xl={3} lg={3} md={6} sm={12} xs={12} className="mb-3">
-              <h3>My Services</h3>
+              <h3>Our Services</h3>
               <ul className="list-unstyled">
                 <li className="mb-2">
                   <Link
-                    href="/services/web-development"
-                    title="Web Development"
+                    href="/services/software-development"
+                    title="Software Development"
                   >
-                    Web Development
+                    Software Development
+                  </Link>
+                </li>
+                <li className="mb-2">
+                  <Link
+                    href="/services/website-development"
+                    title="Website Development"
+                  >
+                    Website Development
                   </Link>
                 </li>
                 <li className="mb-2">
@@ -100,25 +110,26 @@ function Footer() {
                   </Link>
                 </li>
                 <li className="mb-2">
-                  <Link href="/services/seo-services" title="SEO Services">
-                    SEO Services
-                  </Link>
-                </li>
-                <li className="mb-2">
                   <Link
-                    href="/services/wordpress-development"
-                    title="WordPress Development"
+                    href="/services/ecommerce-solutions"
+                    title="E-Commerce Solutions"
                   >
-                    WordPress Development
+                    E-Commerce Solutions
                   </Link>
                 </li>
               </ul>
             </Col>
             <Col xl={3} lg={3} md={6} sm={12} xs={12} className="mb-3">
-              <h3>Contact</h3>
+              <h3>Need Help?</h3>
               <ul className="list-unstyled">
                 <li className="mb-2">
-                  <MdAddLocationAlt /> Auraiya, Uttar Pradesh, IN
+                  <Link
+                    href="tel:+91-9027917476"
+                    title="Call Me"
+                    className="text-decoration-none"
+                  >
+                    <FaPhoneAlt /> +91-(902)-791-7476
+                  </Link>
                 </li>
                 <li className="mb-2">
                   <Link
@@ -129,17 +140,8 @@ function Footer() {
                     <FaEnvelope /> nkm7476@gmail.com
                   </Link>
                 </li>
-                <li className="mb-2">
-                  <Link
-                    href="tel:+91-9027917476"
-                    title="Call Me"
-                    className="text-decoration-none"
-                  >
-                    <FaPhoneAlt /> +91-(902)-791-7476
-                  </Link>
-                </li>
               </ul>
-              <h3>Follow Me</h3>
+              <h3>Follow Us</h3>
               <ul className="list-unstyled d-flex gap-3">
                 <li className="mb-2">
                   <Link

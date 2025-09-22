@@ -1,4 +1,10 @@
-import { Navbar, Nav, Container, Offcanvas } from "react-bootstrap";
+import {
+  Navbar,
+  Nav,
+  Container,
+  Offcanvas,
+  NavDropdown,
+} from "react-bootstrap";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -56,49 +62,42 @@ function Header() {
               </Link>
             </Offcanvas.Title>
           </Offcanvas.Header>
-
           <Offcanvas.Body>
             <Nav className="justify-content-end flex-grow-1">
               <Nav.Link href="/" title="Home" className="text-light mx-2">
                 Home
               </Nav.Link>
               <Nav.Link
-                href="/about-me"
-                title="About Me"
+                href="/about-us"
+                title="About Us"
                 className="text-light mx-2"
               >
-                About Me
+                About Us
               </Nav.Link>
               <Nav.Link
-                href="/services"
-                title="Services"
+                href="/our-services"
+                title="Our Services"
                 className="text-light mx-2"
               >
-                Services
+                Our Services
+              </Nav.Link>
+              <NavDropdown title="Our Work" id="basic-nav-dropdown">
+                <NavDropdown.Item href="/our-products" title="Our Products">
+                  Our Products
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/our-portfolio" title="Our Portfolio">
+                  Our Portfolio
+                </NavDropdown.Item>
+              </NavDropdown>
+              <Nav.Link href="/blog" title="Blog" className="text-light mx-2">
+                Blog
               </Nav.Link>
               <Nav.Link
-                href="/portfolio"
-                title="Portfolio"
+                href="/contact-us"
+                title="Contact Us"
                 className="text-light mx-2"
               >
-                Portfolio
-              </Nav.Link>
-              <Nav.Link href="/tools" title="Tools" className="text-light mx-2">
-                Tools
-              </Nav.Link>
-              <Nav.Link
-                href="/articles"
-                title="Articles"
-                className="text-light mx-2"
-              >
-                Articles
-              </Nav.Link>
-              <Nav.Link
-                href="/contact-me"
-                title="Contact Me"
-                className="text-light mx-2"
-              >
-                Contact Me
+                Contact Us
               </Nav.Link>
             </Nav>
           </Offcanvas.Body>
