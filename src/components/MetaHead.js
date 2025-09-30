@@ -10,7 +10,7 @@ const MetaHead = ({ page }) => {
     metaData[page][0] || {};
 
   // Your site base URL
-  const baseUrl = "https://mishraji-official-portfolio.vercel.app";
+  const baseUrl = `${process.env.NEXT_PUBLIC_BASE_URL}`;
   const canonicalUrl = `${baseUrl}${router.asPath}`;
 
   return (
