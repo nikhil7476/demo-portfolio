@@ -10,7 +10,7 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <Navbar expand="lg" fixed="top" className="navbar-transparent">
+    <Navbar expand="lg" className="navbar-transparent">
       <Container>
         {/* Brand */}
         <Navbar.Brand

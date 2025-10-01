@@ -239,6 +239,13 @@ textarea:active {
   z-index: 1;
 }
 
+/* ===== Carousel Controls ===== */
+.carousel-indicators {
+  transform: rotate(90deg);
+  right: -50% !important;
+  top: 0;
+}
+
 /* ===== Responsive Typography ===== */
 @media (max-width: 768px) {
   h1 {

@@ -1,14 +1,16 @@
 // components/HomeBanner.js
 
 import Link from "next/link";
-import homeBannerData from "@/utils/json/homeBannerData";
+import bannerData from "@/utils/json/bannerData"; // updated import
 import { Carousel, Col, Container, Row } from "react-bootstrap";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const HomeBanner = () => {
+  const homeBanners = bannerData.home || [];
+
   return (
-    <Carousel fade indicators={true} controls={false} interval={4000}>
-      {homeBannerData.map((slide) => (
+    <Carousel slide indicators={true} controls={false} interval={4000}>
+      {homeBanners.map((slide) => (
         <Carousel.Item key={slide.id}>
           <div
             style={{
@@ -16,22 +18,27 @@ const HomeBanner = () => {
               backgroundSize: "cover",
               backgroundPosition: "center",
               minHeight: "500px",
-              alignContent: "center",
+              display: "flex",
+              alignItems: "center",
             }}
           >
             <Container>
               <Row className="align-items-center">
-                <Col className="text-center">
-                  <span>{slide.subTitle}</span>
-                  <h1>{slide.title}</h1>
-                  <p className="text-center">{slide.description}</p>
-                  <Link
-                    href={slide.ctaLink}
-                    title={slide.ctaText}
-                    className="ctaButton"
-                  >
-                    {slide.ctaText} <FaArrowRightLong />
-                  </Link>
+                <Col className="text-white">
+                  {slide.subHeading && <span>{slide.subHeading}</span>}
+                  {slide.heading && (
+                    <h1 className="fw-bold">{slide.heading}</h1>
+                  )}
+                  {slide.description && <p>{slide.description}</p>}
+                  {slide.ctaText && slide.ctaLink && (
+                    <Link
+                      href={slide.ctaLink}
+                      title={slide.ctaText}
+                      className="ctaButton d-inline-flex align-items-center mt-2"
+                    >
+                      {slide.ctaText} <FaArrowRightLong className="ms-2" />
+                    </Link>
+                  )}
                 </Col>
               </Row>
             </Container>

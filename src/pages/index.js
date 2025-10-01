@@ -8,10 +8,12 @@ import Testimonial from "@/components/Testimonial";
 import testimonialData from "@/utils/json/testimonialData";
 import ContactForm from "@/components/ContactForm";
 import BlogsPreview from "@/components/BlogsPreview";
+import HomeBanner from "@/components/HomeBanner";
 
 function Home() {
   return (
     <>
+      <HomeBanner />
       <section>
         <Container>
           <Row>
