@@ -1,4 +1,4 @@
-// utils/accordionData.js
+// utils/faqData.js
 const faqData = {
   about: [
     {

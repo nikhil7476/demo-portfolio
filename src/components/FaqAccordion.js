@@ -5,19 +5,29 @@ import { FaPlus, FaMinus } from "react-icons/fa";
 import { useState } from "react";
 import Image from "next/image";
 
-const FaqAccordion = ({ data }) => {
-  const [activeKey, setActiveKey] = useState("0");
+const FaqAccordion = ({ data, section, subCategory }) => {
+  const [activeKey, setActiveKey] = useState(null);
 
   const handleToggle = (key) => {
     setActiveKey(activeKey === key ? null : key);
   };
 
+  // Determine which data to render
+  let faqItems = [];
+  if (section === "services" && subCategory) {
+    faqItems = data.services[subCategory] || [];
+  } else if (section) {
+    faqItems = data[section] || [];
+  }
+
+  if (!faqItems.length) return null;
+
   return (
     <Container>
-      <Row>
+      <Row className="align-items-center">
         <Col xl={5} lg={5} md={6} sm={12} xs={12} className="mb-3">
           <Image
-            src="/website-assets/faqs.png"
+            src="/assets/faqs.webp"
             alt="FAQs-Image"
             title="FAQs"
             width={350}
@@ -25,19 +35,12 @@ const FaqAccordion = ({ data }) => {
             style={{ width: "100%", height: "auto" }}
           />
         </Col>
-        <Col
-          xl={7}
-          lg={7}
-          md={6}
-          sm={12}
-          xs={12}
-          className="mb-3 align-content-center"
-        >
-          <span>FAQs</span>
-          <h2>Frequently Asked Questions</h2>
+        <Col xl={7} lg={7} md={6} sm={12} xs={12} className="mb-3">
+          <span className="text-muted">FAQs</span>
+          <h2 className="mb-3">Frequently Asked Questions</h2>
           <hr />
           <Accordion activeKey={activeKey} flush>
-            {data.map((item, idx) => (
+            {faqItems.map((item, idx) => (
               <Accordion.Item
                 eventKey={String(idx)}
                 key={item.id || idx}
