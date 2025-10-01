@@ -13,7 +13,7 @@ const HomeBanner = () => {
       slide
       indicators={true}
       controls={false}
-      interval={4000}
+      interval={3000}
       className="homeBanner"
     >
       {homeBanners.map((slide) => (
