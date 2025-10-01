@@ -9,7 +9,13 @@ const HomeBanner = () => {
   const homeBanners = bannerData.home || [];
 
   return (
-    <Carousel slide indicators={true} controls={false} interval={4000}>
+    <Carousel
+      slide
+      indicators={true}
+      controls={false}
+      interval={4000}
+      className="homeBanner"
+    >
       {homeBanners.map((slide) => (
         <Carousel.Item key={slide.id}>
           <div

@@ -240,7 +240,7 @@ textarea:active {
 }
 
 /* ===== Carousel Controls ===== */
-.carousel-indicators {
+.homeBanner .carousel-indicators {
   transform: rotate(90deg);
   right: -50% !important;
   top: 0;
