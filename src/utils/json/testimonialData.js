@@ -3,171 +3,116 @@ const testimonialData = {
   home: [
     {
       id: 1,
-      name: "John Doe",
-      role: "Product Manager",
+      name: "Michael Tran",
       message:
-        "Working with Nikhil was a great experience. The website he built exceeded our expectations!",
-      image: "/nikhil-logo.jpeg",
+        "From concept to launch, MakersOfCode provided unparalleled service in developing our mobile app. They listened to our needs and offered creative solutions that improved our app's functionality and user experience. Their team was communicative, flexible, and highly skilled. Thanks to MakersOfCode, we’ve seen a 50% increase in user engagement since the app went live.",
+      image: "/assets/Testimonial/testimonial1.webp",
     },
     {
       id: 2,
-      name: "Sarah Smith",
-      role: "Startup Founder",
+      name: "Aiden Carter",
       message:
-        "Amazing skills and great communication. Delivered everything on time with top quality.",
-      image: "/nikhil-logo.jpeg",
+        "Working with MakersOfCode has been a game-changer for our business. They developed a fully customized e-commerce platform that is both user-friendly and robust. The support we received throughout the process was exceptional, and their team's attention to detail was second to none. Our sales have increased by 25% since the platform launched, and we're thrilled with the results.",
+      image: "/assets/Testimonial/testimonial2.webp",
     },
     {
       id: 3,
-      name: "David Lee",
-      role: "Entrepreneur",
+      name: "Robert Dean",
       message:
-        "The backend development was smooth, secure, and scalable. Highly recommend!",
-      image: "/nikhil-logo.jpeg",
-    },
-    {
-      id: 4,
-      name: "Priya Sharma",
-      role: "Designer",
-      message:
-        "Fantastic work on the portfolio site. Clean design and optimized for performance.",
-      image: "/nikhil-logo.jpeg",
+        "Working with MakersOfCode was a seamless experience from start to finish. They took the time to understand our goals and delivered innovative features that enhanced both performance and design. The team was professional, responsive, and detail-oriented throughout the project. Since launching, our platform has experienced a 45% boost in customer retention, and we couldn’t be happier with the results.",
+      image: "/assets/Testimonial/testimonial3.webp",
     },
   ],
   about: [
     {
       id: 1,
-      name: "John Doe",
-      role: "Product Manager",
+      name: "Michael Tran",
       message:
-        "Working with Nikhil was a great experience. The website he built exceeded our expectations!",
-      image: "/nikhil-logo.jpeg",
+        "From concept to launch, MakersOfCode provided unparalleled service in developing our mobile app. They listened to our needs and offered creative solutions that improved our app's functionality and user experience. Their team was communicative, flexible, and highly skilled. Thanks to MakersOfCode, we’ve seen a 50% increase in user engagement since the app went live.",
+      image: "/assets/Testimonial/testimonial1.webp",
     },
     {
       id: 2,
-      name: "Sarah Smith",
-      role: "Startup Founder",
+      name: "Aiden Carter",
       message:
-        "Amazing skills and great communication. Delivered everything on time with top quality.",
-      image: "/nikhil-logo.jpeg",
+        "Working with MakersOfCode has been a game-changer for our business. They developed a fully customized e-commerce platform that is both user-friendly and robust. The support we received throughout the process was exceptional, and their team's attention to detail was second to none. Our sales have increased by 25% since the platform launched, and we're thrilled with the results.",
+      image: "/assets/Testimonial/testimonial2.webp",
     },
     {
       id: 3,
-      name: "David Lee",
-      role: "Entrepreneur",
+      name: "Robert Dean",
       message:
-        "The backend development was smooth, secure, and scalable. Highly recommend!",
-      image: "/nikhil-logo.jpeg",
-    },
-    {
-      id: 4,
-      name: "Priya Sharma",
-      role: "Designer",
-      message:
-        "Fantastic work on the portfolio site. Clean design and optimized for performance.",
-      image: "/nikhil-logo.jpeg",
+        "Working with MakersOfCode was a seamless experience from start to finish. They took the time to understand our goals and delivered innovative features that enhanced both performance and design. The team was professional, responsive, and detail-oriented throughout the project. Since launching, our platform has experienced a 45% boost in customer retention, and we couldn’t be happier with the results.",
+      image: "/assets/Testimonial/testimonial3.webp",
     },
   ],
   services: [
     {
       id: 1,
-      name: "David Lee",
-      role: "Entrepreneur",
+      name: "Michael Tran",
       message:
-        "The backend development was smooth, secure, and scalable. Highly recommend!",
-      image: "/nikhil-logo.jpeg",
+        "From concept to launch, MakersOfCode provided unparalleled service in developing our mobile app. They listened to our needs and offered creative solutions that improved our app's functionality and user experience. Their team was communicative, flexible, and highly skilled. Thanks to MakersOfCode, we’ve seen a 50% increase in user engagement since the app went live.",
+      image: "/assets/Testimonial/testimonial1.webp",
     },
     {
       id: 2,
-      name: "Priya Sharma",
-      role: "Designer",
+      name: "Aiden Carter",
       message:
-        "Fantastic work on the portfolio site. Clean design and optimized for performance.",
-      image: "/nikhil-logo.jpeg",
+        "Working with MakersOfCode has been a game-changer for our business. They developed a fully customized e-commerce platform that is both user-friendly and robust. The support we received throughout the process was exceptional, and their team's attention to detail was second to none. Our sales have increased by 25% since the platform launched, and we're thrilled with the results.",
+      image: "/assets/Testimonial/testimonial2.webp",
     },
     {
       id: 3,
-      name: "John Doe",
-      role: "Product Manager",
+      name: "Robert Dean",
       message:
-        "Working with Nikhil was a great experience. The website he built exceeded our expectations!",
-      image: "/nikhil-logo.jpeg",
-    },
-    {
-      id: 4,
-      name: "Sarah Smith",
-      role: "Startup Founder",
-      message:
-        "Amazing skills and great communication. Delivered everything on time with top quality.",
-      image: "/nikhil-logo.jpeg",
+        "Working with MakersOfCode was a seamless experience from start to finish. They took the time to understand our goals and delivered innovative features that enhanced both performance and design. The team was professional, responsive, and detail-oriented throughout the project. Since launching, our platform has experienced a 45% boost in customer retention, and we couldn’t be happier with the results.",
+      image: "/assets/Testimonial/testimonial3.webp",
     },
   ],
   portfolio: [
     {
       id: 1,
-      name: "David Lee",
-      role: "Entrepreneur",
+      name: "Michael Tran",
       message:
-        "The backend development was smooth, secure, and scalable. Highly recommend!",
-      image: "/nikhil-logo.jpeg",
+        "From concept to launch, MakersOfCode provided unparalleled service in developing our mobile app. They listened to our needs and offered creative solutions that improved our app's functionality and user experience. Their team was communicative, flexible, and highly skilled. Thanks to MakersOfCode, we’ve seen a 50% increase in user engagement since the app went live.",
+      image: "/assets/Testimonial/testimonial1.webp",
     },
     {
       id: 2,
-      name: "Priya Sharma",
-      role: "Designer",
+      name: "Aiden Carter",
       message:
-        "Fantastic work on the portfolio site. Clean design and optimized for performance.",
-      image: "/nikhil-logo.jpeg",
+        "Working with MakersOfCode has been a game-changer for our business. They developed a fully customized e-commerce platform that is both user-friendly and robust. The support we received throughout the process was exceptional, and their team's attention to detail was second to none. Our sales have increased by 25% since the platform launched, and we're thrilled with the results.",
+      image: "/assets/Testimonial/testimonial2.webp",
     },
     {
       id: 3,
-      name: "John Doe",
-      role: "Product Manager",
+      name: "Robert Dean",
       message:
-        "Working with Nikhil was a great experience. The website he built exceeded our expectations!",
-      image: "/nikhil-logo.jpeg",
-    },
-    {
-      id: 4,
-      name: "Sarah Smith",
-      role: "Startup Founder",
-      message:
-        "Amazing skills and great communication. Delivered everything on time with top quality.",
-      image: "/nikhil-logo.jpeg",
+        "Working with MakersOfCode was a seamless experience from start to finish. They took the time to understand our goals and delivered innovative features that enhanced both performance and design. The team was professional, responsive, and detail-oriented throughout the project. Since launching, our platform has experienced a 45% boost in customer retention, and we couldn’t be happier with the results.",
+      image: "/assets/Testimonial/testimonial3.webp",
     },
   ],
   products: [
     {
       id: 1,
-      name: "David Lee",
-      role: "Entrepreneur",
+      name: "Michael Tran",
       message:
-        "The backend development was smooth, secure, and scalable. Highly recommend!",
-      image: "/nikhil-logo.jpeg",
+        "From concept to launch, MakersOfCode provided unparalleled service in developing our mobile app. They listened to our needs and offered creative solutions that improved our app's functionality and user experience. Their team was communicative, flexible, and highly skilled. Thanks to MakersOfCode, we’ve seen a 50% increase in user engagement since the app went live.",
+      image: "/assets/Testimonial/testimonial1.webp",
     },
     {
       id: 2,
-      name: "Priya Sharma",
-      role: "Designer",
+      name: "Aiden Carter",
       message:
-        "Fantastic work on the portfolio site. Clean design and optimized for performance.",
-      image: "/nikhil-logo.jpeg",
+        "Working with MakersOfCode has been a game-changer for our business. They developed a fully customized e-commerce platform that is both user-friendly and robust. The support we received throughout the process was exceptional, and their team's attention to detail was second to none. Our sales have increased by 25% since the platform launched, and we're thrilled with the results.",
+      image: "/assets/Testimonial/testimonial2.webp",
     },
     {
       id: 3,
-      name: "John Doe",
-      role: "Product Manager",
+      name: "Robert Dean",
       message:
-        "Working with Nikhil was a great experience. The website he built exceeded our expectations!",
-      image: "/nikhil-logo.jpeg",
-    },
-    {
-      id: 4,
-      name: "Sarah Smith",
-      role: "Startup Founder",
-      message:
-        "Amazing skills and great communication. Delivered everything on time with top quality.",
-      image: "/nikhil-logo.jpeg",
+        "Working with MakersOfCode was a seamless experience from start to finish. They took the time to understand our goals and delivered innovative features that enhanced both performance and design. The team was professional, responsive, and detail-oriented throughout the project. Since launching, our platform has experienced a 45% boost in customer retention, and we couldn’t be happier with the results.",
+      image: "/assets/Testimonial/testimonial3.webp",
     },
   ],
 };

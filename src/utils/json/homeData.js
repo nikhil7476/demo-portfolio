@@ -1,6 +1,6 @@
 // utils/homeData.js
 
-const metaData = {
+const homeData = {
   section1: [
     {
       subheading: "About Us",
@@ -27,4 +27,12 @@ const metaData = {
       imageHeight: "400",
     },
   ],
+  articleSection: {
+    subheading: "Articles",
+    title: "See latest articles from our agency.",
+    ctaText: "Explore Articles",
+    ctaLink: "/blog",
+  },
 };
+
+export default homeData;

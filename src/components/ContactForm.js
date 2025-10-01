@@ -32,8 +32,8 @@ const ContactForm = () => {
 
   return (
     <>
-      <span>Contact Me</span>
-      <h2>Get in touch with me!</h2>
+      <span>Contact Us</span>
+      <h2>Get in touch with Us!</h2>
       <hr />
       <div className="p-4">
         <Form onSubmit={handleSubmit}>

@@ -49,12 +49,12 @@ function Footer() {
             <Col xl={3} lg={3} md={6} sm={12} xs={12} className="mb-3">
               <Link href="/" title="Nikhil Mishra">
                 <Image
-                  src="/nikhil-logo.jpeg"
-                  width={460}
-                  height={460}
-                  title="Nikhil Mishra"
-                  alt="Nikhil Mishra Logo"
-                  style={{ width: "75%", height: "auto" }}
+                  src="/assets/Header/MOC-logo.png"
+                  width={902}
+                  height={276}
+                  title="MakersOfCode"
+                  alt="MakersOfCode Logo"
+                  style={{ width: "100%", height: "auto" }}
                   className="mb-3"
                 />
               </Link>

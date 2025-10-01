@@ -19,14 +19,13 @@ function Header() {
           className="text-light fw-bold"
         >
           <Image
-            src="/nikhil-logo.jpeg"
-            width={50}
-            height={50}
-            title="Nikhil Mishra"
-            alt="Nikhil Mishra Logo"
-            className="img rounded"
-          />{" "}
-          NIKHIL MISHRA
+            src="/assets/Header/MOC-logo.png"
+            width={902}
+            height={276}
+            title="MakersOfCode"
+            alt="MakersOfCode Logo"
+            style={{ width: "50%", height: "auto" }}
+          />
         </Navbar.Brand>
 
         {/* Toggle button */}

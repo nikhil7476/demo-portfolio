@@ -4,13 +4,35 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import metaData from "@/utils/json/metaData";
 
-const MetaHead = ({ page }) => {
+const MetaHead = ({ page, subPage }) => {
   const router = useRouter();
-  const { metaTitle, metaDescription, keywords, ogImage } =
-    metaData[page][0] || {};
 
-  // Your site base URL
-  const baseUrl = `${process.env.NEXT_PUBLIC_BASE_URL}`;
+  // Get metadata safely
+  let meta = metaData[page];
+
+  if (!meta) {
+    // Fallback meta
+    meta = {
+      metaTitle: "Nikhil Mishra | Full-Stack Developer",
+      metaDescription: "Welcome to my portfolio.",
+      keywords: ["Nikhil Mishra", "portfolio", "developer"],
+      ogImage: "/nikhil-logo.jpeg",
+    };
+  } else {
+    // Handle cases where meta is an array (like home, about, blogs, etc.)
+    if (Array.isArray(meta)) {
+      meta = meta[0];
+    }
+    // Handle nested objects (like services)
+    else if (subPage && meta[subPage]) {
+      meta = meta[subPage];
+    }
+  }
+
+  const { metaTitle, metaDescription, keywords = [], ogImage } = meta;
+
+  // Base URL
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "";
   const canonicalUrl = `${baseUrl}${router.asPath}`;
 
   return (

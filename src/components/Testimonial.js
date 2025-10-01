@@ -10,7 +10,7 @@ const TestimonialCarousel = ({ data }) => {
   return (
     <>
       <span>Happy Clients</span>
-      <h2>What My Client Say,</h2>
+      <h2>What Our Client Say,</h2>
       <hr />
       <Carousel interval={5000} indicators={true} controls={false}>
         {data.map((item) => (
@@ -27,8 +27,7 @@ const TestimonialCarousel = ({ data }) => {
                 height={80}
                 style={{ width: "80px", height: "80px", objectFit: "cover" }}
               />
-              <h5 className="mb-0">{item.name}</h5>
-              <small className="text-muted">{item.role}</small>
+              <h5 className="mb-2">{item.name}</h5>
             </div>
           </Carousel.Item>
         ))}

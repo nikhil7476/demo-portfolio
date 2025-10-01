@@ -7,7 +7,7 @@ const bannerData = {
       heading: "Ideas into Impact: Software Solutions for Every Stage",
       description:
         "We’re not just coders; we’re your strategic partners. Together, we’ll understand your goals, analyze your needs, and create custom software solutions that elevate your business and drive results.",
-      bgImage: "/website-assets/home-banner.jpg",
+      bgImage: "/assets/Home/banner-slide-1.webp",
       ctaText: "Contact Us",
       ctaLink: "/contact-us",
     },
@@ -17,7 +17,7 @@ const bannerData = {
       heading: "Shape the Future with Confidence",
       description:
         "In a world driven by digital transformation, we equip you to lead—with AI-powered, secure, and scalable software solutions tailored to your industry. Stay ahead of the curve with innovation that delivers measurable impact and lasting value.",
-      bgImage: "/service-assets/services-banner.jpg",
+      bgImage: "/assets/Home/banner-slide-2.webp",
       ctaText: "Contact Us",
       ctaLink: "/contact-us",
     },
@@ -27,7 +27,7 @@ const bannerData = {
       heading: "Digital Marketing Company",
       description:
         "We specialize in crafting and executing effective digital marketing strategies that drive measurable results and help businesses achieve their goals.",
-      bgImage: "/service-assets/services-banner.jpg",
+      bgImage: "/assets/Home/banner-slide-3.webp",
       ctaText: "Contact Us",
       ctaLink: "/contact-us",
     },
@@ -35,7 +35,7 @@ const bannerData = {
   about: {
     subHeading: "Who We Are",
     heading: "Discover Our Journey",
-    bgImage: "/assets/about/about-banner.jpg",
+    bgImage: "/assets/About/about-us-banner.webp",
     breadcrumb: [
       { label: "Home", href: "/" },
       { label: "About Us", href: "/about-us" },
@@ -46,7 +46,7 @@ const bannerData = {
       {
         subHeading: "What We Do",
         heading: "Crafting Digital Experiences",
-        bgImage: "/assets/services/services-banner.jpg",
+        bgImage: "/assets/Services/service-banner.webp",
         breadcrumb: [
           { label: "Home", href: "/" },
           { label: "Services", href: "/our-services" },
@@ -83,9 +83,9 @@ const bannerData = {
     ],
   },
   blogs: {
-    subHeading: "My Words",
-    heading: "Insights, Stories & Knowledge",
-    bgImage: "/assets/blog/blog-banner.jpg",
+    subHeading: "Blog & News",
+    heading: "Insights That Inspire: Explore Our Latest Articles",
+    bgImage: "/assets/Blog/blog-banner.webp",
     breadcrumb: [
       { label: "Home", href: "/" },
       { label: "Blog", href: "/blog" },
