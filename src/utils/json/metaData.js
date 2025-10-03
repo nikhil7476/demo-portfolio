@@ -3,7 +3,8 @@
 const metaData = {
   home: [
     {
-      metaTitle: "Nikhil Mishra | Full-Stack Developer Portfolio",
+      metaTitle:
+        "MakersOfCode - Where Technology Meets Excellence",
       metaDescription:
         "Welcome to my personal portfolio. Explore my projects, skills, services, tools I use, and articles on web development and technology.",
       keywords: [
@@ -194,7 +195,7 @@ const metaData = {
   },
   blogs: [
     {
-      metaTitle: "Articles | Web Development Insights by Nikhil Mishra",
+      metaTitle: "Blog | Development Insights by MakersOfCode",
       metaDescription:
         "Read my articles and blogs about web development, best practices, coding tips, and the latest in tech trends.",
       keywords: [
