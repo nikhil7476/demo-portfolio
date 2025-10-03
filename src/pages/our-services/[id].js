@@ -1,11 +1,11 @@
 import { useRouter } from "next/router";
 import Head from "next/head";
-import TestimonialCarousel from "@/components/TestimonialCarousel";
-import testimonialData from "@/utils/testimonialData";
-import accordionData from "@/utils/accordionData";
+import Testimonial from "@/components/Testimonial";
+import testimonialData from "@/utils/json/testimonialData";
+import faqData from "@/utils/json/faqData";
 import FaqAccordion from "@/components/FaqAccordion";
 import { Container, Row, Col } from "react-bootstrap";
-import servicesData from "@/utils/servicesData";
+import serviceData from "@/utils/json/serviceData";
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 
@@ -13,8 +13,8 @@ export default function ServicesDetail() {
   const router = useRouter();
   const { id } = router.query;
 
-  const service = servicesData.myservices.find((a) => a.slug === id);
-  const serviceFaqs = accordionData.services[id] || [];
+  const service = serviceData.myservices.find((a) => a.slug === id);
+  const serviceFaqs = faqData.services[id] || [];
 
   if (!service) {
     return <p>Loading...</p>; // prevents undefined error
@@ -72,7 +72,7 @@ export default function ServicesDetail() {
         <Container>
           <Row>
             <Col xl={6} lg={6} md={6} sm={12} xs={12}>
-              <TestimonialCarousel data={testimonialData.services} />
+              <Testimonial data={testimonialData.services} />
             </Col>
             <Col xl={6} lg={6} md={6} sm={12} xs={12}>
               <ContactForm />
