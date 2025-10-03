@@ -16,7 +16,29 @@ const homeData = {
     imageWidth: 600,
     imageHeight: 700,
   },
-
+  aboutStats: [
+    {
+      id: 1,
+      label: "Awesome Clients",
+      value: 35,
+      description:
+        "Trusted by forward-thinking brands across industries to deliver results-driven digital solutions.",
+    },
+    {
+      id: 2,
+      label: "Years of Experience",
+      value: 8,
+      description:
+        "A proven track record of innovation and excellence in building transformative software products.",
+    },
+    {
+      id: 3,
+      label: "Successful Projects",
+      value: 85,
+      description:
+        "From concept to launch, we’ve delivered impactful solutions that drive growth & efficiency.",
+    },
+  ],
   section2: {
     subheading: "Why Us",
     title: "Why Choose MakersOfCode",
