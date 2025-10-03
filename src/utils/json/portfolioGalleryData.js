@@ -4,7 +4,7 @@ const portfolioGalleryData = [
     description:
       "School system managing students, attendance, exams, & communication.",
     category: "Custom Software",
-    image: "/assets/Products/custom-school-erp/school-erp-featured.webp",
+    image: "/assets/Products/custom-school-erp/school-erp-Featured.webp",
     link: "/our-products/school-erp",
   },
   {
