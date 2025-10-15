@@ -13,10 +13,10 @@ const MetaHead = ({ page, subPage }) => {
   if (!meta) {
     // Fallback meta
     meta = {
-      metaTitle: "Nikhil Mishra | Full-Stack Developer",
-      metaDescription: "Welcome to my portfolio.",
-      keywords: ["Nikhil Mishra", "portfolio", "developer"],
-      ogImage: "/nikhil-logo.jpeg",
+      metaTitle: "MakersOfCode | A Full-Stack Company",
+      metaDescription: "Welcome to the MakersOfCode.",
+      keywords: ["MakersOfCode", "software company", "development", "services"],
+      ogImage: "/assets/Header/MOC-logo.png",
     };
   } else {
     // Handle cases where meta is an array (like home, about, blogs, etc.)

@@ -3,12 +3,11 @@
 const metaData = {
   home: [
     {
-      metaTitle:
-        "MakersOfCode - Where Technology Meets Excellence",
+      metaTitle: "MakersOfCode - Where Technology Meets Excellence",
       metaDescription:
         "Welcome to my personal portfolio. Explore my projects, skills, services, tools I use, and articles on web development and technology.",
       keywords: [
-        "Nikhil Mishra",
+        "MakersOfCode",
         "portfolio",
         "full-stack developer",
         "web development",
@@ -17,28 +16,28 @@ const metaData = {
         "MongoDB",
         "projects",
       ],
-      ogImage: "/nikhil-logo.jpeg",
+      ogImage: "/assets/Header/MOC-logo.png",
     },
   ],
   about: [
     {
-      metaTitle: "About Me | Nikhil Mishra - Full-Stack Developer",
+      metaTitle: "About Us | MakersOfCode - Full-Stack Developer",
       metaDescription:
         "Learn more about me, my journey as a developer, my skills, and passion for building impactful web applications.",
       keywords: [
-        "about Nikhil Mishra",
+        "about MakersOfCode",
         "developer profile",
         "web developer",
         "software engineer",
         "full-stack developer",
       ],
-      ogImage: "/nikhil-logo.jpeg",
+      ogImage: "/assets/Header/MOC-logo.png",
     },
   ],
   services: {
     main: [
       {
-        metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+        metaTitle: "Services | Web Development & Design by MakersOfCode",
         metaDescription:
           "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
         keywords: [
@@ -49,11 +48,11 @@ const metaData = {
           "React developer services",
           "freelance web developer",
         ],
-        ogImage: "/nikhil-logo.jpeg",
+        ogImage: "/assets/Header/MOC-logo.png",
       },
     ],
     "software-development": {
-      metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+      metaTitle: "Services | Web Development & Design by MakersOfCode",
       metaDescription:
         "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
       keywords: [
@@ -64,10 +63,10 @@ const metaData = {
         "React developer services",
         "freelance web developer",
       ],
-      ogImage: "/nikhil-logo.jpeg",
+      ogImage: "/assets/Header/MOC-logo.png",
     },
     "website-development": {
-      metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+      metaTitle: "Services | Web Development & Design by MakersOfCode",
       metaDescription:
         "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
       keywords: [
@@ -78,10 +77,10 @@ const metaData = {
         "React developer services",
         "freelance web developer",
       ],
-      ogImage: "/nikhil-logo.jpeg",
+      ogImage: "/assets/Header/MOC-logo.png",
     },
     "mobile-app-development": {
-      metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+      metaTitle: "Services | Web Development & Design by MakersOfCode",
       metaDescription:
         "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
       keywords: [
@@ -92,10 +91,10 @@ const metaData = {
         "React developer services",
         "freelance web developer",
       ],
-      ogImage: "/nikhil-logo.jpeg",
+      ogImage: "/assets/Header/MOC-logo.png",
     },
     "ui-ux-design": {
-      metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+      metaTitle: "Services | Web Development & Design by MakersOfCode",
       metaDescription:
         "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
       keywords: [
@@ -106,10 +105,10 @@ const metaData = {
         "React developer services",
         "freelance web developer",
       ],
-      ogImage: "/nikhil-logo.jpeg",
+      ogImage: "/assets/Header/MOC-logo.png",
     },
     "digital-marketing": {
-      metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+      metaTitle: "Services | Web Development & Design by MakersOfCode",
       metaDescription:
         "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
       keywords: [
@@ -120,10 +119,10 @@ const metaData = {
         "React developer services",
         "freelance web developer",
       ],
-      ogImage: "/nikhil-logo.jpeg",
+      ogImage: "/assets/Header/MOC-logo.png",
     },
     "ecommerce-solutions": {
-      metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+      metaTitle: "Services | Web Development & Design by MakersOfCode",
       metaDescription:
         "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
       keywords: [
@@ -134,10 +133,10 @@ const metaData = {
         "React developer services",
         "freelance web developer",
       ],
-      ogImage: "/nikhil-logo.jpeg",
+      ogImage: "/assets/Header/MOC-logo.png",
     },
     "cyber-security-solutions": {
-      metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+      metaTitle: "Services | Web Development & Design by MakersOfCode",
       metaDescription:
         "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
       keywords: [
@@ -148,10 +147,10 @@ const metaData = {
         "React developer services",
         "freelance web developer",
       ],
-      ogImage: "/nikhil-logo.jpeg",
+      ogImage: "/assets/Header/MOC-logo.png",
     },
     "artificial-intelligence-solutions": {
-      metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+      metaTitle: "Services | Web Development & Design by MakersOfCode",
       metaDescription:
         "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
       keywords: [
@@ -162,10 +161,10 @@ const metaData = {
         "React developer services",
         "freelance web developer",
       ],
-      ogImage: "/nikhil-logo.jpeg",
+      ogImage: "/assets/Header/MOC-logo.png",
     },
     "hire-dedicated-devlopers": {
-      metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+      metaTitle: "Services | Web Development & Design by MakersOfCode",
       metaDescription:
         "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
       keywords: [
@@ -176,10 +175,10 @@ const metaData = {
         "React developer services",
         "freelance web developer",
       ],
-      ogImage: "/nikhil-logo.jpeg",
+      ogImage: "/assets/Header/MOC-logo.png",
     },
     "hire-proxy-developers": {
-      metaTitle: "Services | Web Development & Design by Nikhil Mishra",
+      metaTitle: "Services | Web Development & Design by MakersOfCode",
       metaDescription:
         "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
       keywords: [
@@ -190,7 +189,7 @@ const metaData = {
         "React developer services",
         "freelance web developer",
       ],
-      ogImage: "/nikhil-logo.jpeg",
+      ogImage: "/assets/Header/MOC-logo.png",
     },
   },
   blogs: [
@@ -206,12 +205,12 @@ const metaData = {
         "Next.js tutorials",
         "developer insights",
       ],
-      ogImage: "/nikhil-logo.jpeg",
+      ogImage: "/assets/Header/MOC-logo.png",
     },
   ],
   portfolio: [
     {
-      metaTitle: "Portfolio | Nikhil Mishra - Projects & Case Studies",
+      metaTitle: "Portfolio | MakersOfCode - Projects & Case Studies",
       metaDescription:
         "Explore my portfolio showcasing web applications, UI/UX designs, and development projects built with modern technologies.",
       keywords: [
@@ -222,12 +221,12 @@ const metaData = {
         "MongoDB projects",
         "frontend backend projects",
       ],
-      ogImage: "/nikhil-logo.jpeg",
+      ogImage: "/assets/Header/MOC-logo.png",
     },
   ],
   products: [
     {
-      metaTitle: "Tools & Technologies | Nikhil Mishra",
+      metaTitle: "Tools & Technologies | MakersOfCode",
       metaDescription:
         "Discover the tools, frameworks, and technologies I use including React, Next.js, MongoDB, Bootstrap, and more.",
       keywords: [
@@ -239,22 +238,22 @@ const metaData = {
         "React Icons",
         "JavaScript frameworks",
       ],
-      ogImage: "/nikhil-logo.jpeg",
+      ogImage: "/assets/Header/MOC-logo.png",
     },
   ],
   contact: [
     {
-      metaTitle: "Contact Me | Nikhil Mishra - Full-Stack Developer",
+      metaTitle: "Contact Me | MakersOfCode - Full-Stack Developer",
       metaDescription:
         "Get in touch with me for collaborations, freelance work, or project inquiries. Let's build something amazing together.",
       keywords: [
-        "contact Nikhil Mishra",
+        "contact MakersOfCode",
         "hire web developer",
         "freelance developer",
         "work with me",
         "project inquiries",
       ],
-      ogImage: "/nikhil-logo.jpeg",
+      ogImage: "/assets/Header/MOC-logo.png",
     },
   ],
 };
