@@ -15,7 +15,7 @@ function Header() {
         {/* Brand */}
         <Navbar.Brand
           href="/"
-          title="Nikhil Mishra"
+          title="MakersOfCode"
           className="text-light fw-bold"
         >
           <Image
@@ -42,18 +42,17 @@ function Header() {
             <Offcanvas.Title id="offcanvasNavbarLabel" className="text-light">
               <Link
                 href="/"
-                title="Nikhil Mishra"
+                title="MakersOfCode"
                 className="text-light fw-bold"
               >
                 <Image
-                  src="/nikhil-logo.jpeg"
-                  width={50}
-                  height={50}
-                  title="Nikhil Mishra"
-                  alt="Nikhil Mishra Logo"
-                  className="img rounded"
-                />{" "}
-                NIKHIL MISHRA
+                  src="/assets/Header/MOC-logo.png"
+                  width={902}
+                  height={276}
+                  title="MakersOfCode"
+                  alt="MakersOfCode Logo"
+                  style={{ width: "50%", height: "auto" }}
+                />
               </Link>
             </Offcanvas.Title>
           </Offcanvas.Header>
