@@ -47,7 +47,7 @@ function Footer() {
         <Container>
           <Row className="my-5">
             <Col xl={3} lg={3} md={6} sm={12} xs={12} className="mb-3">
-              <Link href="/" title="Nikhil Mishra">
+              <Link href="/" title="MakersOfCode">
                 <Image
                   src="/assets/Header/MOC-logo.png"
                   width={902}
@@ -175,7 +175,7 @@ function Footer() {
                 <li className="mb-2">
                   <Link
                     href="https://www.instagram.com/mishra_nikhil01/"
-                    title="Instagram: mishra_nikhil01"
+                    title="Instagram: @makersofcode"
                     target="_blank"
                   >
                     <FaInstagram />
@@ -184,7 +184,7 @@ function Footer() {
                 <li className="mb-2">
                   <Link
                     href="https://www.linkedin.com/in/nikhil-mishra-664672180/"
-                    title="LinkedIn: Nikhil Mishra"
+                    title="LinkedIn: MakersOfCode"
                     target="_blank"
                   >
                     <FaLinkedin />
@@ -193,7 +193,7 @@ function Footer() {
                 <li className="mb-2">
                   <Link
                     href="https://x.com/mishranikhil01/"
-                    title="Twitter: mishranikhil01"
+                    title="Twitter: @makersofcode"
                     target="_blank"
                   >
                     <FaTwitter />
@@ -202,7 +202,7 @@ function Footer() {
               </ul>
             </Col>
           </Row>
-          <Row className="mx-2 bg-light rounded p-2">
+          <Row className="bg-light rounded p-2">
             <Col
               xl={12}
               lg={12}
@@ -211,16 +211,83 @@ function Footer() {
               xs={12}
               className="align-content-center"
             >
-              <p className="text-center text-muted m-0">
-                &copy;{new Date().getFullYear()} Portfolio is Proudly Designed &
+              <ul className="list-unstyled d-flex justify-content-evenly m-0">
+                <li>
+                  <Image
+                    src="/assets/Footer/adobe.webp"
+                    title="Adobe"
+                    alt="Adobe Logo"
+                    width={100}
+                    height={100}
+                  />
+                </li>
+                <li>
+                  <Image
+                    src="/assets/Footer/great-place-to-work.webp"
+                    title="Great Place To Work"
+                    alt="Great Place To Work Logo"
+                    width={100}
+                    height={100}
+                  />
+                </li>
+                <li>
+                  <Image
+                    src="/assets/Footer/hubspot-agency.webp"
+                    title="HubSpot Agency"
+                    alt="HubSpot Agency Logo"
+                    width={100}
+                    height={100}
+                  />
+                </li>
+                <li>
+                  <Image
+                    src="/assets/Footer/hubspot.webp"
+                    title="HubSpot"
+                    alt="HubSpot Logo"
+                    width={100}
+                    height={100}
+                  />
+                </li>
+                <li>
+                  <Image
+                    src="/assets/Footer/iso-logo.webp"
+                    title="ISO"
+                    alt="ISO Logo"
+                    width={125}
+                    height={100}
+                  />
+                </li>
+                <li>
+                  <Image
+                    src="/assets/Footer/pmp.webp"
+                    title="PMP"
+                    alt="PMP Logo"
+                    width={100}
+                    height={100}
+                  />
+                </li>
+              </ul>
+            </Col>
+          </Row>
+          <Row>
+            <Col
+              xl={12}
+              lg={12}
+              md={12}
+              sm={12}
+              xs={12}
+              className="align-content-center"
+            >
+              <p className="text-center m-0">
+                &copy;{new Date().getFullYear()} Website is Proudly Designed &
                 Developed by{" "}
                 <Link
-                  href="https://www.linkedin.com/in/nikhil-mishra-664672180/"
-                  title="Nikhil Mishra"
+                  href="/"
+                  title="MakersOfCode"
                   target="_blank"
                   className="text-decoration-none"
                 >
-                  @mishra_nikhil
+                  MakersOfCode
                 </Link>
               </p>
             </Col>
