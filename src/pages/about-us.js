@@ -76,7 +76,14 @@ function AboutUs() {
       <section>
         <Container>
           <Row className="justify-content-between">
-            <Col xl={5} lg={5} md={6} sm={12} xs={12} className="mb-3">
+            <Col
+              xl={5}
+              lg={5}
+              md={6}
+              sm={12}
+              xs={12}
+              className="mb-3 align-content-center"
+            >
               <span>{aboutData.section2.subheading}</span>
               <h2>{aboutData.section2.heading}</h2>
               <hr />
@@ -91,7 +98,14 @@ function AboutUs() {
                 <p className="mb-0">{aboutData.section2.review.title}</p>
               </div>
             </Col>
-            <Col xl={6} lg={6} md={6} sm={12} xs={12} className="mb-3">
+            <Col
+              xl={6}
+              lg={6}
+              md={6}
+              sm={12}
+              xs={12}
+              className="mb-3 align-content-center"
+            >
               {aboutData.section2.iconBox.map((item, index) => (
                 <div
                   key={item.id}
@@ -157,8 +171,109 @@ function AboutUs() {
       <section>
         <Container>
           <Row>
-            <Col xl={6} lg={6} md={6} sm={12} xs={12} className="mb-3"></Col>
-            <Col xl={6} lg={6} md={6} sm={12} xs={12} className="mb-3"></Col>
+            <Col
+              xl={6}
+              lg={6}
+              md={6}
+              sm={12}
+              xs={12}
+              className="mb-3 align-content-center"
+            >
+              <Image
+                src={aboutData.section4.sectionImage}
+                alt="Our Business"
+                title="Our Business"
+                width={aboutData.section4.imageWidth}
+                height={aboutData.section4.imageHeight}
+                style={{ width: "100%", height: "auto", borderRadius: "10px" }}
+                priority
+              />
+            </Col>
+            <Col
+              xl={6}
+              lg={6}
+              md={6}
+              sm={12}
+              xs={12}
+              className="mb-3 align-content-center"
+            >
+              <span>{aboutData.section4.subheading}</span>
+              <h2>{aboutData.section4.heading}</h2>
+              <hr />
+              <Row>
+                {aboutData.section4.iconBox.map((item) => (
+                  <Col
+                    xl={6}
+                    lg={6}
+                    md={6}
+                    sm={12}
+                    xs={12}
+                    key={item.id}
+                    className="mb-3"
+                  >
+                    <span className="fs-1">{item.icon}</span>
+                    <h3 className="my-2">{item.title}</h3>
+                    <p className="mb-0">{item.description}</p>
+                  </Col>
+                ))}
+              </Row>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      {/* Section 5 - Mission & Vission */}
+      <section>
+        <Container>
+          <Row>
+            <Col
+              xl={6}
+              lg={6}
+              md={6}
+              sm={12}
+              xs={12}
+              className="mb-3 align-content-center"
+            >
+              <span>{aboutData.section5.subheading}</span>
+              <h2>{aboutData.section5.heading}</h2>
+              <hr />
+              <p>{aboutData.section5.description}</p>
+              <div className="text-center">
+                <Link
+                  href={aboutData.section5.ctaLink}
+                  title={aboutData.section5.ctaText}
+                  className="ctaButton"
+                >
+                  {aboutData.section5.ctaText} <FaArrowRightLong />
+                </Link>
+              </div>
+            </Col>
+            <Col
+              xl={6}
+              lg={6}
+              md={6}
+              sm={12}
+              xs={12}
+              className="mb-3 align-content-center"
+            >
+              <Row>
+                {aboutData.section5.iconBox.map((item) => (
+                  <Col
+                    xl={6}
+                    lg={6}
+                    md={6}
+                    sm={12}
+                    xs={12}
+                    key={item.id}
+                    className="mb-3"
+                  >
+                    <span className="fs-1">{item.icon}</span>
+                    <h3 className="my-2">{item.title}</h3>
+                    <p className="mb-0">{item.description}</p>
+                  </Col>
+                ))}
+              </Row>
+            </Col>
           </Row>
         </Container>
       </section>
