@@ -14,11 +14,11 @@ const aboutData = {
       "Secure Transactions",
       "Real-Time Analytics",
     ],
-    ctaText: "More About Us",
+    ctaText: "Explore Our Services",
     ctaLink: "/about-us",
-    sectionImage: "/home/about.jpeg",
-    imageWidth: "400",
-    imageHeight: "400",
+    sectionImage: "/assets/About/about-us.webp",
+    imageWidth: "600",
+    imageHeight: "660",
   },
 
   section2: {
