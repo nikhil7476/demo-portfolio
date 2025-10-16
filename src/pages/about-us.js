@@ -75,7 +75,7 @@ function AboutUs() {
       {/* Industry Section - Industry We Serve */}
       <Industry />
 
-      {/* Section 6 - Testimonial & Contact */}
+      {/* Testimonial & Contact Section */}
       <section>
         <Container>
           <Row>
