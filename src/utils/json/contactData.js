@@ -1,13 +1,36 @@
+// utils/json/contactData.js
+
+import { FaMailBulk } from "react-icons/fa";
+import { FaPhoneVolume } from "react-icons/fa6";
+import { MdAddLocationAlt } from "react-icons/md";
+
 const contactData = {
   subheading: "Let’s Connect",
-  title: "Reach Me Anytime",
+  title: "Reach Us Anytime",
   description:
     "Whether you’re looking for a new website, a custom software solution, or digital marketing services, we’re here to help. Fill out the form below or reach out directly, and we’ll get back to you as soon as possible.",
-  email: "nkm7476@gmail.com",
-  phone: "+91-9027917476",
-  address: "Auraiya, Uttar Pradesh, India 206121",
+  iconBox: [
+    {
+      id: 1,
+      title: "Email",
+      description: "hello@makersofcode.com",
+      icon: FaMailBulk,
+    },
+    {
+      id: 2,
+      title: "Phone",
+      description: "+91-8792810754",
+      icon: FaPhoneVolume,
+    },
+    {
+      id: 3,
+      title: "Location",
+      description: "15th Floor, Ocus Quantum, Sector 51, Gurgaon",
+      icon: MdAddLocationAlt,
+    },
+  ],
   mapLink:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94206.35929306537!2d79.35743360010893!3d26.462010946911118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399df3adae51a67b%3A0x8fdd186745eedbe5!2sAuraiya%2C%20Uttar%20Pradesh%20206122!5e1!3m2!1sen!2sin!4v1756495705905!5m2!1sen!2sin",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.0364199919345!2d77.06615897450143!3d28.424644343492545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d2277f766242f%3A0xc932b58d70526b94!2sOcus%20Quantum!5e1!3m2!1sen!2sin!4v1760608319520!5m2!1sen!2sin",
 };
 
 export default contactData;

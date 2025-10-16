@@ -35,7 +35,7 @@ const bannerData = {
   about: {
     subHeading: "About Us",
     heading: "Empowering Businesses Through Smart Digital Solutions",
-    bgImage: "/assets/About/about-us-banner.webp",  
+    bgImage: "/assets/About/about-us-banner.webp",
     breadcrumb: [
       { label: "Home", href: "/" },
       { label: "About Us", href: "/about-us" },
@@ -92,9 +92,9 @@ const bannerData = {
     ],
   },
   contact: {
-    subHeading: "Let’s Talk",
-    heading: "Start a Conversation Today",
-    bgImage: "/assets/contact/contact-banner.jpg",
+    subHeading: "Contact Us",
+    heading: "Get in Touch with Us for Expert Solutions & Personalized Support",
+    bgImage: "/assets/contact/contact-banner.webp",
     breadcrumb: [
       { label: "Home", href: "/" },
       { label: "Contact Us", href: "/contact-us" },

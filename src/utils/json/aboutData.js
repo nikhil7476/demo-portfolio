@@ -1,4 +1,4 @@
-// utils/aboutData.js
+// utils/json/aboutData.js
 
 const aboutData = {
   section1: {
@@ -20,6 +20,7 @@ const aboutData = {
     imageWidth: "400",
     imageHeight: "400",
   },
+
   section2: {
     subheading: "Specialization",
     heading:
@@ -37,23 +38,24 @@ const aboutData = {
         title: "Performance",
         description:
           "We provide continuous proactive maintenance to ensure optimal performance 24/7.",
-        icon: "💻",
+        icon: "⚡",
       },
       {
         id: 3,
         title: "Support",
         description:
           "Our team of experts is available 24/7 to ensure your business operations are not disrupted.",
-        icon: "💻",
+        icon: "🤝",
       },
     ],
     review: {
-      imagege: "/assets/About/rating.webp",
+      image: "/assets/About/rating.webp",
       imageWidth: "135",
       imageHeight: "40",
       title: "64,921 Weekly Users",
     },
   },
+
   section3: {
     subheading: "Every Step of the Way",
     heading: "Developing with Purpose, Driven by Your Goals",
@@ -62,7 +64,7 @@ const aboutData = {
     timeline: [
       {
         id: 1,
-        icon: "1",
+        icon: "1️⃣",
         step: "Step 1",
         title: "Discovery & Planning",
         description:
@@ -70,7 +72,7 @@ const aboutData = {
       },
       {
         id: 2,
-        icon: "2",
+        icon: "2️⃣",
         step: "Step 2",
         title: "Design & Development",
         description:
@@ -78,7 +80,7 @@ const aboutData = {
       },
       {
         id: 3,
-        icon: "3",
+        icon: "3️⃣",
         step: "Step 3",
         title: "Testing & Quality Assurance",
         description:
@@ -86,7 +88,7 @@ const aboutData = {
       },
       {
         id: 4,
-        icon: "4",
+        icon: "4️⃣",
         step: "Step 4",
         title: "Deployment & Maintenance",
         description:
@@ -96,6 +98,7 @@ const aboutData = {
     ctaText: "Explore Our Services",
     ctaLink: "/our-services",
   },
+
   section4: {
     subheading: "Business Efficiency Through Smarter Resource",
     heading: "Position Your Business for Growth with IT Services",
@@ -119,6 +122,7 @@ const aboutData = {
     imageWidth: "500",
     imageHeight: "500",
   },
+
   section5: {
     subheading: "Our Mission & Vision",
     heading: "Driven by Purpose. Built for the Future.",
@@ -144,3 +148,5 @@ const aboutData = {
     ],
   },
 };
+
+export default aboutData;

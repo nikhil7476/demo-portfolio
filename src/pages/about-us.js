@@ -16,6 +16,8 @@ function AboutUs() {
       {/* Banner Section */}
       <Banner data={bannerData.about} />
 
+      {/* Section 1 - About MakersofCode */}
+
       {/* Industry Section - Industry We Serve */}
       <Industry />
 

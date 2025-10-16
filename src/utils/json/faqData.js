@@ -1,4 +1,5 @@
-// utils/faqData.js
+// utils/json/faqData.js
+
 const faqData = {
   about: [
     {
@@ -20,6 +21,7 @@ const faqData = {
         "I consistently follow industry trends, take part in online courses, and build personal projects to experiment with new frameworks, libraries, and best practices.",
     },
   ],
+
   services: {
     main: [
       {
@@ -41,26 +43,28 @@ const faqData = {
           "Yes, we work with businesses of all sizes, from new startups to established enterprises, offering scalable solutions for every stage.",
       },
     ],
+
     "software-development": [
       {
         id: 1,
-        title: "What technologies do you use for web development?",
+        title: "What technologies do you use for software development?",
         content:
-          "We use modern frameworks like React, Next.js, and Node.js to build fast, secure, and scalable websites.",
+          "We leverage frameworks like Next.js, React, Node.js, and MongoDB to build robust, secure, and high-performance software solutions.",
       },
       {
         id: 2,
-        title: "Can you redesign or upgrade an existing website?",
+        title: "Can you customize software according to business needs?",
         content:
-          "Yes, we specialize in revamping outdated websites with fresh designs, improved performance, and modern functionality.",
+          "Absolutely, we tailor every project to match your unique goals, ensuring the solution aligns perfectly with your workflow.",
       },
       {
         id: 3,
-        title: "Do your websites work on all devices?",
+        title: "Do you provide post-deployment support?",
         content:
-          "Absolutely, we build fully responsive websites that work seamlessly across desktops, tablets, and smartphones.",
+          "Yes, we provide continuous maintenance, updates, and technical support after deployment to ensure long-term success.",
       },
     ],
+
     "website-development": [
       {
         id: 1,
@@ -81,6 +85,7 @@ const faqData = {
           "Absolutely, we build fully responsive websites that work seamlessly across desktops, tablets, and smartphones.",
       },
     ],
+
     "mobile-app-development": [
       {
         id: 1,
@@ -101,6 +106,7 @@ const faqData = {
           "Yes, we can connect your app with existing systems, websites, and third-party tools for seamless integration.",
       },
     ],
+
     "ui-ux-design": [
       {
         id: 1,
@@ -121,6 +127,7 @@ const faqData = {
           "Definitely, we specialize in modernizing and improving existing designs for better usability and appeal.",
       },
     ],
+
     "digital-marketing": [
       {
         id: 1,
@@ -141,107 +148,113 @@ const faqData = {
           "Yes, we tailor every digital marketing plan to your brand goals, audience, and industry trends.",
       },
     ],
+
     "ecommerce-solutions": [
       {
         id: 1,
-        title: "How long does it take to see SEO results?",
+        title: "What eCommerce platforms do you work with?",
         content:
-          "SEO is a long-term strategy, and noticeable results typically appear within 3–6 months of consistent efforts.",
+          "We build on Shopify, WooCommerce, and custom MERN-stack eCommerce solutions for flexible and scalable online stores.",
       },
       {
         id: 2,
-        title: "Do you handle both on-page and off-page SEO?",
+        title: "Do you handle payment gateway integrations?",
         content:
-          "Yes, our SEO services include technical optimization, keyword research, content improvements, and link building.",
+          "Yes, we integrate secure payment gateways such as Stripe, PayPal, Razorpay, and others to ensure smooth transactions.",
       },
       {
         id: 3,
-        title: "Can you help with local SEO for my business?",
+        title: "Can you optimize my existing eCommerce site?",
         content:
-          "Absolutely, we optimize your business for local search, Google Maps, and location-based keywords to attract nearby customers.",
+          "Absolutely, we specialize in optimizing store speed, improving UX, and boosting conversion rates.",
       },
     ],
+
     "cyber-security-solutions": [
       {
         id: 1,
-        title: "Do you build custom WordPress themes and plugins?",
+        title: "How do you protect businesses from cyber threats?",
         content:
-          "Yes, we create tailored themes and plugins to deliver unique designs and functionality for your website.",
+          "We implement multi-layered security protocols including firewalls, encryption, and vulnerability assessments.",
       },
       {
         id: 2,
-        title: "Will my WordPress site be secure and fast?",
+        title: "Do you provide penetration testing services?",
         content:
-          "We follow best practices for performance, security, and scalability to ensure your WordPress site runs smoothly.",
+          "Yes, our experts perform regular penetration testing and audits to identify and mitigate security risks.",
       },
       {
         id: 3,
-        title: "Can you maintain and update my WordPress website?",
+        title: "Can you secure cloud-based applications?",
         content:
-          "Yes, we provide ongoing maintenance, updates, and support to keep your site secure and up to date.",
+          "Yes, we ensure secure configurations, identity management, and continuous monitoring for cloud platforms.",
       },
     ],
+
     "artificial-intelligence-solutions": [
       {
         id: 1,
-        title: "Do you build custom WordPress themes and plugins?",
+        title: "What AI solutions do you develop?",
         content:
-          "Yes, we create tailored themes and plugins to deliver unique designs and functionality for your website.",
+          "We build AI-based systems for chatbots, predictive analytics, recommendation engines, and automation workflows.",
       },
       {
         id: 2,
-        title: "Will my WordPress site be secure and fast?",
+        title: "Can you integrate AI into existing business systems?",
         content:
-          "We follow best practices for performance, security, and scalability to ensure your WordPress site runs smoothly.",
+          "Yes, we can embed AI models into your existing software to enhance data-driven decision-making and automation.",
       },
       {
         id: 3,
-        title: "Can you maintain and update my WordPress website?",
+        title: "Do you offer AI consulting and training?",
         content:
-          "Yes, we provide ongoing maintenance, updates, and support to keep your site secure and up to date.",
+          "Absolutely, we provide AI consulting, proof-of-concept development, and team training to help businesses adopt AI effectively.",
       },
     ],
-    "hire-dedicated-devlopers": [
+
+    "hire-dedicated-developers": [
       {
         id: 1,
-        title: "Do you build custom WordPress themes and plugins?",
+        title: "Can I hire developers on a full-time or part-time basis?",
         content:
-          "Yes, we create tailored themes and plugins to deliver unique designs and functionality for your website.",
+          "Yes, we offer flexible hiring models — full-time, part-time, or project-based — depending on your needs.",
       },
       {
         id: 2,
-        title: "Will my WordPress site be secure and fast?",
+        title: "What skills do your developers specialize in?",
         content:
-          "We follow best practices for performance, security, and scalability to ensure your WordPress site runs smoothly.",
+          "Our developers are skilled in Next.js, React, Node.js, MongoDB, and other modern technologies.",
       },
       {
         id: 3,
-        title: "Can you maintain and update my WordPress website?",
+        title: "How do you ensure quality in remote development?",
         content:
-          "Yes, we provide ongoing maintenance, updates, and support to keep your site secure and up to date.",
+          "We follow agile processes, conduct regular code reviews, and maintain transparent communication to ensure high-quality delivery.",
       },
     ],
+
     "hire-proxy-developers": [
       {
         id: 1,
-        title: "Do you build custom WordPress themes and plugins?",
+        title: "What is a proxy developer service?",
         content:
-          "Yes, we create tailored themes and plugins to deliver unique designs and functionality for your website.",
+          "Our proxy developers represent your team in client calls and technical discussions, ensuring professional communication and project progress.",
       },
       {
         id: 2,
-        title: "Will my WordPress site be secure and fast?",
+        title: "Can proxy developers handle coding tasks?",
         content:
-          "We follow best practices for performance, security, and scalability to ensure your WordPress site runs smoothly.",
+          "Yes, they can contribute to actual development, troubleshooting, and documentation as per your project scope.",
       },
       {
         id: 3,
-        title: "Can you maintain and update my WordPress website?",
+        title: "Is the proxy developer engagement confidential?",
         content:
-          "Yes, we provide ongoing maintenance, updates, and support to keep your site secure and up to date.",
+          "Absolutely, all our engagements are under strict NDAs to ensure your privacy and intellectual property protection.",
       },
     ],
   },
+
   portfolio: [
     {
       id: 1,
@@ -262,6 +275,7 @@ const faqData = {
         "Absolutely. My portfolio represents only some of my work. I’m open to building custom projects tailored specifically to your requirements.",
     },
   ],
+
   products: [
     {
       id: 1,
@@ -282,6 +296,7 @@ const faqData = {
         "I select tools based on the project’s scope, goals, and technical requirements. The focus is always on efficiency, performance, and scalability.",
     },
   ],
+
   contact: [
     {
       id: 1,
