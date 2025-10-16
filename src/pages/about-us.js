@@ -72,6 +72,45 @@ function AboutUs() {
         </Container>
       </section>
 
+      {/* Section 2 - Specialization */}
+      <section>
+        <Container>
+          <Row className="justify-content-between">
+            <Col xl={5} lg={5} md={6} sm={12} xs={12} className="mb-3">
+              <span>{aboutData.section2.subheading}</span>
+              <h2>{aboutData.section2.heading}</h2>
+              <hr />
+              <div className="d-flex align-items-center gap-3">
+                <Image
+                  src={aboutData.section2.review.image}
+                  alt={aboutData.section2.review.title}
+                  title={aboutData.section2.review.title}
+                  width={aboutData.section2.review.imageWidth}
+                  height={aboutData.section2.review.imageHeight}
+                />
+                <p className="mb-0">{aboutData.section2.review.title}</p>
+              </div>
+            </Col>
+            <Col xl={6} lg={6} md={6} sm={12} xs={12} className="mb-3">
+              {aboutData.section2.iconBox.map((item, index) => (
+                <div
+                  key={item.id}
+                  className={`d-flex align-items-center mb-3 ${
+                    index % 2 === 1 ? "flex-row-reverse text-end" : ""
+                  }`}
+                >
+                  <div className="fs-1 mx-3">{item.icon}</div>
+                  <div>
+                    <h5 className="mb-1">{item.title}</h5>
+                    <p className="mb-0">{item.description}</p>
+                  </div>
+                </div>
+              ))}
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
       {/* Industry Section - Industry We Serve */}
       <Industry />
 

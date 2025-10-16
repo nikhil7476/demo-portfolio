@@ -49,7 +49,7 @@ const aboutData = {
       },
     ],
     review: {
-      image: "/assets/About/rating.webp",
+      image: "/assets/About/ratings.webp",
       imageWidth: "135",
       imageHeight: "40",
       title: "64,921 Weekly Users",
