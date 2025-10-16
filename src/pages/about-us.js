@@ -111,6 +111,58 @@ function AboutUs() {
         </Container>
       </section>
 
+      {/* Section 3 - Timeline */}
+      <section>
+        <Container>
+          <Row>
+            <Col>
+              <span>{aboutData.section3.subheading}</span>
+              <h2>{aboutData.section3.heading}</h2>
+              <hr />
+              <p>{aboutData.section3.description}</p>
+            </Col>
+          </Row>
+          <Row>
+            {aboutData.section3.timeline.map((item, index) => (
+              <Col
+                key={item.id}
+                xs={12}
+                className="mb-4 d-flex align-items-start"
+              >
+                <div className="fs-2 me-3">{item.icon}</div>
+                <div>
+                  <h5 className="mb-1">
+                    {item.step}: {item.title}
+                  </h5>
+                  <p className="mb-0">{item.description}</p>
+                </div>
+              </Col>
+            ))}
+          </Row>
+          <Row>
+            <Col className="text-center">
+              <Link
+                href={aboutData.section3.ctaLink}
+                title={aboutData.section3.ctaText}
+                className="ctaButton"
+              >
+                {aboutData.section3.ctaText} <FaArrowRightLong />
+              </Link>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      {/* Section 4 - Business */}
+      <section>
+        <Container>
+          <Row>
+            <Col xl={6} lg={6} md={6} sm={12} xs={12} className="mb-3"></Col>
+            <Col xl={6} lg={6} md={6} sm={12} xs={12} className="mb-3"></Col>
+          </Row>
+        </Container>
+      </section>
+
       {/* Industry Section - Industry We Serve */}
       <Industry />
 

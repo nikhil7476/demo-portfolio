@@ -94,7 +94,7 @@ const bannerData = {
   contact: {
     subHeading: "Contact Us",
     heading: "Get in Touch with Us for Expert Solutions & Personalized Support",
-    bgImage: "/assets/contact/contact-banner.webp",
+    bgImage: "/assets/Contact/contact-banner.webp",
     breadcrumb: [
       { label: "Home", href: "/" },
       { label: "Contact Us", href: "/contact-us" },
