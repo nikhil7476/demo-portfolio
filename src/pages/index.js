@@ -7,6 +7,7 @@ import CountUp from "react-countup";
 import MetaHead from "@/components/MetaHead";
 import homeData from "@/utils/json/homeData";
 import HomeBanner from "@/components/HomeBanner";
+import ServiceTab from "@/components/ServiceTab";
 import Testimonial from "@/components/Testimonial";
 import testimonialData from "@/utils/json/testimonialData";
 import ContactForm from "@/components/ContactForm";
@@ -104,6 +105,9 @@ function Home() {
           </Row>
         </Container>
       </section>
+
+      {/* Section 3 - Services Tab */}
+      <ServiceTab />
 
       {/* Section 3 - Portfolio Gallery */}
       <PortfolioGallery />

@@ -56,7 +56,8 @@ const bannerData = {
     "software-development": {
       subHeading: "What I Do",
       heading: "Crafting Digital Experiences",
-      bgImage: "/assets/services/web-development-banner.png",
+      bgImage:
+        "/assets/Services/software-development/software-development-banner.webp",
       breadcrumb: [
         { label: "Home", href: "/" },
         { label: "Services", href: "/our-services" },

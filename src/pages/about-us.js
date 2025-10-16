@@ -64,6 +64,7 @@ function AboutUs() {
               <Link
                 href={aboutData.section1.ctaLink}
                 title={aboutData.section1.ctaText}
+                className="ctaButton"
               >
                 {aboutData.section1.ctaText} <FaArrowRightLong />
               </Link>
