@@ -6,11 +6,11 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import CountUp from "react-countup";
 import MetaHead from "@/components/MetaHead";
 import homeData from "@/utils/json/homeData";
+import HomeBanner from "@/components/HomeBanner";
 import Testimonial from "@/components/Testimonial";
 import testimonialData from "@/utils/json/testimonialData";
 import ContactForm from "@/components/ContactForm";
 import BlogsPreview from "@/components/BlogsPreview";
-import HomeBanner from "@/components/HomeBanner";
 import PortfolioGallery from "@/components/PortfolioGallery";
 
 function Home() {

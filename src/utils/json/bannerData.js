@@ -33,9 +33,9 @@ const bannerData = {
     },
   ],
   about: {
-    subHeading: "Who We Are",
-    heading: "Discover Our Journey",
-    bgImage: "/assets/About/about-us-banner.webp",
+    subHeading: "About Us",
+    heading: "Empowering Businesses Through Smart Digital Solutions",
+    bgImage: "/assets/About/about-us-banner.webp",  
     breadcrumb: [
       { label: "Home", href: "/" },
       { label: "About Us", href: "/about-us" },

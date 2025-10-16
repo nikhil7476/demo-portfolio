@@ -278,6 +278,7 @@ function Footer() {
               xs={12}
               className="align-content-center"
             >
+              <hr />
               <p className="text-center m-0">
                 &copy;{new Date().getFullYear()} Website is Proudly Designed &
                 Developed by{" "}
