@@ -1,13 +1,15 @@
 import { useRouter } from "next/router";
-import Head from "next/head";
+import Link from "next/link";
+import { Container, Row, Col } from "react-bootstrap";
+import MetaHead from "@/components/MetaHead";
+import Banner from "@/components/Banner";
+import bannerData from "@/utils/json/bannerData";
+import serviceData from "@/utils/json/serviceData";
+import ContactForm from "@/components/ContactForm";
 import Testimonial from "@/components/Testimonial";
 import testimonialData from "@/utils/json/testimonialData";
 import faqData from "@/utils/json/faqData";
 import FaqAccordion from "@/components/FaqAccordion";
-import { Container, Row, Col } from "react-bootstrap";
-import serviceData from "@/utils/json/serviceData";
-import Link from "next/link";
-import ContactForm from "@/components/ContactForm";
 
 export default function ServicesDetail() {
   const router = useRouter();
@@ -17,57 +19,13 @@ export default function ServicesDetail() {
   const serviceFaqs = faqData.services[id] || [];
 
   if (!service) {
-    return <p>Loading...</p>; // prevents undefined error
+    return <p>Loading...</p>;
   }
-
-  const baseUrl = `${process.env.NEXT_PUBLIC_BASE_URL}services/`;
-  const canonicalUrl = `${baseUrl}${service.slug}`;
 
   return (
     <>
-      <Head>
-        <title>{service.title}</title>
-        <meta name="description" content={service.metaDescription} />
-        <link rel="canonical" href={canonicalUrl} />
-        <meta property="og:title" content={service.title} />
-        <meta property="og:description" content={service.metaDescription} />
-        <meta property="og:image" content={service.featuredImage} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={canonicalUrl} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={service.title} />
-        <meta name="twitter:description" content={service.metaDescription} />
-        <meta name="twitter:image" content={service.featuredImage} />
-      </Head>
-      <div
-        className="banner d-flex align-items-center text-white"
-        style={{
-          backgroundImage: `url(${service.bannerImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          minHeight: "450px",
-        }}
-      >
-        <Container>
-          <span>{service.subtitle}</span>
-          <h1 className="fw-bold">{service.title}</h1>
-          <ul className="breadcrumb d-flex align-items-center gap-2">
-            <li>
-              <Link href="/" title="Home">
-                Home
-              </Link>
-            </li>
-            <li>{"/"}</li>
-            <li>
-              <Link href="/services" title="Services">
-                Services
-              </Link>
-            </li>
-            <li>{"/"}</li>
-            <li>{service.title}</li>
-          </ul>
-        </Container>
-      </div>
+      <MetaHead page="services" subPage={id} />
+      <Banner data={bannerData.services[id]} />
       <section>
         <Container>
           <Row>

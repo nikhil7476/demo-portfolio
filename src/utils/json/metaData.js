@@ -52,7 +52,7 @@ const metaData = {
       },
     ],
     "software-development": {
-      metaTitle: "Services | Web Development & Design by MakersOfCode",
+      metaTitle: "MakersOfCode | Web Development & Design by MakersOfCode",
       metaDescription:
         "I provide modern web development, responsive design, and scalable solutions using React, Next.js, MongoDB, and more.",
       keywords: [

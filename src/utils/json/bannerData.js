@@ -1,4 +1,5 @@
 // utils/bannerData.js
+
 const bannerData = {
   home: [
     {
@@ -58,6 +59,101 @@ const bannerData = {
       heading: "Crafting Digital Experiences",
       bgImage:
         "/assets/Services/software-development/software-development-banner.webp",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Services", href: "/our-services" },
+        { label: "Software Development", href: "/software-development" },
+      ],
+    },
+    "website-development": {
+      subHeading: "What I Do",
+      heading: "Crafting Digital Experiences",
+      bgImage:
+        "/assets/Services/website-development/website-development-banner.webp",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Services", href: "/our-services" },
+        { label: "Software Development", href: "/software-development" },
+      ],
+    },
+    "mobile-app-development": {
+      subHeading: "What I Do",
+      heading: "Crafting Digital Experiences",
+      bgImage:
+        "/assets/Services/mobile-app-development/mobile-app-development-banner.webp",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Services", href: "/our-services" },
+        { label: "Software Development", href: "/software-development" },
+      ],
+    },
+    "digital-marketing": {
+      subHeading: "What I Do",
+      heading: "Crafting Digital Experiences",
+      bgImage:
+        "/assets/Services/digital-marketing/digital-marketing-banner.webp",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Services", href: "/our-services" },
+        { label: "Software Development", href: "/software-development" },
+      ],
+    },
+    "ui-ux-design": {
+      subHeading: "What I Do",
+      heading: "Crafting Digital Experiences",
+      bgImage: "/assets/Services/ui-ux-design/ui-ux-banner.webp",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Services", href: "/our-services" },
+        { label: "Software Development", href: "/software-development" },
+      ],
+    },
+    "ecommerce-solutions": {
+      subHeading: "What I Do",
+      heading: "Crafting Digital Experiences",
+      bgImage: "/assets/Services/ecommerce-solutions/ecommerce-banner.webp",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Services", href: "/our-services" },
+        { label: "Software Development", href: "/software-development" },
+      ],
+    },
+    "cyber-security-solutions": {
+      subHeading: "What I Do",
+      heading: "Crafting Digital Experiences",
+      bgImage:
+        "/assets/Services/cyber-security-solutions/cybersecurity-banner.webp",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Services", href: "/our-services" },
+        { label: "Software Development", href: "/software-development" },
+      ],
+    },
+    "artificial-intelligence-solutions": {
+      subHeading: "What I Do",
+      heading: "Crafting Digital Experiences",
+      bgImage: "/assets/Services/ai-solutions/ai-banner.webp",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Services", href: "/our-services" },
+        { label: "Software Development", href: "/software-development" },
+      ],
+    },
+    "hire-dedicated-devlopers": {
+      subHeading: "What I Do",
+      heading: "Crafting Digital Experiences",
+      bgImage:
+        "/assets/Services/hire-dedicated-developers/hire-dedicated-banner.webp",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Services", href: "/our-services" },
+        { label: "Software Development", href: "/software-development" },
+      ],
+    },
+    "hire-proxy-developers": {
+      subHeading: "What I Do",
+      heading: "Crafting Digital Experiences",
+      bgImage: "/assets/Services/hire-proxy-developers/hire-proxy-banner.webp",
       breadcrumb: [
         { label: "Home", href: "/" },
         { label: "Services", href: "/our-services" },
