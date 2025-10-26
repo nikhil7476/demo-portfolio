@@ -16,7 +16,6 @@ export default function ServicesDetail() {
   const { id } = router.query;
 
   const service = serviceData.myservices.find((a) => a.slug === id);
-  const serviceFaqs = faqData.services[id] || [];
 
   if (!service) {
     return <p>Loading...</p>;
