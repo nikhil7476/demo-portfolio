@@ -16,6 +16,11 @@ import ServiceMarquee from "@/components/ServiceMarquee";
 import ServiceTab from "@/components/ServiceTab";
 
 export default function OurServices() {
+  const selectedIds = [6, 8, 9, 10];
+  const filteredServices = serviceData.myservices.filter((service) =>
+    selectedIds.includes(service.id)
+  );
+
   return (
     <>
       {/* Meta Head */}
@@ -64,7 +69,10 @@ export default function OurServices() {
                       xs={12}
                       className="mb-3"
                     >
-                      <FaCheckCircle /> {point}
+                      <span className="me-2">
+                        <FaCheckCircle />
+                      </span>{" "}
+                      {point}
                     </Col>
                   )
                 )}
@@ -174,6 +182,42 @@ export default function OurServices() {
               <h2>{serviceData.serviceMain.section4.heading}</h2>
               <hr />
             </Col>
+          </Row>
+          <Row>
+            {filteredServices.map((service) => (
+              <Col
+                key={service.id}
+                xl={3}
+                lg={3}
+                md={6}
+                sm={12}
+                xs={12}
+                className="mb-4"
+              >
+                <div
+                  className="p-3 rounded align-content-end"
+                  style={{
+                    backgroundImage: `url(${service.featuredImage})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    minHeight: "550px",
+                    overflow: "hidden",
+                  }}
+                >
+                  <div className="bg-dark bg-opacity-75 h-100 text-white p-3 rounded">
+                    <h3>{service.title}</h3>
+                    <p>{service.description}</p>
+                    <Link
+                      href={`/our-services/${service.slug}`}
+                      title={`Read more about ${service.title}`}
+                      className="text-white"
+                    >
+                      Read More <FaArrowRightLong />
+                    </Link>
+                  </div>
+                </div>
+              </Col>
+            ))}
           </Row>
         </Container>
       </section>

@@ -21,7 +21,7 @@ function ServiceTab() {
             className="mb-3"
           >
             <Row>
-              <Col sm={3}>
+              <Col sm={3} className="align-content-center">
                 <Nav variant="pills" className="flex-column">
                   {selectedServices.map((service) => (
                     <Nav.Item key={service.id} className="mb-2">
@@ -32,7 +32,7 @@ function ServiceTab() {
                   ))}
                 </Nav>
               </Col>
-              <Col sm={9}>
+              <Col sm={9} className="align-content-center">
                 <Tab.Content>
                   {selectedServices.map((service) => (
                     <Tab.Pane eventKey={service.slug} key={service.id}>
@@ -43,17 +43,19 @@ function ServiceTab() {
                           md={6}
                           sm={12}
                           xs={12}
-                          className="align-content-center mb-3"
+                          className="mb-3"
                         >
-                          <Image
-                            src={service.featuredImage}
-                            alt={service.title + " featured"}
-                            title={service.title + " featured"}
-                            width={1000}
-                            height={666}
-                            style={{ width: "100%", height: "auto" }}
-                            className="rounded"
-                          />
+                          <div className="bg-dark shadow p-4 rounded h-100 align-content-center">
+                            <Image
+                              src={service.featuredImage}
+                              alt={service.title + " featured"}
+                              title={service.title + " featured"}
+                              width={1000}
+                              height={666}
+                              style={{ width: "100%", height: "auto" }}
+                              className="rounded"
+                            />
+                          </div>
                         </Col>
                         <Col
                           xl={6}
@@ -61,20 +63,22 @@ function ServiceTab() {
                           md={6}
                           sm={12}
                           xs={12}
-                          className="align-content-center mb-3"
+                          className="mb-3"
                         >
-                          <span className="fs-1">{service.icon}</span>
-                          <h3 className="my-3">{service.title}</h3>
-                          <p>{service.description}</p>
-                          <div className="text-end">
-                            <Link
-                              href={`/our-services/${service.slug}`}
-                              title={service.title}
-                              target="_blank"
-                              className="ctaButton"
-                            >
-                              <FaArrowRightLong />
-                            </Link>
+                          <div className="bg-dark shadow p-4 rounded h-100 align-content-center">
+                            <span className="fs-1">{service.icon}</span>
+                            <h3 className="my-3">{service.title}</h3>
+                            <p>{service.description}</p>
+                            <div className="text-end">
+                              <Link
+                                href={`/our-services/${service.slug}`}
+                                title={service.title}
+                                target="_blank"
+                                className="ctaButton"
+                              >
+                                <FaArrowRightLong />
+                              </Link>
+                            </div>
                           </div>
                         </Col>
                       </Row>

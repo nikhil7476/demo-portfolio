@@ -32,7 +32,7 @@ function Industry() {
           {industries.map((item, index) => (
             <Col key={index} xl={4} lg={4} md={6} sm={12} className="mb-3">
               <div className="d-flex align-items-center gap-4 p-3 border rounded shadow-sm">
-                <div className="fs-2">{item.icon}</div>
+                <span className="fs-2">{item.icon}</span>
                 <h3 className="m-0">{item.name}</h3>
               </div>
             </Col>

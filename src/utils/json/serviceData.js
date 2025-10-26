@@ -117,12 +117,95 @@ const serviceData = {
       description:
         "We create custom software tailored to your business needs - ensuring scalability, security, and performance to streamline operations and support growth.",
       featuredImage: "/assets/Services/software-development-tab-featured.webp",
-      bannerImage:
-        "/assets/Services/software-development/software-development-banner.webp",
       aboutImage:
         "/assets/Services/software-development/about-software-development.webp",
       futureImage:
         "/assets/Services/software-development/software-development-future.webp",
+      section1: {
+        subheading: "Why Choose?",
+        heading: "Our Custom Software Development Services",
+        description:
+          "A comprehensive suite of software development services designed to streamline operations, enhance user experience, and implement innovative technology solutions—strategically crafted to align with your business goals and meet the unique demands of your digital products.",
+        featuredHeading: "Our Software Stands Out",
+        featuredPoints: [
+          "Adaptable",
+          "Custom",
+          "Compatible",
+          "Scalable",
+          "User-Friendly",
+          "Secure",
+        ],
+        featuredDescription:
+          "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
+        sectionImage:
+          "/assets/Services/software-development/about-software-development.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section2: {
+        subheading: "Core Features",
+        heading: "Core Features of Our Software Development Service",
+        description:
+          "Strategic software development tailored to your business objectives. We begin with in-depth system analysis and competitor benchmarking to uncover opportunities for innovation. Our team builds development roadmaps that address immediate technical needs while planning for scalable, future-ready solutions. Each product is crafted with user-centric design, seamless integration, and performance in mind—ensuring your software is as functional as it is forward-thinking.",
+        featuredPoints: [
+          "Custom-Fit Software",
+          "Scalable roadmaps",
+          "Easy system integration",
+          "Smart tech insights",
+          "Clean, bold UI/UX",
+          "Growth-ready backend",
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section3: {
+        icon: <AiFillCode />,
+        heading: "Future-Ready Software",
+        description:
+          "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
+        sectionImage:
+          "/assets/Services/software-development/software-development-future.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section4: {
+        subheading: "Success Solutions",
+        heading: "Your Partner in Digital Success",
+        description:
+          "Our software development services go beyond writing code—we deliver innovative, user-focused, and scalable digital solutions tailored to your business objectives. Backed by a team of skilled developers and strategists, we focus on precision, performance, and long-term value. Whether you’re building from scratch or modernizing legacy systems, we help your business thrive in the digital landscape.",
+        iconBox: [
+          {
+            id: 1,
+            title: "Tailored Development Strategies",
+            description:
+              "Custom software planning aligned with your business goals, user needs, and technical requirements.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 2,
+            title: "Data-Driven Development",
+            description:
+              "Real-time analytics, user behavior tracking, and performance metrics guide ongoing improvements and feature planning.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 3,
+            title: "End-to-End Development Solutions",
+            description:
+              "From concept and design to development, testing, deployment, and maintenance—we manage the full software lifecycle.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 4,
+            title: "Transparent Progress & Reporting",
+            description:
+              "Clear communication, milestone updates, and detailed technical reports keep you informed throughout the development process.",
+            icon: <AiFillCode />,
+          },
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
     },
     {
       id: 2,
@@ -133,12 +216,91 @@ const serviceData = {
       description:
         "We build fast, secure, and SEO-friendly websites that look great on all devices—whether it's a simple site or a full web app.",
       featuredImage: "/assets/Services/website-development-tab-featured.webp",
-      bannerImage:
-        "/assets/Services/website-development/website-development-banner.webp",
-      aboutImage:
-        "/assets/Services/website-development/about-website-development.webp",
-      futureImage:
-        "/assets/Services/website-development/website-development-future.webp",
+      section1: {
+        subheading: "Why Choose?",
+        heading: "Our Custom Software Development Services",
+        description:
+          "A comprehensive suite of software development services designed to streamline operations, enhance user experience, and implement innovative technology solutions—strategically crafted to align with your business goals and meet the unique demands of your digital products.",
+        featuredHeading: "Our Software Stands Out",
+        featuredPoints: [
+          "Adaptable",
+          "Custom",
+          "Compatible",
+          "Scalable",
+          "User-Friendly",
+          "Secure",
+        ],
+        featuredDescription:
+          "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
+        sectionImage:
+          "/assets/Services/software-development/about-software-development.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section2: {
+        subheading: "Core Features",
+        heading: "Core Features of Our Software Development Service",
+        description:
+          "Strategic software development tailored to your business objectives. We begin with in-depth system analysis and competitor benchmarking to uncover opportunities for innovation. Our team builds development roadmaps that address immediate technical needs while planning for scalable, future-ready solutions. Each product is crafted with user-centric design, seamless integration, and performance in mind—ensuring your software is as functional as it is forward-thinking.",
+        featuredPoints: [
+          "Custom-Fit Software",
+          "Scalable roadmaps",
+          "Easy system integration",
+          "Smart tech insights",
+          "Clean, bold UI/UX",
+          "Growth-ready backend",
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section3: {
+        icon: <AiFillCode />,
+        heading: "Future-Ready Software",
+        description:
+          "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
+        sectionImage:
+          "/assets/Services/software-development/software-development-future.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section4: {
+        subheading: "Success Solutions",
+        heading: "Your Partner in Digital Success",
+        description:
+          "Our software development services go beyond writing code—we deliver innovative, user-focused, and scalable digital solutions tailored to your business objectives. Backed by a team of skilled developers and strategists, we focus on precision, performance, and long-term value. Whether you’re building from scratch or modernizing legacy systems, we help your business thrive in the digital landscape.",
+        iconBox: [
+          {
+            id: 1,
+            title: "Tailored Development Strategies",
+            description:
+              "Custom software planning aligned with your business goals, user needs, and technical requirements.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 2,
+            title: "Data-Driven Development",
+            description:
+              "Real-time analytics, user behavior tracking, and performance metrics guide ongoing improvements and feature planning.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 3,
+            title: "End-to-End Development Solutions",
+            description:
+              "From concept and design to development, testing, deployment, and maintenance—we manage the full software lifecycle.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 4,
+            title: "Transparent Progress & Reporting",
+            description:
+              "Clear communication, milestone updates, and detailed technical reports keep you informed throughout the development process.",
+            icon: <AiFillCode />,
+          },
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
     },
     {
       id: 3,
@@ -151,12 +313,91 @@ const serviceData = {
       metaDescription: "Cross-platform mobile apps built with React Native.",
       featuredImage:
         "/assets/Services/mobile-app-development-tab-featured.webp",
-      bannerImage:
-        "/assets/Services/mobile-app-development/mobile-app-development-banner.webp",
-      aboutImage:
-        "/assets/Services/mobile-app-development/about-mobile-app-development.webp",
-      futureImage:
-        "/assets/Services/mobile-app-development/mobile-app-development-future.webp",
+      section1: {
+        subheading: "Why Choose?",
+        heading: "Our Custom Software Development Services",
+        description:
+          "A comprehensive suite of software development services designed to streamline operations, enhance user experience, and implement innovative technology solutions—strategically crafted to align with your business goals and meet the unique demands of your digital products.",
+        featuredHeading: "Our Software Stands Out",
+        featuredPoints: [
+          "Adaptable",
+          "Custom",
+          "Compatible",
+          "Scalable",
+          "User-Friendly",
+          "Secure",
+        ],
+        featuredDescription:
+          "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
+        sectionImage:
+          "/assets/Services/software-development/about-software-development.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section2: {
+        subheading: "Core Features",
+        heading: "Core Features of Our Software Development Service",
+        description:
+          "Strategic software development tailored to your business objectives. We begin with in-depth system analysis and competitor benchmarking to uncover opportunities for innovation. Our team builds development roadmaps that address immediate technical needs while planning for scalable, future-ready solutions. Each product is crafted with user-centric design, seamless integration, and performance in mind—ensuring your software is as functional as it is forward-thinking.",
+        featuredPoints: [
+          "Custom-Fit Software",
+          "Scalable roadmaps",
+          "Easy system integration",
+          "Smart tech insights",
+          "Clean, bold UI/UX",
+          "Growth-ready backend",
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section3: {
+        icon: <AiFillCode />,
+        heading: "Future-Ready Software",
+        description:
+          "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
+        sectionImage:
+          "/assets/Services/software-development/software-development-future.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section4: {
+        subheading: "Success Solutions",
+        heading: "Your Partner in Digital Success",
+        description:
+          "Our software development services go beyond writing code—we deliver innovative, user-focused, and scalable digital solutions tailored to your business objectives. Backed by a team of skilled developers and strategists, we focus on precision, performance, and long-term value. Whether you’re building from scratch or modernizing legacy systems, we help your business thrive in the digital landscape.",
+        iconBox: [
+          {
+            id: 1,
+            title: "Tailored Development Strategies",
+            description:
+              "Custom software planning aligned with your business goals, user needs, and technical requirements.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 2,
+            title: "Data-Driven Development",
+            description:
+              "Real-time analytics, user behavior tracking, and performance metrics guide ongoing improvements and feature planning.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 3,
+            title: "End-to-End Development Solutions",
+            description:
+              "From concept and design to development, testing, deployment, and maintenance—we manage the full software lifecycle.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 4,
+            title: "Transparent Progress & Reporting",
+            description:
+              "Clear communication, milestone updates, and detailed technical reports keep you informed throughout the development process.",
+            icon: <AiFillCode />,
+          },
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
     },
     {
       id: 4,
@@ -167,12 +408,91 @@ const serviceData = {
       description:
         "We drive online growth with SEO, social media, PPC, and content marketing—boosting visibility, engagement, and conversions.",
       featuredImage: "/assets/Services/digital-marketing-tab-featured.webp",
-      bannerImage:
-        "/assets/Services/digital-marketing/digital-marketing-banner.webp",
-      aboutImage:
-        "/assets/Services/digital-marketing/about-digital-marketing.webp",
-      futureImage:
-        "/assets/Services/digital-marketing/digital-marketing-future.webp",
+      section1: {
+        subheading: "Why Choose?",
+        heading: "Our Custom Software Development Services",
+        description:
+          "A comprehensive suite of software development services designed to streamline operations, enhance user experience, and implement innovative technology solutions—strategically crafted to align with your business goals and meet the unique demands of your digital products.",
+        featuredHeading: "Our Software Stands Out",
+        featuredPoints: [
+          "Adaptable",
+          "Custom",
+          "Compatible",
+          "Scalable",
+          "User-Friendly",
+          "Secure",
+        ],
+        featuredDescription:
+          "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
+        sectionImage:
+          "/assets/Services/software-development/about-software-development.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section2: {
+        subheading: "Core Features",
+        heading: "Core Features of Our Software Development Service",
+        description:
+          "Strategic software development tailored to your business objectives. We begin with in-depth system analysis and competitor benchmarking to uncover opportunities for innovation. Our team builds development roadmaps that address immediate technical needs while planning for scalable, future-ready solutions. Each product is crafted with user-centric design, seamless integration, and performance in mind—ensuring your software is as functional as it is forward-thinking.",
+        featuredPoints: [
+          "Custom-Fit Software",
+          "Scalable roadmaps",
+          "Easy system integration",
+          "Smart tech insights",
+          "Clean, bold UI/UX",
+          "Growth-ready backend",
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section3: {
+        icon: <AiFillCode />,
+        heading: "Future-Ready Software",
+        description:
+          "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
+        sectionImage:
+          "/assets/Services/software-development/software-development-future.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section4: {
+        subheading: "Success Solutions",
+        heading: "Your Partner in Digital Success",
+        description:
+          "Our software development services go beyond writing code—we deliver innovative, user-focused, and scalable digital solutions tailored to your business objectives. Backed by a team of skilled developers and strategists, we focus on precision, performance, and long-term value. Whether you’re building from scratch or modernizing legacy systems, we help your business thrive in the digital landscape.",
+        iconBox: [
+          {
+            id: 1,
+            title: "Tailored Development Strategies",
+            description:
+              "Custom software planning aligned with your business goals, user needs, and technical requirements.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 2,
+            title: "Data-Driven Development",
+            description:
+              "Real-time analytics, user behavior tracking, and performance metrics guide ongoing improvements and feature planning.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 3,
+            title: "End-to-End Development Solutions",
+            description:
+              "From concept and design to development, testing, deployment, and maintenance—we manage the full software lifecycle.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 4,
+            title: "Transparent Progress & Reporting",
+            description:
+              "Clear communication, milestone updates, and detailed technical reports keep you informed throughout the development process.",
+            icon: <AiFillCode />,
+          },
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
     },
     {
       id: 5,
@@ -183,9 +503,91 @@ const serviceData = {
       description:
         "We design intuitive, engaging interfaces that enhance user experience—transforming complex ideas into clean, user-friendly digital products.",
       featuredImage: "/assets/Services/ui-ux-tab-featured.webp",
-      bannerImage: "/assets/Services/ui-ux-design/ui-ux-banner.webp",
-      aboutImage: "/assets/Services/ui-ux-design/about-ui-ux-design.webp",
-      futureImage: "/assets/Services/ui-ux-design/ui-ux-design-future.webp",
+      section1: {
+        subheading: "Why Choose?",
+        heading: "Our Custom Software Development Services",
+        description:
+          "A comprehensive suite of software development services designed to streamline operations, enhance user experience, and implement innovative technology solutions—strategically crafted to align with your business goals and meet the unique demands of your digital products.",
+        featuredHeading: "Our Software Stands Out",
+        featuredPoints: [
+          "Adaptable",
+          "Custom",
+          "Compatible",
+          "Scalable",
+          "User-Friendly",
+          "Secure",
+        ],
+        featuredDescription:
+          "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
+        sectionImage:
+          "/assets/Services/software-development/about-software-development.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section2: {
+        subheading: "Core Features",
+        heading: "Core Features of Our Software Development Service",
+        description:
+          "Strategic software development tailored to your business objectives. We begin with in-depth system analysis and competitor benchmarking to uncover opportunities for innovation. Our team builds development roadmaps that address immediate technical needs while planning for scalable, future-ready solutions. Each product is crafted with user-centric design, seamless integration, and performance in mind—ensuring your software is as functional as it is forward-thinking.",
+        featuredPoints: [
+          "Custom-Fit Software",
+          "Scalable roadmaps",
+          "Easy system integration",
+          "Smart tech insights",
+          "Clean, bold UI/UX",
+          "Growth-ready backend",
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section3: {
+        icon: <AiFillCode />,
+        heading: "Future-Ready Software",
+        description:
+          "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
+        sectionImage:
+          "/assets/Services/software-development/software-development-future.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section4: {
+        subheading: "Success Solutions",
+        heading: "Your Partner in Digital Success",
+        description:
+          "Our software development services go beyond writing code—we deliver innovative, user-focused, and scalable digital solutions tailored to your business objectives. Backed by a team of skilled developers and strategists, we focus on precision, performance, and long-term value. Whether you’re building from scratch or modernizing legacy systems, we help your business thrive in the digital landscape.",
+        iconBox: [
+          {
+            id: 1,
+            title: "Tailored Development Strategies",
+            description:
+              "Custom software planning aligned with your business goals, user needs, and technical requirements.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 2,
+            title: "Data-Driven Development",
+            description:
+              "Real-time analytics, user behavior tracking, and performance metrics guide ongoing improvements and feature planning.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 3,
+            title: "End-to-End Development Solutions",
+            description:
+              "From concept and design to development, testing, deployment, and maintenance—we manage the full software lifecycle.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 4,
+            title: "Transparent Progress & Reporting",
+            description:
+              "Clear communication, milestone updates, and detailed technical reports keep you informed throughout the development process.",
+            icon: <AiFillCode />,
+          },
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
     },
     {
       id: 6,
@@ -195,10 +597,91 @@ const serviceData = {
       title: "Ecommerce Solutions",
       description: "End-to-End Ecommerce Solutions",
       featuredImage: "/assets/Services/ecom-solutions-tab-featured.webp",
-      bannerImage: "/assets/Services/ecommerce-solutions/ecommerce-banner.webp",
-      aboutImage: "/assets/Services/ecommerce-solutions/about-e-commerce.webp",
-      futureImage:
-        "/assets/Services/ecommerce-solutions/e-commerce-solutions-future.webp",
+      section1: {
+        subheading: "Why Choose?",
+        heading: "Our Custom Software Development Services",
+        description:
+          "A comprehensive suite of software development services designed to streamline operations, enhance user experience, and implement innovative technology solutions—strategically crafted to align with your business goals and meet the unique demands of your digital products.",
+        featuredHeading: "Our Software Stands Out",
+        featuredPoints: [
+          "Adaptable",
+          "Custom",
+          "Compatible",
+          "Scalable",
+          "User-Friendly",
+          "Secure",
+        ],
+        featuredDescription:
+          "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
+        sectionImage:
+          "/assets/Services/software-development/about-software-development.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section2: {
+        subheading: "Core Features",
+        heading: "Core Features of Our Software Development Service",
+        description:
+          "Strategic software development tailored to your business objectives. We begin with in-depth system analysis and competitor benchmarking to uncover opportunities for innovation. Our team builds development roadmaps that address immediate technical needs while planning for scalable, future-ready solutions. Each product is crafted with user-centric design, seamless integration, and performance in mind—ensuring your software is as functional as it is forward-thinking.",
+        featuredPoints: [
+          "Custom-Fit Software",
+          "Scalable roadmaps",
+          "Easy system integration",
+          "Smart tech insights",
+          "Clean, bold UI/UX",
+          "Growth-ready backend",
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section3: {
+        icon: <AiFillCode />,
+        heading: "Future-Ready Software",
+        description:
+          "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
+        sectionImage:
+          "/assets/Services/software-development/software-development-future.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section4: {
+        subheading: "Success Solutions",
+        heading: "Your Partner in Digital Success",
+        description:
+          "Our software development services go beyond writing code—we deliver innovative, user-focused, and scalable digital solutions tailored to your business objectives. Backed by a team of skilled developers and strategists, we focus on precision, performance, and long-term value. Whether you’re building from scratch or modernizing legacy systems, we help your business thrive in the digital landscape.",
+        iconBox: [
+          {
+            id: 1,
+            title: "Tailored Development Strategies",
+            description:
+              "Custom software planning aligned with your business goals, user needs, and technical requirements.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 2,
+            title: "Data-Driven Development",
+            description:
+              "Real-time analytics, user behavior tracking, and performance metrics guide ongoing improvements and feature planning.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 3,
+            title: "End-to-End Development Solutions",
+            description:
+              "From concept and design to development, testing, deployment, and maintenance—we manage the full software lifecycle.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 4,
+            title: "Transparent Progress & Reporting",
+            description:
+              "Clear communication, milestone updates, and detailed technical reports keep you informed throughout the development process.",
+            icon: <AiFillCode />,
+          },
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
     },
     {
       id: 7,
@@ -209,12 +692,91 @@ const serviceData = {
       description:
         "We protect your business with proactive cybersecurity solutions—covering threat detection, network security, compliance, and risk management.",
       featuredImage: "/assets/Services/cybersecurity-tab-featured.webp",
-      bannerImage:
-        "/assets/Services/cyber-security-solutions/cybersecurity-banner.webp",
-      aboutImage:
-        "/assets/Services/cyber-security-solutions/about-cybersecurity.webp",
-      futureImage:
-        "/assets/Services/cyber-security-solutions/cybersecurity-future.webp",
+      section1: {
+        subheading: "Why Choose?",
+        heading: "Our Custom Software Development Services",
+        description:
+          "A comprehensive suite of software development services designed to streamline operations, enhance user experience, and implement innovative technology solutions—strategically crafted to align with your business goals and meet the unique demands of your digital products.",
+        featuredHeading: "Our Software Stands Out",
+        featuredPoints: [
+          "Adaptable",
+          "Custom",
+          "Compatible",
+          "Scalable",
+          "User-Friendly",
+          "Secure",
+        ],
+        featuredDescription:
+          "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
+        sectionImage:
+          "/assets/Services/software-development/about-software-development.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section2: {
+        subheading: "Core Features",
+        heading: "Core Features of Our Software Development Service",
+        description:
+          "Strategic software development tailored to your business objectives. We begin with in-depth system analysis and competitor benchmarking to uncover opportunities for innovation. Our team builds development roadmaps that address immediate technical needs while planning for scalable, future-ready solutions. Each product is crafted with user-centric design, seamless integration, and performance in mind—ensuring your software is as functional as it is forward-thinking.",
+        featuredPoints: [
+          "Custom-Fit Software",
+          "Scalable roadmaps",
+          "Easy system integration",
+          "Smart tech insights",
+          "Clean, bold UI/UX",
+          "Growth-ready backend",
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section3: {
+        icon: <AiFillCode />,
+        heading: "Future-Ready Software",
+        description:
+          "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
+        sectionImage:
+          "/assets/Services/software-development/software-development-future.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section4: {
+        subheading: "Success Solutions",
+        heading: "Your Partner in Digital Success",
+        description:
+          "Our software development services go beyond writing code—we deliver innovative, user-focused, and scalable digital solutions tailored to your business objectives. Backed by a team of skilled developers and strategists, we focus on precision, performance, and long-term value. Whether you’re building from scratch or modernizing legacy systems, we help your business thrive in the digital landscape.",
+        iconBox: [
+          {
+            id: 1,
+            title: "Tailored Development Strategies",
+            description:
+              "Custom software planning aligned with your business goals, user needs, and technical requirements.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 2,
+            title: "Data-Driven Development",
+            description:
+              "Real-time analytics, user behavior tracking, and performance metrics guide ongoing improvements and feature planning.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 3,
+            title: "End-to-End Development Solutions",
+            description:
+              "From concept and design to development, testing, deployment, and maintenance—we manage the full software lifecycle.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 4,
+            title: "Transparent Progress & Reporting",
+            description:
+              "Clear communication, milestone updates, and detailed technical reports keep you informed throughout the development process.",
+            icon: <AiFillCode />,
+          },
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
     },
     {
       id: 8,
@@ -224,9 +786,91 @@ const serviceData = {
       title: "Artificial Intelligence Solutions",
       description: "Tailored AI Technologies & Solutions",
       featuredImage: "/assets/Services/ai-solution-services-tab-featured.webp",
-      bannerImage: "/assets/Services/ai-solutions/ai-banner.webp",
-      aboutImage: "/assets/Services/ai-solutions/about-ai-solution.webp",
-      futureImage: "/assets/Services/ai-solutions/ai-solution-future.webp",
+      section1: {
+        subheading: "Why Choose?",
+        heading: "Our Custom Software Development Services",
+        description:
+          "A comprehensive suite of software development services designed to streamline operations, enhance user experience, and implement innovative technology solutions—strategically crafted to align with your business goals and meet the unique demands of your digital products.",
+        featuredHeading: "Our Software Stands Out",
+        featuredPoints: [
+          "Adaptable",
+          "Custom",
+          "Compatible",
+          "Scalable",
+          "User-Friendly",
+          "Secure",
+        ],
+        featuredDescription:
+          "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
+        sectionImage:
+          "/assets/Services/software-development/about-software-development.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section2: {
+        subheading: "Core Features",
+        heading: "Core Features of Our Software Development Service",
+        description:
+          "Strategic software development tailored to your business objectives. We begin with in-depth system analysis and competitor benchmarking to uncover opportunities for innovation. Our team builds development roadmaps that address immediate technical needs while planning for scalable, future-ready solutions. Each product is crafted with user-centric design, seamless integration, and performance in mind—ensuring your software is as functional as it is forward-thinking.",
+        featuredPoints: [
+          "Custom-Fit Software",
+          "Scalable roadmaps",
+          "Easy system integration",
+          "Smart tech insights",
+          "Clean, bold UI/UX",
+          "Growth-ready backend",
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section3: {
+        icon: <AiFillCode />,
+        heading: "Future-Ready Software",
+        description:
+          "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
+        sectionImage:
+          "/assets/Services/software-development/software-development-future.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section4: {
+        subheading: "Success Solutions",
+        heading: "Your Partner in Digital Success",
+        description:
+          "Our software development services go beyond writing code—we deliver innovative, user-focused, and scalable digital solutions tailored to your business objectives. Backed by a team of skilled developers and strategists, we focus on precision, performance, and long-term value. Whether you’re building from scratch or modernizing legacy systems, we help your business thrive in the digital landscape.",
+        iconBox: [
+          {
+            id: 1,
+            title: "Tailored Development Strategies",
+            description:
+              "Custom software planning aligned with your business goals, user needs, and technical requirements.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 2,
+            title: "Data-Driven Development",
+            description:
+              "Real-time analytics, user behavior tracking, and performance metrics guide ongoing improvements and feature planning.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 3,
+            title: "End-to-End Development Solutions",
+            description:
+              "From concept and design to development, testing, deployment, and maintenance—we manage the full software lifecycle.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 4,
+            title: "Transparent Progress & Reporting",
+            description:
+              "Clear communication, milestone updates, and detailed technical reports keep you informed throughout the development process.",
+            icon: <AiFillCode />,
+          },
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
     },
     {
       id: 9,
@@ -237,12 +881,91 @@ const serviceData = {
       description: "Expert & Dedicated Developers",
       featuredImage:
         "/assets/Services/hire-dedicated-developer-tab-featured.webp",
-      bannerImage:
-        "/assets/Services/hire-dedicated-developers/hire-dedicated-banner.webp",
-      aboutImage:
-        "/assets/Services/hire-dedicated-developers/about-dedicated-developers.webp",
-      futureImage:
-        "/assets/Services/hire-dedicated-developers/dedicated-developers-future.webp",
+      section1: {
+        subheading: "Why Choose?",
+        heading: "Our Custom Software Development Services",
+        description:
+          "A comprehensive suite of software development services designed to streamline operations, enhance user experience, and implement innovative technology solutions—strategically crafted to align with your business goals and meet the unique demands of your digital products.",
+        featuredHeading: "Our Software Stands Out",
+        featuredPoints: [
+          "Adaptable",
+          "Custom",
+          "Compatible",
+          "Scalable",
+          "User-Friendly",
+          "Secure",
+        ],
+        featuredDescription:
+          "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
+        sectionImage:
+          "/assets/Services/software-development/about-software-development.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section2: {
+        subheading: "Core Features",
+        heading: "Core Features of Our Software Development Service",
+        description:
+          "Strategic software development tailored to your business objectives. We begin with in-depth system analysis and competitor benchmarking to uncover opportunities for innovation. Our team builds development roadmaps that address immediate technical needs while planning for scalable, future-ready solutions. Each product is crafted with user-centric design, seamless integration, and performance in mind—ensuring your software is as functional as it is forward-thinking.",
+        featuredPoints: [
+          "Custom-Fit Software",
+          "Scalable roadmaps",
+          "Easy system integration",
+          "Smart tech insights",
+          "Clean, bold UI/UX",
+          "Growth-ready backend",
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section3: {
+        icon: <AiFillCode />,
+        heading: "Future-Ready Software",
+        description:
+          "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
+        sectionImage:
+          "/assets/Services/software-development/software-development-future.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section4: {
+        subheading: "Success Solutions",
+        heading: "Your Partner in Digital Success",
+        description:
+          "Our software development services go beyond writing code—we deliver innovative, user-focused, and scalable digital solutions tailored to your business objectives. Backed by a team of skilled developers and strategists, we focus on precision, performance, and long-term value. Whether you’re building from scratch or modernizing legacy systems, we help your business thrive in the digital landscape.",
+        iconBox: [
+          {
+            id: 1,
+            title: "Tailored Development Strategies",
+            description:
+              "Custom software planning aligned with your business goals, user needs, and technical requirements.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 2,
+            title: "Data-Driven Development",
+            description:
+              "Real-time analytics, user behavior tracking, and performance metrics guide ongoing improvements and feature planning.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 3,
+            title: "End-to-End Development Solutions",
+            description:
+              "From concept and design to development, testing, deployment, and maintenance—we manage the full software lifecycle.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 4,
+            title: "Transparent Progress & Reporting",
+            description:
+              "Clear communication, milestone updates, and detailed technical reports keep you informed throughout the development process.",
+            icon: <AiFillCode />,
+          },
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
     },
     {
       id: 10,
@@ -252,11 +975,91 @@ const serviceData = {
       title: "Hire Proxy Developers",
       description: "Skilled Proxy Developers",
       featuredImage: "/assets/Services/hire-proxy-developer-tab-featured.webp",
-      bannerImage:
-        "/assets/Services/hire-proxy-developers/hire-proxy-banner.webp",
-      aboutImage: "/assets/Services/hire-proxy-developers/about-proxy-dev.webp",
-      futureImage:
-        "/assets/Services/hire-proxy-developers/proxy-dev-future.webp",
+      section1: {
+        subheading: "Why Choose?",
+        heading: "Our Custom Software Development Services",
+        description:
+          "A comprehensive suite of software development services designed to streamline operations, enhance user experience, and implement innovative technology solutions—strategically crafted to align with your business goals and meet the unique demands of your digital products.",
+        featuredHeading: "Our Software Stands Out",
+        featuredPoints: [
+          "Adaptable",
+          "Custom",
+          "Compatible",
+          "Scalable",
+          "User-Friendly",
+          "Secure",
+        ],
+        featuredDescription:
+          "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
+        sectionImage:
+          "/assets/Services/software-development/about-software-development.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section2: {
+        subheading: "Core Features",
+        heading: "Core Features of Our Software Development Service",
+        description:
+          "Strategic software development tailored to your business objectives. We begin with in-depth system analysis and competitor benchmarking to uncover opportunities for innovation. Our team builds development roadmaps that address immediate technical needs while planning for scalable, future-ready solutions. Each product is crafted with user-centric design, seamless integration, and performance in mind—ensuring your software is as functional as it is forward-thinking.",
+        featuredPoints: [
+          "Custom-Fit Software",
+          "Scalable roadmaps",
+          "Easy system integration",
+          "Smart tech insights",
+          "Clean, bold UI/UX",
+          "Growth-ready backend",
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section3: {
+        icon: <AiFillCode />,
+        heading: "Future-Ready Software",
+        description:
+          "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
+        sectionImage:
+          "/assets/Services/software-development/software-development-future.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section4: {
+        subheading: "Success Solutions",
+        heading: "Your Partner in Digital Success",
+        description:
+          "Our software development services go beyond writing code—we deliver innovative, user-focused, and scalable digital solutions tailored to your business objectives. Backed by a team of skilled developers and strategists, we focus on precision, performance, and long-term value. Whether you’re building from scratch or modernizing legacy systems, we help your business thrive in the digital landscape.",
+        iconBox: [
+          {
+            id: 1,
+            title: "Tailored Development Strategies",
+            description:
+              "Custom software planning aligned with your business goals, user needs, and technical requirements.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 2,
+            title: "Data-Driven Development",
+            description:
+              "Real-time analytics, user behavior tracking, and performance metrics guide ongoing improvements and feature planning.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 3,
+            title: "End-to-End Development Solutions",
+            description:
+              "From concept and design to development, testing, deployment, and maintenance—we manage the full software lifecycle.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 4,
+            title: "Transparent Progress & Reporting",
+            description:
+              "Clear communication, milestone updates, and detailed technical reports keep you informed throughout the development process.",
+            icon: <AiFillCode />,
+          },
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
     },
   ],
 };

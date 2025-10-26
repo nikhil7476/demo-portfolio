@@ -16,7 +16,9 @@ const TestimonialCarousel = ({ data }) => {
         {data.map((item) => (
           <Carousel.Item key={item.id}>
             <div className="d-flex flex-column align-items-center text-center p-4">
-              <FaQuoteLeft className="text-primary mb-3" size={28} />
+              <span>
+                <FaQuoteLeft className="mb-3" size={40} />
+              </span>
               <p className="mb-3 fst-italic">{item.message}</p>
               <Image
                 src={item.image}

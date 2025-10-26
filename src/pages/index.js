@@ -139,16 +139,17 @@ function Home() {
                   style={{
                     backgroundImage: `url(${product.featuredImage})`,
                     backgroundSize: "cover",
-                    backgroundPosition: "center",
+                    backgroundPosition: "center left",
                     minHeight: "350px",
                   }}
                 >
-                  <div className="bg-dark text-white p-3 rounded">
+                  <div className="bg-dark bg-opacity-75 text-white p-3 rounded">
                     <h3>{product.title}</h3>
                     <p>{product.shortDescription}</p>
                     <Link
                       href={`/our-products/${product.slug}`}
                       title={`Learn more about ${product.title}`}
+                      className="text-white"
                     >
                       Read More <FaArrowRightLong />
                     </Link>
