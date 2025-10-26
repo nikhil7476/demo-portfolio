@@ -119,9 +119,7 @@ export default function BlogDetail() {
               <hr />
             </Col>
           </Row>
-          <Row>
-            <BlogsPreview />
-          </Row>
+          <BlogsPreview />
         </Container>
       </section>
     </>

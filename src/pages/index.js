@@ -267,9 +267,9 @@ function Home() {
               <span>{homeData.articleSection.subheading}</span>
               <h2>{homeData.articleSection.title}</h2>
               <hr />
-              <BlogsPreview />
             </Col>
           </Row>
+          <BlogsPreview />
           <Row>
             <Col className="text-center">
               {homeData.articleSection.ctaLink && (
