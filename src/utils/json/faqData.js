@@ -255,47 +255,240 @@ const faqData = {
     ],
   },
 
-  portfolio: [
-    {
-      id: 1,
-      title: "What types of projects are included in your portfolio?",
-      content:
-        "My portfolio includes websites, web applications, and UI/UX designs for startups, personal brands, and businesses.",
-    },
-    {
-      id: 2,
-      title: "Can I request a demo of one of your projects?",
-      content:
-        "Yes, live demos or walkthroughs can be arranged depending on client permissions and project availability.",
-    },
-    {
-      id: 3,
-      title: "Do you take custom project requests not shown in your portfolio?",
-      content:
-        "Absolutely. My portfolio represents select work, and I’m always open to creating custom projects tailored to your needs.",
-    },
-  ],
+  portfolio: {
+    main: [
+      {
+        id: 1,
+        title: "What services do you offer?",
+        content:
+          "We offer complete digital solutions including web and mobile app development, UI/UX design, digital marketing, SEO, and WordPress development.",
+      },
+      {
+        id: 2,
+        title: "How can I choose the right service for my business?",
+        content:
+          "Our team analyzes your goals and recommends a customized service package designed to deliver maximum impact.",
+      },
+      {
+        id: 3,
+        title: "Do you work with startups and established businesses?",
+        content:
+          "Yes, we work with companies of all sizes — from startups to enterprises — offering scalable solutions for every stage of growth.",
+      },
+    ],
 
-  products: [
-    {
-      id: 1,
-      title: "What development tools do you use most often?",
-      content:
-        "I frequently use VS Code, Git, GitHub, Figma, Postman, and MongoDB Compass, along with frameworks like Next.js and React.",
-    },
-    {
-      id: 2,
-      title: "Do you also work with design tools?",
-      content:
-        "Yes, I use Figma, Adobe XD, and Canva for UI/UX design and wireframes, ensuring smooth design-to-development workflow.",
-    },
-    {
-      id: 3,
-      title: "How do you choose which tools to use for a project?",
-      content:
-        "I select tools based on each project’s scope, goals, and technical requirements, prioritizing efficiency and scalability.",
-    },
-  ],
+    "transport-logistic": [
+      {
+        id: 1,
+        title: "What technologies do you use for software development?",
+        content:
+          "We use frameworks like Next.js, React, Node.js, and MongoDB to build secure, high-performance software solutions.",
+      },
+      {
+        id: 2,
+        title: "Can you customize software according to business needs?",
+        content:
+          "Absolutely. We tailor every project to your unique goals, ensuring perfect alignment with your workflows.",
+      },
+      {
+        id: 3,
+        title: "Do you provide post-deployment support?",
+        content:
+          "Yes, we offer ongoing maintenance, updates, and technical support after deployment to ensure long-term success.",
+      },
+    ],
+
+    "la-bellea": [
+      {
+        id: 1,
+        title: "What technologies do you use for software development?",
+        content:
+          "We use frameworks like Next.js, React, Node.js, and MongoDB to build secure, high-performance software solutions.",
+      },
+      {
+        id: 2,
+        title: "Can you customize software according to business needs?",
+        content:
+          "Absolutely. We tailor every project to your unique goals, ensuring perfect alignment with your workflows.",
+      },
+      {
+        id: 3,
+        title: "Do you provide post-deployment support?",
+        content:
+          "Yes, we offer ongoing maintenance, updates, and technical support after deployment to ensure long-term success.",
+      },
+    ],
+
+    "restaurant-cuisines": [
+      {
+        id: 1,
+        title: "What technologies do you use for software development?",
+        content:
+          "We use frameworks like Next.js, React, Node.js, and MongoDB to build secure, high-performance software solutions.",
+      },
+      {
+        id: 2,
+        title: "Can you customize software according to business needs?",
+        content:
+          "Absolutely. We tailor every project to your unique goals, ensuring perfect alignment with your workflows.",
+      },
+      {
+        id: 3,
+        title: "Do you provide post-deployment support?",
+        content:
+          "Yes, we offer ongoing maintenance, updates, and technical support after deployment to ensure long-term success.",
+      },
+    ],
+
+    photography: [
+      {
+        id: 1,
+        title: "What technologies do you use for software development?",
+        content:
+          "We use frameworks like Next.js, React, Node.js, and MongoDB to build secure, high-performance software solutions.",
+      },
+      {
+        id: 2,
+        title: "Can you customize software according to business needs?",
+        content:
+          "Absolutely. We tailor every project to your unique goals, ensuring perfect alignment with your workflows.",
+      },
+      {
+        id: 3,
+        title: "Do you provide post-deployment support?",
+        content:
+          "Yes, we offer ongoing maintenance, updates, and technical support after deployment to ensure long-term success.",
+      },
+    ],
+
+    "opal-smiles": [
+      {
+        id: 1,
+        title: "What technologies do you use for software development?",
+        content:
+          "We use frameworks like Next.js, React, Node.js, and MongoDB to build secure, high-performance software solutions.",
+      },
+      {
+        id: 2,
+        title: "Can you customize software according to business needs?",
+        content:
+          "Absolutely. We tailor every project to your unique goals, ensuring perfect alignment with your workflows.",
+      },
+      {
+        id: 3,
+        title: "Do you provide post-deployment support?",
+        content:
+          "Yes, we offer ongoing maintenance, updates, and technical support after deployment to ensure long-term success.",
+      },
+    ],
+
+    "crms-mobile-app": [
+      {
+        id: 1,
+        title: "What technologies do you use for software development?",
+        content:
+          "We use frameworks like Next.js, React, Node.js, and MongoDB to build secure, high-performance software solutions.",
+      },
+      {
+        id: 2,
+        title: "Can you customize software according to business needs?",
+        content:
+          "Absolutely. We tailor every project to your unique goals, ensuring perfect alignment with your workflows.",
+      },
+      {
+        id: 3,
+        title: "Do you provide post-deployment support?",
+        content:
+          "Yes, we offer ongoing maintenance, updates, and technical support after deployment to ensure long-term success.",
+      },
+    ],
+  },
+
+  products: {
+    main: [
+      {
+        id: 1,
+        title: "What services do you offer?",
+        content:
+          "We offer complete digital solutions including web and mobile app development, UI/UX design, digital marketing, SEO, and WordPress development.",
+      },
+      {
+        id: 2,
+        title: "How can I choose the right service for my business?",
+        content:
+          "Our team analyzes your goals and recommends a customized service package designed to deliver maximum impact.",
+      },
+      {
+        id: 3,
+        title: "Do you work with startups and established businesses?",
+        content:
+          "Yes, we work with companies of all sizes — from startups to enterprises — offering scalable solutions for every stage of growth.",
+      },
+    ],
+
+    "custom-school-erp": [
+      {
+        id: 1,
+        title: "What technologies do you use for software development?",
+        content:
+          "We use frameworks like Next.js, React, Node.js, and MongoDB to build secure, high-performance software solutions.",
+      },
+      {
+        id: 2,
+        title: "Can you customize software according to business needs?",
+        content:
+          "Absolutely. We tailor every project to your unique goals, ensuring perfect alignment with your workflows.",
+      },
+      {
+        id: 3,
+        title: "Do you provide post-deployment support?",
+        content:
+          "Yes, we offer ongoing maintenance, updates, and technical support after deployment to ensure long-term success.",
+      },
+    ],
+
+    "custom-crms": [
+      {
+        id: 1,
+        title: "What technologies do you use for software development?",
+        content:
+          "We use frameworks like Next.js, React, Node.js, and MongoDB to build secure, high-performance software solutions.",
+      },
+      {
+        id: 2,
+        title: "Can you customize software according to business needs?",
+        content:
+          "Absolutely. We tailor every project to your unique goals, ensuring perfect alignment with your workflows.",
+      },
+      {
+        id: 3,
+        title: "Do you provide post-deployment support?",
+        content:
+          "Yes, we offer ongoing maintenance, updates, and technical support after deployment to ensure long-term success.",
+      },
+    ],
+
+    "email-marketing-tool": [
+      {
+        id: 1,
+        title: "What technologies do you use for software development?",
+        content:
+          "We use frameworks like Next.js, React, Node.js, and MongoDB to build secure, high-performance software solutions.",
+      },
+      {
+        id: 2,
+        title: "Can you customize software according to business needs?",
+        content:
+          "Absolutely. We tailor every project to your unique goals, ensuring perfect alignment with your workflows.",
+      },
+      {
+        id: 3,
+        title: "Do you provide post-deployment support?",
+        content:
+          "Yes, we offer ongoing maintenance, updates, and technical support after deployment to ensure long-term success.",
+      },
+    ],
+  },
 
   contact: [
     {

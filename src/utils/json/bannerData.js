@@ -45,139 +45,253 @@ const bannerData = {
   services: {
     main: [
       {
-        subHeading: "What We Do",
-        heading: "Crafting Digital Experiences",
+        subHeading: "Our Services",
+        heading: "We help great minds to Explore Their Way.",
         bgImage: "/assets/Services/service-banner.webp",
         breadcrumb: [
           { label: "Home", href: "/" },
-          { label: "Services", href: "/our-services" },
+          { label: "Our Services", href: "/our-services" },
         ],
       },
     ],
     "software-development": {
-      subHeading: "What I Do",
-      heading: "Crafting Digital Experiences",
+      subHeading: "Custom Software Development Services",
+      heading: "Bespoke Software Solutions for Every Business Need",
       bgImage:
         "/assets/Services/software-development/software-development-banner.webp",
       breadcrumb: [
         { label: "Home", href: "/" },
-        { label: "Services", href: "/our-services" },
+        { label: "Our Services", href: "/our-services" },
         { label: "Software Development", href: "/software-development" },
       ],
     },
     "website-development": {
-      subHeading: "What I Do",
-      heading: "Crafting Digital Experiences",
+      subHeading: "Custom Website Development Services",
+      heading: "Custom-Built Websites Designed for Your Business Success",
       bgImage:
         "/assets/Services/website-development/website-development-banner.webp",
       breadcrumb: [
         { label: "Home", href: "/" },
-        { label: "Services", href: "/our-services" },
-        { label: "Software Development", href: "/software-development" },
+        { label: "Our Services", href: "/our-services" },
+        { label: "Website Development", href: "/website-development" },
       ],
     },
     "mobile-app-development": {
-      subHeading: "What I Do",
-      heading: "Crafting Digital Experiences",
+      subHeading: "Mobile App Development Services",
+      heading: "mobile applications tailored to your unique goals & industry",
       bgImage:
         "/assets/Services/mobile-app-development/mobile-app-development-banner.webp",
       breadcrumb: [
         { label: "Home", href: "/" },
-        { label: "Services", href: "/our-services" },
-        { label: "Software Development", href: "/software-development" },
+        { label: "Our Services", href: "/our-services" },
+        { label: "Mobile App Development", href: "/mobile-app-development" },
       ],
     },
     "digital-marketing": {
-      subHeading: "What I Do",
-      heading: "Crafting Digital Experiences",
+      subHeading: "Digital Marketing Services",
+      heading: "Data-Driven Digital Marketing to Grow Your Online Presence",
       bgImage:
         "/assets/Services/digital-marketing/digital-marketing-banner.webp",
       breadcrumb: [
         { label: "Home", href: "/" },
-        { label: "Services", href: "/our-services" },
-        { label: "Software Development", href: "/software-development" },
+        { label: "Our Services", href: "/our-services" },
+        { label: "Digital Marketing", href: "/digital-marketing" },
       ],
     },
     "ui-ux-design": {
-      subHeading: "What I Do",
-      heading: "Crafting Digital Experiences",
+      subHeading: "UI/UX Design Services",
+      heading: "UI/UX Designs That Elevate Engagement & Drive Conversions",
       bgImage: "/assets/Services/ui-ux-design/ui-ux-banner.webp",
       breadcrumb: [
         { label: "Home", href: "/" },
-        { label: "Services", href: "/our-services" },
-        { label: "Software Development", href: "/software-development" },
+        { label: "Our Services", href: "/our-services" },
+        { label: "UI/UX Design", href: "/ui-ux-design" },
       ],
     },
     "ecommerce-solutions": {
-      subHeading: "What I Do",
-      heading: "Crafting Digital Experiences",
+      subHeading: "E-Commerce Solutions",
+      heading:
+        "Tailored E-Commerce Solutions for Seamless Shopping & Scalable Growth",
       bgImage: "/assets/Services/ecommerce-solutions/ecommerce-banner.webp",
       breadcrumb: [
         { label: "Home", href: "/" },
-        { label: "Services", href: "/our-services" },
-        { label: "Software Development", href: "/software-development" },
+        { label: "Our Services", href: "/our-services" },
+        { label: "Ecommerce Solutions", href: "/ecommerce-solutions" },
       ],
     },
     "cyber-security-solutions": {
-      subHeading: "What I Do",
-      heading: "Crafting Digital Experiences",
+      subHeading: "Cyber Security Solutions",
+      heading: "Secure Innovation Starts with Smart Protection",
       bgImage:
         "/assets/Services/cyber-security-solutions/cybersecurity-banner.webp",
       breadcrumb: [
         { label: "Home", href: "/" },
-        { label: "Services", href: "/our-services" },
-        { label: "Software Development", href: "/software-development" },
+        { label: "Our Services", href: "/our-services" },
+        {
+          label: "Cyber Security Solutions",
+          href: "/cyber-security-solutions",
+        },
       ],
     },
     "artificial-intelligence-solutions": {
-      subHeading: "What I Do",
-      heading: "Crafting Digital Experiences",
+      subHeading: "Artificial Intelligence Solutions",
+      heading:
+        "AI-Driven Solutions Customized for Innovation, Efficiency, & Business Growth",
       bgImage: "/assets/Services/ai-solutions/ai-banner.webp",
       breadcrumb: [
         { label: "Home", href: "/" },
-        { label: "Services", href: "/our-services" },
-        { label: "Software Development", href: "/software-development" },
+        { label: "Our Services", href: "/our-services" },
+        {
+          label: "Artificial Intelligence Solutions",
+          href: "/artificial-intelligence-solutions",
+        },
       ],
     },
     "hire-dedicated-devlopers": {
-      subHeading: "What I Do",
-      heading: "Crafting Digital Experiences",
+      subHeading: "Hire Dedicated Developers",
+      heading:
+        "Hire Dedicated Developers Aligned with Project Goals & Team Dynamics",
       bgImage:
         "/assets/Services/hire-dedicated-developers/hire-dedicated-banner.webp",
       breadcrumb: [
         { label: "Home", href: "/" },
-        { label: "Services", href: "/our-services" },
-        { label: "Software Development", href: "/software-development" },
+        { label: "Our Services", href: "/our-services" },
+        {
+          label: "Hire Dedicated Developers",
+          href: "/hire-dedicated-devlopers",
+        },
       ],
     },
     "hire-proxy-developers": {
-      subHeading: "What I Do",
-      heading: "Crafting Digital Experiences",
+      subHeading: "Hire Proxy Developers",
+      heading:
+        "Professional Proxy Developers for Seamless Technical Representation",
       bgImage: "/assets/Services/hire-proxy-developers/hire-proxy-banner.webp",
       breadcrumb: [
         { label: "Home", href: "/" },
-        { label: "Services", href: "/our-services" },
-        { label: "Software Development", href: "/software-development" },
+        { label: "Our Services", href: "/our-services" },
+        { label: "HIre Proxy Developers", href: "/hire-proxy-developers" },
       ],
     },
   },
   portfolio: {
-    subHeading: "My Work",
-    heading: "Showcasing Creativity & Impact",
-    bgImage: "/assets/portfolio/portfolio-banner.jpg",
-    breadcrumb: [
-      { label: "Home", href: "/" },
-      { label: "Portfolio", href: "/our-portfolio" },
+    main: [
+      {
+        subHeading: "Dive Into Our Creations",
+        heading: "Explore innovation through imagination & creativity",
+        bgImage: "/assets/Portfolio/our-portfolio-banner.webp",
+        breadcrumb: [
+          { label: "Home", href: "/" },
+          { label: "Our Portfolio", href: "/our-portfolio" },
+        ],
+      },
     ],
+    "transport-logistic": {
+      subHeading: "Transport & Logistic Website",
+      heading:
+        "Custom-Built Logistics Solutions for Smarter, Faster Deliveries",
+      bgImage: "/assets/Portfolio/transport-logistics/transport-banner.webp",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Our Services", href: "/our-services" },
+        { label: "Transport Logistics", href: "/transport-logistic" },
+      ],
+    },
+    "la-bellea": {
+      subHeading: "La Bellea Makeup",
+      heading: "Curated Makeup Experiences Designed to Dazzle",
+      bgImage: "/assets/Portfolio/la-bellea/makeup-banner.webp",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Our Portfolio", href: "/our-portfolio" },
+        { label: "La Bellea", href: "/la-bellea" },
+      ],
+    },
+    "restaurant-cuisines": {
+      subHeading: "Restaurant & Cuisines Website",
+      heading: "Custom Culinary Experiences Designed for Every Palate",
+      bgImage:
+        "/assets/Portfolio/restaurant-and-cuisines/restaurant-banner.webp",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Our POrtfolio", href: "/our-portfolio" },
+        { label: "Restaurant & Cuisines", href: "/restaurant-cuisines" },
+      ],
+    },
+    photography: {
+      subHeading: "Photography Website",
+      heading: "Personalized Photography, Crafted for Inspired Living",
+      bgImage: "/assets/Portfolio/photography/photography-banner.webp",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Our POrtfolio", href: "/our-portfolio" },
+        { label: "Photography", href: "/photography" },
+      ],
+    },
+    "opal-smiles": {
+      subHeading: "Dental Cure Website",
+      heading: "Personalized Dental Care Designed for Healthier Smiles",
+      bgImage: "/assets/Portfolio/opal-smiles/dentist-banner.webp",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Our Portfolio", href: "/our-portfolio" },
+        { label: "Opal Smiles", href: "/opal-smiles" },
+      ],
+    },
+    "crms-mobile-app": {
+      subHeading: "Custom CRMS Mobile App",
+      heading: "Custom CRM Tools Built for Smarter Client Management",
+      bgImage: "/assets/Portfolio/crms-mobile-app/crms-mobile-app-banner.webp",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Our Portfolio", href: "/our-portfolio" },
+        { label: "CRMS Mobile App", href: "/crms-mobile-app" },
+      ],
+    },
   },
   products: {
-    subHeading: "Tech Stack",
-    heading: "Powering Ideas with Innovation",
-    bgImage: "/assets/products/products-banner.jpg",
-    breadcrumb: [
-      { label: "Home", href: "/" },
-      { label: "Products", href: "/products" },
+    main: [
+      {
+        subHeading: "Explore Our Innovations",
+        heading: "Products & Projects That Drive Impact",
+        bgImage: "/assets/Products/our-product-banner.webp",
+        breadcrumb: [
+          { label: "Home", href: "/" },
+          { label: "Our Products", href: "/our-products" },
+        ],
+      },
     ],
+    "custom-school-erp": {
+      subHeading: "Custom School ERP",
+      heading: "Tailored ERP Solutions for Smarter School",
+      bgImage: "/assets/Products/custom-school-erp/school-erp-banner.webp",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Our Products", href: "/our-products" },
+        { label: "Custom School ERP", href: "/custom-school-erp" },
+      ],
+    },
+    "custom-crms": {
+      subHeading: "Custom CRMS",
+      heading: "Tailored Solutions for Smarter Workflows & Better Results",
+      bgImage: "/assets/Products/custom-crms/custom-crms-banner.webp",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Our Products", href: "/our-products" },
+        { label: "Custom CRMS", href: "/custom-crms" },
+      ],
+    },
+    "email-marketing-tool": {
+      subHeading: "Email Marketing Tool",
+      heading: "Tailored Email Marketing Built for Smarter Campaigns",
+      bgImage:
+        "/assets/Products/email-marketing-tool/marketing-tool-banner.webp",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Our Products", href: "/our-products" },
+        { label: "Email Marketing Tool", href: "/email-marketing-tool" },
+      ],
+    },
   },
   blogs: {
     subHeading: "Blog & News",

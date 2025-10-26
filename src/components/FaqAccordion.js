@@ -16,22 +16,33 @@ const FaqAccordion = ({ data, section, subCategory }) => {
   const faqItems = useMemo(() => {
     if (!data) return [];
 
-    // Handle "services" section
-    if (section === "services") {
-      // Normalize subCategory key (in case of route or case mismatch)
-      const normalizedSubCat = subCategory?.toLowerCase();
+    const sec = String(section || "").toLowerCase();
 
-      if (normalizedSubCat && data.services?.[normalizedSubCat]) {
-        return data.services[normalizedSubCat];
+    // Handle sections that have nested categories (services, portfolio, products)
+    if (["services", "portfolio", "products"].includes(sec)) {
+      const sectionObj = data[sec];
+      if (!sectionObj) return [];
+
+      // Normalize subCategory: lowercase, strip leading slash, convert spaces to hyphens
+      const normalizedSubCat = subCategory
+        ? String(subCategory)
+            .toLowerCase()
+            .replace(/^\//, "")
+            .trim()
+            .replace(/\s+/g, "-")
+        : null;
+
+      if (normalizedSubCat && sectionObj[normalizedSubCat]) {
+        return sectionObj[normalizedSubCat];
       }
 
       // fallback to main FAQs if no valid subcategory
-      return data.services?.main || [];
+      return sectionObj.main || [];
     }
 
-    // Handle other sections like about, portfolio, contact, etc.
-    if (section && data[section]) {
-      return data[section];
+    // Handle other simple array sections like about, contact, etc.
+    if (sec && data[sec]) {
+      return data[sec];
     }
 
     // Default empty
@@ -67,7 +78,7 @@ const FaqAccordion = ({ data, section, subCategory }) => {
               return (
                 <Accordion.Item
                   eventKey={key}
-                  key={item.id || key}
+                  key={item.id ?? key}
                   className="mb-3"
                 >
                   <Accordion.Header

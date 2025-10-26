@@ -147,7 +147,7 @@ function Home() {
                     <h3>{product.title}</h3>
                     <p>{product.shortDescription}</p>
                     <Link
-                      href={`/products/${product.slug}`}
+                      href={`/our-products/${product.slug}`}
                       title={`Learn more about ${product.title}`}
                     >
                       Read More <FaArrowRightLong />
