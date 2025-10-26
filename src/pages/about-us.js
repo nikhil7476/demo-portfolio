@@ -12,6 +12,7 @@ import Testimonial from "@/components/Testimonial";
 import testimonialData from "@/utils/json/testimonialData";
 import ContactForm from "@/components/ContactForm";
 import Link from "next/link";
+import ServiceMarquee from "@/components/ServiceMarquee";
 
 function AboutUs() {
   return (
@@ -20,6 +21,9 @@ function AboutUs() {
 
       {/* Banner Section */}
       <Banner data={bannerData.about} />
+
+      {/* Service Marquee Section */}
+      <ServiceMarquee />
 
       {/* Section 1 - About MakersofCode */}
       <section>
@@ -278,6 +282,9 @@ function AboutUs() {
           </Row>
         </Container>
       </section>
+
+      {/* Service Marquee Section */}
+      <ServiceMarquee />
 
       {/* Industry Section - Industry We Serve */}
       <Industry />

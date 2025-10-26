@@ -20,7 +20,11 @@ function Home() {
   return (
     <>
       <MetaHead page="home" />
+
+      {/* Home Banner Section */}
       <HomeBanner />
+
+      {/* Service Marquee Section */}
       <ServiceMarquee />
 
       {/* Section 1 - About Us */}
@@ -167,13 +171,13 @@ function Home() {
         </Container>
       </section>
 
-      {/* Section 4 - Services Tab */}
+      {/* Services Tab Section */}
       <ServiceTab />
 
-      {/* Section 5 - Portfolio Gallery */}
+      {/* Portfolio Gallery Section */}
       <PortfolioGallery />
 
-      {/* Section 6 - Why Choose Us */}
+      {/* Section 4 - Why Choose Us */}
       <section>
         <Container>
           <Row>
@@ -241,7 +245,7 @@ function Home() {
         </Container>
       </section>
 
-      {/* Section 7 - Testimonial & Contact */}
+      {/* Section 5 - Testimonial & Contact */}
       <section>
         <Container>
           <Row>
@@ -255,7 +259,7 @@ function Home() {
         </Container>
       </section>
 
-      {/* Section 8 - Articles */}
+      {/* Section 6 - Articles */}
       <section>
         <Container>
           <Row>
