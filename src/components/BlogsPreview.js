@@ -20,18 +20,20 @@ function BlogsPreview() {
             className="mb-3"
           >
             <Link href={`/blog/${blog.slug}`} title={blog.title}>
-              <div>
-                <Image
-                  src={blog.featuredImage}
-                  alt={blog.title}
-                  title={blog.title}
-                  width={350}
-                  height={350}
-                  className="img-fluid rounded"
-                  style={{ width: "100%", height: "auto" }}
-                />
+              <div className="h-100 shadow-lg rounded">
+                <div>
+                  <Image
+                    src={blog.featuredImage}
+                    alt={blog.title}
+                    title={blog.title}
+                    width={350}
+                    height={350}
+                    className="img-fluid rounded"
+                    style={{ width: "100%", height: "auto" }}
+                  />
+                </div>
+                <div className="p-3">{blog.title}</div>
               </div>
-              <div className="m-2">{blog.title}</div>
             </Link>
           </Col>
         ))}
