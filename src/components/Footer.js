@@ -103,7 +103,7 @@ function Footer() {
               <ul className="list-unstyled">
                 <li className="mb-2">
                   <Link
-                    href="/services/software-development"
+                    href="/our-services/software-development"
                     title="Software Development"
                   >
                     Software Development
@@ -111,7 +111,7 @@ function Footer() {
                 </li>
                 <li className="mb-2">
                   <Link
-                    href="/services/website-development"
+                    href="/our-services/website-development"
                     title="Website Development"
                   >
                     Website Development
@@ -119,20 +119,20 @@ function Footer() {
                 </li>
                 <li className="mb-2">
                   <Link
-                    href="/services/mobile-app-development"
+                    href="/our-services/mobile-app-development"
                     title="Mobile App Development"
                   >
                     Mobile App Development
                   </Link>
                 </li>
                 <li className="mb-2">
-                  <Link href="/services/ui-ux-design" title="UI/UX Design">
+                  <Link href="/our-services/ui-ux-design" title="UI/UX Design">
                     UI/UX Design
                   </Link>
                 </li>
                 <li className="mb-2">
                   <Link
-                    href="/services/digital-marketing"
+                    href="/our-services/digital-marketing"
                     title="Digital Marketing"
                   >
                     Degital Marketing
@@ -140,7 +140,7 @@ function Footer() {
                 </li>
                 <li className="mb-2">
                   <Link
-                    href="/services/ecommerce-solutions"
+                    href="/our-services/ecommerce-solutions"
                     title="E-Commerce Solutions"
                   >
                     E-Commerce Solutions
