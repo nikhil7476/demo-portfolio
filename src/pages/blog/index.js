@@ -2,6 +2,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Container, Row, Col, Form } from "react-bootstrap";
+import { FaArrowRightLong } from "react-icons/fa6";
 import MetaHead from "@/components/MetaHead";
 import Banner from "@/components/Banner";
 import bannerData from "@/utils/json/bannerData";
@@ -80,6 +81,24 @@ export default function BlogList() {
                   </li>
                 ))}
               </ul>
+              <Image
+                src="/assets/Blog/blog-contact.webp"
+                alt="Contact Us"
+                title="Contact Us"
+                width={350}
+                height={450}
+                style={{ width: "100%", height: "auto" }}
+                className="img-fluid rounded mb-4"
+              />
+              <div className="text-center">
+                <Link
+                  href="/contact-us"
+                  title="COntact Us"
+                  className="ctaButton"
+                >
+                  Contact Us <FaArrowRightLong />
+                </Link>
+              </div>
             </Col>
           </Row>
         </Container>
