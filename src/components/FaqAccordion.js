@@ -42,7 +42,7 @@ const FaqAccordion = ({ data, section, subCategory }) => {
   if (!faqItems || faqItems.length === 0) return null;
 
   return (
-    <Container className="my-5">
+    <Container>
       <Row className="align-items-center">
         <Col xl={5} lg={5} md={6} sm={12} xs={12} className="mb-3 text-center">
           <Image
@@ -55,7 +55,6 @@ const FaqAccordion = ({ data, section, subCategory }) => {
             priority
           />
         </Col>
-
         <Col xl={7} lg={7} md={6} sm={12} xs={12}>
           <span>FAQs</span>
           <h2>Frequently Asked Questions</h2>
