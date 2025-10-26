@@ -35,16 +35,28 @@ function Contact() {
                       className="mb-3 p-3 border rounded shadow-sm"
                     >
                       {item.title === "Email" ? (
-                        <Link href={`mailto:${item.description}`}>
-                          <Icon className="fs-2 mx-2" /> {item.description}
+                        <Link
+                          href={`mailto:${item.description}`}
+                          title="Mail Us"
+                        >
+                          <span>
+                            <Icon className="fs-2 mx-2" />
+                          </span>{" "}
+                          {item.description}
                         </Link>
                       ) : item.title === "Phone" ? (
-                        <Link href={`tel:${item.description}`}>
-                          <Icon className="fs-2 mx-2" /> {item.description}
+                        <Link href={`tel:${item.description}`} title="Call Us">
+                          <span>
+                            <Icon className="fs-2 mx-2" />
+                          </span>{" "}
+                          {item.description}
                         </Link>
                       ) : (
                         <>
-                          <Icon className="fs-2 mx-2" /> {item.description}
+                          <span>
+                            <Icon className="fs-2 mx-2" />
+                          </span>{" "}
+                          {item.description}
                         </>
                       )}
                     </li>
@@ -68,6 +80,7 @@ function Contact() {
                 src={contactData.mapLink}
                 width="1000"
                 height="450"
+                className="rounded"
                 style={{ border: "0", width: "100%" }}
                 allowFullScreen=""
                 loading="lazy"

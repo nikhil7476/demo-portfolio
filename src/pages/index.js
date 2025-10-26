@@ -172,7 +172,29 @@ function Home() {
       </section>
 
       {/* Services Tab Section */}
-      <ServiceTab />
+      <section>
+        <Container>
+          <Row>
+            <Col>
+              <span>Our Services</span>
+              <h2>Most Experienced Services</h2>
+              <hr />
+            </Col>
+          </Row>
+          <ServiceTab />
+          <Row>
+            <Col className="text-center">
+              <Link
+                href="/our-services"
+                title="Explore Our Services"
+                className="ctaButton"
+              >
+                Explore Our Services <FaArrowRightLong />
+              </Link>
+            </Col>
+          </Row>
+        </Container>
+      </section>
 
       {/* Portfolio Gallery Section */}
       <PortfolioGallery />

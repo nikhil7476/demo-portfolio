@@ -1,13 +1,25 @@
 // src/utils/serviceData.js
 
+import { AiFillCode } from "react-icons/ai";
+import {
+  FaChartLine,
+  FaQuidditch,
+  FaRobot,
+  FaFileAlt,
+  FaUserCheck,
+  FaLaptopCode,
+  FaAmazonPay,
+} from "react-icons/fa";
+import { FaMobileRetro, FaCartShopping } from "react-icons/fa6";
 import { GrCloudSoftware } from "react-icons/gr";
+import { IoShareSocialOutline } from "react-icons/io5";
 import {
   MdScreenSearchDesktop,
   MdSecurity,
   MdDeveloperMode,
+  MdDesignServices,
+  MdOutlineScreenSearchDesktop,
 } from "react-icons/md";
-import { FaMobileRetro, FaCartShopping } from "react-icons/fa6";
-import { FaChartLine, FaQuidditch, FaRobot } from "react-icons/fa";
 import { SiTraefikproxy } from "react-icons/si";
 
 const serviceData = {
@@ -16,6 +28,84 @@ const serviceData = {
     title: "Build your brand",
     description:
       "From the inception of a project to its completion, we employ a comprehensive and holistic approach that ensures all aspects and stages are thoughtfully and thoroughly addressed.",
+    section1: {
+      subheading: "About MakersOfCode Services",
+      heading: "Innovating through ideas, mentorship, & opportunity.",
+      description:
+        "Our team is a collective force of top talents, pros, experts, and visionaries from diverse fields. With a passion for excellence, our professionals bring a wealth of experience and knowledge to every project. At Slack, we are committed to delivering nothing short of excellence. From concept to implementation, we maintain the highest standards of quality and craftsmanship, leaving no room for compromise.",
+      featuredHeading:
+        "Turning ideas into action through innovation, mentorship, & opportunity.",
+      featuredPoints: [
+        "Managed Services",
+        "Adaptable Products",
+        "Competitive Advantage",
+        "Strategic Partnerships",
+        "Scalable Solutions",
+        "Continuous Improvement",
+      ],
+      sectionImage: "/assets/Home/home-why-choose-us.webp",
+      ctaText: "Contact Us",
+      ctaLink: "/contact-us",
+    },
+    section2: {
+      subheading: "Our Services",
+      heading: "You won’t be disappointed with our services",
+      ctaText: "Contact Us",
+      ctaLink: "/contact-us",
+    },
+    section3: {
+      subheading: "Deserve the best!",
+      heading: "Comprehensive Digital Services to Grow Your Brand",
+      iconBox: [
+        {
+          id: 1,
+          title: "Search Engine Optimization",
+          icon: <MdOutlineScreenSearchDesktop />,
+        },
+        {
+          id: 2,
+          title: "User-Centered Design",
+          icon: <AiFillCode />,
+        },
+        {
+          id: 3,
+          title: "Pay-Per-Click Campaigns",
+          icon: <FaAmazonPay />,
+        },
+        {
+          id: 4,
+          title: "Prototype & Wireframe",
+          icon: <FaLaptopCode />,
+        },
+        {
+          id: 5,
+          title: "Social Media Marketing",
+          icon: <IoShareSocialOutline />,
+        },
+        {
+          id: 6,
+          title: "Interactive User Testing",
+          icon: <FaUserCheck />,
+        },
+        {
+          id: 7,
+          title: "Content Creation",
+          icon: <FaFileAlt />,
+        },
+        {
+          id: 8,
+          title: "Visual Design Excellence",
+          icon: <MdDesignServices />,
+        },
+      ],
+      sectionImage: "/assets/Services/grow-your-brand.webp",
+      ctaText: "Contact Us",
+      ctaLink: "/contact-us",
+    },
+    section4: {
+      subheading: "Our More Services",
+      heading: "Going the Extra Mile: More Services You’ll Love",
+    },
   },
   myservices: [
     {
