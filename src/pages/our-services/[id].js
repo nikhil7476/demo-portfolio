@@ -39,7 +39,7 @@ export default function ServicesDetail() {
         </Container>
       </section>
       <section>
-        <FaqAccordion data={serviceFaqs} />
+        <FaqAccordion data={faqData} section="services" subCategory={id} />
       </section>
     </>
   );

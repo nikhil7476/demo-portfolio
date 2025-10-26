@@ -10,7 +10,7 @@ import Testimonial from "@/components/Testimonial";
 import testimonialData from "@/utils/json/testimonialData";
 import ContactForm from "@/components/ContactForm";
 import FaqAccordion from "@/components/FaqAccordion";
-import accordionData from "@/utils/json/faqData";
+import faqData from "@/utils/json/faqData";
 
 export default function OurServices() {
   return (
@@ -79,7 +79,7 @@ export default function OurServices() {
         </Container>
       </section>
       <section>
-        <FaqAccordion data={accordionData.services.main} />
+        <FaqAccordion data={faqData} section="services" />
       </section>
     </>
   );

@@ -6,19 +6,19 @@ const faqData = {
       id: 1,
       title: "What inspired you to become a web developer?",
       content:
-        "I have always been passionate about technology and problem-solving. Web development allows me to combine creativity with logic to build solutions that help businesses grow and connect with people.",
+        "I've always been passionate about technology and problem-solving. Web development lets me blend creativity and logic to build solutions that help businesses grow and connect with people.",
     },
     {
       id: 2,
       title: "What technologies do you specialize in?",
       content:
-        "I primarily work with Next.js, React, Node.js, and MongoDB, along with tools like Tailwind CSS and Bootstrap. I choose technologies that best fit the project’s needs for performance and scalability.",
+        "I primarily work with Next.js, React, Node.js, and MongoDB, along with tools like Tailwind CSS and Bootstrap. I choose technologies that best fit each project’s performance and scalability needs.",
     },
     {
       id: 3,
       title: "How do you keep your skills up to date?",
       content:
-        "I consistently follow industry trends, take part in online courses, and build personal projects to experiment with new frameworks, libraries, and best practices.",
+        "I stay current by following industry trends, taking part in online courses, and experimenting with new frameworks and best practices through personal projects.",
     },
   ],
 
@@ -28,19 +28,19 @@ const faqData = {
         id: 1,
         title: "What services do you offer?",
         content:
-          "We provide a complete range of digital solutions, including web development, mobile app development, UI/UX design, digital marketing, SEO services, and WordPress development.",
+          "We offer complete digital solutions including web and mobile app development, UI/UX design, digital marketing, SEO, and WordPress development.",
       },
       {
         id: 2,
         title: "How can I choose the right service for my business?",
         content:
-          "Our team can help analyze your goals and recommend the best service package tailored to your needs, ensuring maximum impact.",
+          "Our team analyzes your goals and recommends a customized service package designed to deliver maximum impact.",
       },
       {
         id: 3,
-        title: "Do you work with startups as well as established businesses?",
+        title: "Do you work with startups and established businesses?",
         content:
-          "Yes, we work with businesses of all sizes, from new startups to established enterprises, offering scalable solutions for every stage.",
+          "Yes, we work with companies of all sizes — from startups to enterprises — offering scalable solutions for every stage of growth.",
       },
     ],
 
@@ -49,19 +49,19 @@ const faqData = {
         id: 1,
         title: "What technologies do you use for software development?",
         content:
-          "We leverage frameworks like Next.js, React, Node.js, and MongoDB to build robust, secure, and high-performance software solutions.",
+          "We use frameworks like Next.js, React, Node.js, and MongoDB to build secure, high-performance software solutions.",
       },
       {
         id: 2,
         title: "Can you customize software according to business needs?",
         content:
-          "Absolutely, we tailor every project to match your unique goals, ensuring the solution aligns perfectly with your workflow.",
+          "Absolutely. We tailor every project to your unique goals, ensuring perfect alignment with your workflows.",
       },
       {
         id: 3,
         title: "Do you provide post-deployment support?",
         content:
-          "Yes, we provide continuous maintenance, updates, and technical support after deployment to ensure long-term success.",
+          "Yes, we offer ongoing maintenance, updates, and technical support after deployment to ensure long-term success.",
       },
     ],
 
@@ -76,13 +76,13 @@ const faqData = {
         id: 2,
         title: "Can you redesign or upgrade an existing website?",
         content:
-          "Yes, we specialize in revamping outdated websites with fresh designs, improved performance, and modern functionality.",
+          "Yes, we specialize in revamping outdated websites with modern designs, improved performance, and enhanced features.",
       },
       {
         id: 3,
         title: "Do your websites work on all devices?",
         content:
-          "Absolutely, we build fully responsive websites that work seamlessly across desktops, tablets, and smartphones.",
+          "Absolutely. We build fully responsive websites that perform seamlessly across desktops, tablets, and smartphones.",
       },
     ],
 
@@ -91,19 +91,19 @@ const faqData = {
         id: 1,
         title: "Do you build apps for both Android and iOS?",
         content:
-          "Yes, we develop native and cross-platform apps to ensure compatibility with both Android and iOS devices.",
+          "Yes, we develop both native and cross-platform apps for full compatibility with Android and iOS devices.",
       },
       {
         id: 2,
         title: "How do you ensure app performance and quality?",
         content:
-          "Our process includes testing, optimization, and feedback loops to deliver a smooth and reliable app experience.",
+          "We follow a rigorous process including testing, optimization, and feedback loops to deliver smooth and reliable apps.",
       },
       {
         id: 3,
         title: "Can you integrate apps with websites or databases?",
         content:
-          "Yes, we can connect your app with existing systems, websites, and third-party tools for seamless integration.",
+          "Yes, we integrate apps with existing systems, APIs, and databases for seamless connectivity.",
       },
     ],
 
@@ -112,7 +112,7 @@ const faqData = {
         id: 1,
         title: "Why is UI/UX design important for my business?",
         content:
-          "Good design improves usability, builds trust, and keeps users engaged with your product or service.",
+          "Good design enhances usability, builds trust, and keeps users engaged with your product or service.",
       },
       {
         id: 2,
@@ -124,7 +124,7 @@ const faqData = {
         id: 3,
         title: "Can you redesign an existing product interface?",
         content:
-          "Definitely, we specialize in modernizing and improving existing designs for better usability and appeal.",
+          "Definitely. We specialize in modernizing and improving existing designs for better usability and appeal.",
       },
     ],
 
@@ -133,19 +133,19 @@ const faqData = {
         id: 1,
         title: "What digital marketing services do you provide?",
         content:
-          "We offer social media marketing, PPC ads, email campaigns, and content strategies to grow your online reach.",
+          "We offer social media marketing, PPC campaigns, email marketing, and content strategies to expand your online reach.",
       },
       {
         id: 2,
         title: "How do you measure marketing success?",
         content:
-          "We track key metrics such as engagement, conversions, and ROI to ensure campaigns deliver measurable results.",
+          "We track engagement, conversions, and ROI metrics to ensure campaigns deliver measurable results.",
       },
       {
         id: 3,
         title: "Do you create custom strategies for each business?",
         content:
-          "Yes, we tailor every digital marketing plan to your brand goals, audience, and industry trends.",
+          "Yes, every digital marketing plan is tailored to your brand goals, target audience, and industry trends.",
       },
     ],
 
@@ -154,19 +154,19 @@ const faqData = {
         id: 1,
         title: "What eCommerce platforms do you work with?",
         content:
-          "We build on Shopify, WooCommerce, and custom MERN-stack eCommerce solutions for flexible and scalable online stores.",
+          "We work with Shopify, WooCommerce, and custom MERN-stack solutions to build flexible and scalable online stores.",
       },
       {
         id: 2,
         title: "Do you handle payment gateway integrations?",
         content:
-          "Yes, we integrate secure payment gateways such as Stripe, PayPal, Razorpay, and others to ensure smooth transactions.",
+          "Yes, we integrate secure payment gateways like Stripe, PayPal, and Razorpay for smooth transactions.",
       },
       {
         id: 3,
         title: "Can you optimize my existing eCommerce site?",
         content:
-          "Absolutely, we specialize in optimizing store speed, improving UX, and boosting conversion rates.",
+          "Absolutely. We improve store speed, user experience, and conversion rates through advanced optimization.",
       },
     ],
 
@@ -175,19 +175,19 @@ const faqData = {
         id: 1,
         title: "How do you protect businesses from cyber threats?",
         content:
-          "We implement multi-layered security protocols including firewalls, encryption, and vulnerability assessments.",
+          "We implement multi-layered security protocols, including firewalls, encryption, and vulnerability assessments.",
       },
       {
         id: 2,
         title: "Do you provide penetration testing services?",
         content:
-          "Yes, our experts perform regular penetration testing and audits to identify and mitigate security risks.",
+          "Yes, our experts perform penetration testing and audits to identify and resolve potential vulnerabilities.",
       },
       {
         id: 3,
         title: "Can you secure cloud-based applications?",
         content:
-          "Yes, we ensure secure configurations, identity management, and continuous monitoring for cloud platforms.",
+          "Yes, we ensure secure cloud configurations, identity management, and continuous monitoring for cloud systems.",
       },
     ],
 
@@ -196,19 +196,19 @@ const faqData = {
         id: 1,
         title: "What AI solutions do you develop?",
         content:
-          "We build AI-based systems for chatbots, predictive analytics, recommendation engines, and automation workflows.",
+          "We develop AI-based chatbots, predictive analytics, recommendation engines, and automation workflows.",
       },
       {
         id: 2,
         title: "Can you integrate AI into existing business systems?",
         content:
-          "Yes, we can embed AI models into your existing software to enhance data-driven decision-making and automation.",
+          "Yes, we integrate AI models into existing software to enhance decision-making and automation.",
       },
       {
         id: 3,
         title: "Do you offer AI consulting and training?",
         content:
-          "Absolutely, we provide AI consulting, proof-of-concept development, and team training to help businesses adopt AI effectively.",
+          "Absolutely. We offer AI consulting, proof-of-concept development, and team training to support adoption.",
       },
     ],
 
@@ -223,13 +223,13 @@ const faqData = {
         id: 2,
         title: "What skills do your developers specialize in?",
         content:
-          "Our developers are skilled in Next.js, React, Node.js, MongoDB, and other modern technologies.",
+          "Our developers specialize in Next.js, React, Node.js, MongoDB, and other modern technologies.",
       },
       {
         id: 3,
         title: "How do you ensure quality in remote development?",
         content:
-          "We follow agile processes, conduct regular code reviews, and maintain transparent communication to ensure high-quality delivery.",
+          "We follow agile processes, conduct code reviews, and maintain transparent communication to ensure top quality.",
       },
     ],
 
@@ -238,19 +238,19 @@ const faqData = {
         id: 1,
         title: "What is a proxy developer service?",
         content:
-          "Our proxy developers represent your team in client calls and technical discussions, ensuring professional communication and project progress.",
+          "Our proxy developers represent your team in client calls and technical discussions, ensuring smooth communication and progress.",
       },
       {
         id: 2,
         title: "Can proxy developers handle coding tasks?",
         content:
-          "Yes, they can contribute to actual development, troubleshooting, and documentation as per your project scope.",
+          "Yes, they contribute to actual development, troubleshooting, and documentation as per your project scope.",
       },
       {
         id: 3,
         title: "Is the proxy developer engagement confidential?",
         content:
-          "Absolutely, all our engagements are under strict NDAs to ensure your privacy and intellectual property protection.",
+          "Absolutely. All engagements are under strict NDAs to protect your privacy and intellectual property.",
       },
     ],
   },
@@ -260,19 +260,19 @@ const faqData = {
       id: 1,
       title: "What types of projects are included in your portfolio?",
       content:
-        "My portfolio showcases a mix of websites, web applications, and UI/UX designs created for businesses, personal brands, and startups.",
+        "My portfolio includes websites, web applications, and UI/UX designs for startups, personal brands, and businesses.",
     },
     {
       id: 2,
       title: "Can I request a demo of one of your projects?",
       content:
-        "Yes, I can provide live demos or walkthroughs of selected projects upon request, depending on the client’s permission and project availability.",
+        "Yes, live demos or walkthroughs can be arranged depending on client permissions and project availability.",
     },
     {
       id: 3,
       title: "Do you take custom project requests not shown in your portfolio?",
       content:
-        "Absolutely. My portfolio represents only some of my work. I’m open to building custom projects tailored specifically to your requirements.",
+        "Absolutely. My portfolio represents select work, and I’m always open to creating custom projects tailored to your needs.",
     },
   ],
 
@@ -281,19 +281,19 @@ const faqData = {
       id: 1,
       title: "What development tools do you use most often?",
       content:
-        "I regularly use VS Code, Git, GitHub, Figma, Postman, and MongoDB Compass, alongside frameworks like Next.js and React for web development.",
+        "I frequently use VS Code, Git, GitHub, Figma, Postman, and MongoDB Compass, along with frameworks like Next.js and React.",
     },
     {
       id: 2,
       title: "Do you also work with design tools?",
       content:
-        "Yes, I work with Figma, Adobe XD, and Canva for wireframes and UI/UX design, ensuring smooth collaboration between design and development.",
+        "Yes, I use Figma, Adobe XD, and Canva for UI/UX design and wireframes, ensuring smooth design-to-development workflow.",
     },
     {
       id: 3,
       title: "How do you choose which tools to use for a project?",
       content:
-        "I select tools based on the project’s scope, goals, and technical requirements. The focus is always on efficiency, performance, and scalability.",
+        "I select tools based on each project’s scope, goals, and technical requirements, prioritizing efficiency and scalability.",
     },
   ],
 
@@ -302,19 +302,19 @@ const faqData = {
       id: 1,
       title: "How soon can I expect a reply after contacting you?",
       content:
-        "I usually respond to inquiries within 24–48 hours. For urgent projects, I try to reply as quickly as possible to keep things moving efficiently.",
+        "I usually respond within 24–48 hours. For urgent inquiries, I try to reply as quickly as possible to keep projects moving efficiently.",
     },
     {
       id: 2,
       title: "What details should I include when reaching out?",
       content:
-        "It’s helpful if you share your project goals, preferred timeline, and budget range. This allows me to give you a clear idea of how we can work together.",
+        "It’s helpful to include your project goals, preferred timeline, and budget range. This allows me to provide a clear plan of action.",
     },
     {
       id: 3,
       title: "Do you offer free consultations?",
       content:
-        "Yes, I offer a short initial consultation free of charge to discuss your needs, goals, and potential solutions before starting the project.",
+        "Yes, I offer a short initial consultation free of charge to discuss your goals and potential solutions before we begin.",
     },
   ],
 };

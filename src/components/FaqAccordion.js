@@ -2,33 +2,43 @@
 
 import { Accordion, Col, Container, Row } from "react-bootstrap";
 import { FaPlus, FaMinus } from "react-icons/fa";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import Image from "next/image";
 
 const FaqAccordion = ({ data, section, subCategory }) => {
   const [activeKey, setActiveKey] = useState(null);
 
   const handleToggle = (key) => {
-    setActiveKey(activeKey === key ? null : key);
+    setActiveKey((prevKey) => (prevKey === key ? null : key));
   };
 
-  // Determine which FAQ data to display
-  let faqItems = [];
+  // === Determine which FAQ data to show ===
+  const faqItems = useMemo(() => {
+    if (!data) return [];
 
-  if (section === "services") {
-    // If "services" section and subcategory exists
-    if (subCategory && data.services[subCategory]) {
-      faqItems = data.services[subCategory];
-    } else if (data.services.main) {
-      // Default to main FAQs if subcategory not provided
-      faqItems = data.services.main;
+    // Handle "services" section
+    if (section === "services") {
+      // Normalize subCategory key (in case of route or case mismatch)
+      const normalizedSubCat = subCategory?.toLowerCase();
+
+      if (normalizedSubCat && data.services?.[normalizedSubCat]) {
+        return data.services[normalizedSubCat];
+      }
+
+      // fallback to main FAQs if no valid subcategory
+      return data.services?.main || [];
     }
-  } else if (section && data[section]) {
-    // For other sections like about, portfolio, contact, etc.
-    faqItems = data[section];
-  }
 
-  // If no FAQs found, don't render anything
+    // Handle other sections like about, portfolio, contact, etc.
+    if (section && data[section]) {
+      return data[section];
+    }
+
+    // Default empty
+    return [];
+  }, [data, section, subCategory]);
+
+  // === If no FAQs, render nothing ===
   if (!faqItems || faqItems.length === 0) return null;
 
   return (
@@ -45,33 +55,39 @@ const FaqAccordion = ({ data, section, subCategory }) => {
             priority
           />
         </Col>
+
         <Col xl={7} lg={7} md={6} sm={12} xs={12}>
           <span>FAQs</span>
           <h2>Frequently Asked Questions</h2>
           <hr />
           <Accordion activeKey={activeKey} flush>
-            {faqItems.map((item, idx) => (
-              <Accordion.Item
-                eventKey={String(idx)}
-                key={item.id || idx}
-                className="mb-3"
-              >
-                <Accordion.Header
-                  onClick={() => handleToggle(String(idx))}
-                  className="fw-semibold"
+            {faqItems.map((item, idx) => {
+              const key = String(idx);
+              const isActive = activeKey === key;
+
+              return (
+                <Accordion.Item
+                  eventKey={key}
+                  key={item.id || key}
+                  className="mb-3"
                 >
-                  {activeKey === String(idx) ? (
-                    <FaMinus className="me-2" />
-                  ) : (
-                    <FaPlus className="me-2" />
-                  )}
-                  {item.title}
-                </Accordion.Header>
-                <Accordion.Body className="text-muted">
-                  {item.content}
-                </Accordion.Body>
-              </Accordion.Item>
-            ))}
+                  <Accordion.Header
+                    onClick={() => handleToggle(key)}
+                    className="fw-semibold"
+                  >
+                    {isActive ? (
+                      <FaMinus className="me-2" />
+                    ) : (
+                      <FaPlus className="me-2" />
+                    )}
+                    {item.title}
+                  </Accordion.Header>
+                  <Accordion.Body className="text-muted">
+                    {item.content}
+                  </Accordion.Body>
+                </Accordion.Item>
+              );
+            })}
           </Accordion>
         </Col>
       </Row>
