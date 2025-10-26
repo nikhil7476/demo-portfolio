@@ -7,18 +7,21 @@ import CountUp from "react-countup";
 import MetaHead from "@/components/MetaHead";
 import homeData from "@/utils/json/homeData";
 import HomeBanner from "@/components/HomeBanner";
+import productData from "@/utils/json/productData";
 import ServiceTab from "@/components/ServiceTab";
 import Testimonial from "@/components/Testimonial";
 import testimonialData from "@/utils/json/testimonialData";
 import ContactForm from "@/components/ContactForm";
 import BlogsPreview from "@/components/BlogsPreview";
 import PortfolioGallery from "@/components/PortfolioGallery";
+import ServiceMarquee from "@/components/ServiceMarquee";
 
 function Home() {
   return (
     <>
       <MetaHead page="home" />
       <HomeBanner />
+      <ServiceMarquee />
 
       {/* Section 1 - About Us */}
       <section>
@@ -44,8 +47,8 @@ function Home() {
               )}
             </Col>
             <Col
-              xl={6}
-              lg={6}
+              xl={7}
+              lg={7}
               md={6}
               sm={12}
               xs={12}
@@ -106,13 +109,71 @@ function Home() {
         </Container>
       </section>
 
-      {/* Section 3 - Services Tab */}
+      {/* Section 3 - Featured Products */}
+      <section>
+        <Container>
+          <Row>
+            <Col>
+              <span>Our Featured Products</span>
+              <h2>Customizable Web & App Products</h2>
+              <hr />
+            </Col>
+          </Row>
+          <Row>
+            {productData.myproducts.map((product) => (
+              <Col
+                key={product.id}
+                xl={4}
+                lg={4}
+                md={6}
+                sm={12}
+                xs={12}
+                className="mb-3"
+              >
+                <div
+                  className="p-4 align-content-end rounded"
+                  style={{
+                    backgroundImage: `url(${product.featuredImage})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    minHeight: "350px",
+                  }}
+                >
+                  <div className="bg-dark text-white p-3 rounded">
+                    <h3>{product.title}</h3>
+                    <p>{product.shortDescription}</p>
+                    <Link
+                      href={`/products/${product.slug}`}
+                      title={`Learn more about ${product.title}`}
+                    >
+                      Read More <FaArrowRightLong />
+                    </Link>
+                  </div>
+                </div>
+              </Col>
+            ))}
+          </Row>
+          <Row>
+            <Col className="text-center">
+              <Link
+                href="/our-products"
+                title="View All Products"
+                className="ctaButton"
+              >
+                Discover More Products <FaArrowRightLong />
+              </Link>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      {/* Section 4 - Services Tab */}
       <ServiceTab />
 
-      {/* Section 3 - Portfolio Gallery */}
+      {/* Section 5 - Portfolio Gallery */}
       <PortfolioGallery />
 
-      {/* Section 4 - Why Choose Us */}
+      {/* Section 6 - Why Choose Us */}
       <section>
         <Container>
           <Row>
@@ -180,7 +241,7 @@ function Home() {
         </Container>
       </section>
 
-      {/* Section 5 - Testimonial & Contact */}
+      {/* Section 7 - Testimonial & Contact */}
       <section>
         <Container>
           <Row>
@@ -194,7 +255,7 @@ function Home() {
         </Container>
       </section>
 
-      {/* Section 6 - Articles */}
+      {/* Section 8 - Articles */}
       <section>
         <Container>
           <Row>

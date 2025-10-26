@@ -246,6 +246,76 @@ textarea:active {
   top: 0;
 }
 
+/* ===== Marquee Styles ===== */
+.service-marquee-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.service-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 25s linear infinite;
+}
+
+.service-marquee-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 25px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 50px;
+  margin-right: 25px;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.service-marquee-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.service-icon {
+  font-size: 1.5rem;
+  color: #cfff00;
+}
+
+.service-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* === Animation === */
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .service-heading {
+    font-size: 1.8rem;
+  }
+
+  .service-marquee-item {
+    padding: 8px 18px;
+    margin-right: 15px;
+  }
+
+  .service-icon {
+    font-size: 1.2rem;
+  }
+
+  .service-title {
+    font-size: 1rem;
+  }
+}
+
 /* ===== Responsive Typography ===== */
 @media (max-width: 768px) {
   h1 {

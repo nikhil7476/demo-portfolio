@@ -9,58 +9,32 @@ const productData = {
   myproducts: [
     {
       id: 1,
-      slug: "web-development",
-      subtitle: "Web Development",
-      title: "Web Development",
-      metaDescription: "I build responsive and SEO-friendly web applications.",
-      bannerImage: "/service-assets/web-development-banner.png",
-      featuredImage: "/service-assets/web-development-featured.png",
+      slug: "custom-school-erp",
+      subtitle: "School ERP System",
+      title: "School ERP System",
+      shortDescription:
+        "Streamlines students, attendance, timetables, performance, & communication for schools in a unified platform.",
+      featuredImage:
+        "/assets/Products/custom-school-erp/school-erp-featured.webp",
     },
     {
       id: 2,
-      slug: "ui-ux-design",
-      subtitle: "UI/UX Design",
-      title: "UI/UX Design",
-      metaDescription:
-        "I create secure and scalable REST APIs with Node.js & MongoDB.",
-      bannerImage: "/service-assets/ui-ux-design-banner.png",
-      featuredImage: "/service-assets/ui-ux-design-featured.png",
+      slug: "custom-crms",
+      subtitle: "Custom CRMS",
+      title: "Custom CRMS",
+      shortDescription:
+        "Flexible CRM solutions to manage leads, interactions, and workflows tailored to educational or business needs.",
+      featuredImage: "/assets/Products/custom-crms/custom-crms-featured.webp",
     },
     {
       id: 3,
-      slug: "mobile-app-development",
-      subtitle: "Mobile App Development",
-      title: "Mobile App Development",
-      metaDescription: "Cross-platform mobile apps built with React Native.",
-      bannerImage: "/service-assets/mobile-app-development-banner.png",
-      featuredImage: "/service-assets/mobile-app-development-featured.png",
-    },
-    {
-      id: 4,
-      slug: "digital-marketing",
-      subtitle: "Digital Marketing",
-      title: "Digital Marketing",
-      metaDescription: "Cross-platform mobile apps built with React Native.",
-      bannerImage: "/service-assets/digital-marketing-banner.png",
-      featuredImage: "/service-assets/digital-marketing-featured.png",
-    },
-    {
-      id: 5,
-      slug: "seo-services",
-      subtitle: "SEO Services",
-      title: "SEO Services",
-      metaDescription: "Cross-platform mobile apps built with React Native.",
-      bannerImage: "/service-assets/seo-services-banner.png",
-      featuredImage: "/service-assets/seo-services-featured.png",
-    },
-    {
-      id: 6,
-      slug: "wordpress-development",
-      subtitle: "WordPress Development",
-      title: "WordPress Development",
-      metaDescription: "Cross-platform mobile apps built with React Native.",
-      bannerImage: "/service-assets/wordpress-development-banner.png",
-      featuredImage: "/service-assets/wordpress-development-featured.png",
+      slug: "email-marketing-tool",
+      subtitle: "Email Marketing Tool",
+      title: "Email Marketing Tool",
+      shortDescription:
+        "Create, schedule, and track targeted email campaigns for promotions, newsletters, and important announcements.",
+      featuredImage:
+        "/assets/Products/email-marketing-tool/email-marketing-tool-featured.webp",
     },
   ],
 };
