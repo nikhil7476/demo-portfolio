@@ -5,13 +5,17 @@ import bannerData from "@/utils/json/bannerData";
 import Testimonial from "@/components/Testimonial";
 import testimonialData from "@/utils/json/testimonialData";
 import ContactForm from "@/components/ContactForm";
+import ServiceMarquee from "@/components/ServiceMarquee";
 import FaqAccordion from "@/components/FaqAccordion";
 import faqData from "@/utils/json/faqData";
 
 function OurPortfolio() {
   return (
     <>
+      {/* Banner Section */}
       <Banner data={bannerData.portfolio.main} />
+
+      {/* Testimonial & Contact Form */}
       <section>
         <Container>
           <Row>
@@ -24,6 +28,11 @@ function OurPortfolio() {
           </Row>
         </Container>
       </section>
+
+      {/* Marquee Section */}
+      <ServiceMarquee />
+
+      {/* FAQ Accordion */}
       <section>
         <FaqAccordion data={faqData} section="portfolio" />
       </section>
