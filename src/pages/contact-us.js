@@ -18,80 +18,119 @@ function Contact() {
       <Banner data={bannerData.contact} />
 
       {/* Contact Section */}
-      <section>
-        <Container>
-          <Row>
-            <Col xl={6} lg={6} md={6} sm={12} xs={12} className="mb-3">
-              <span>{contactData.subheading}</span>
-              <h2>{contactData.title}</h2>
-              <hr />
-              <p>{contactData.description}</p>
-              <ul className="list-unstyled">
-                {contactData.iconBox.map((item) => {
-                  const Icon = item.icon;
-                  return (
-                    <li
-                      key={item.id}
-                      className="mb-3 p-3 border rounded shadow-sm"
-                    >
-                      {item.title === "Email" ? (
-                        <Link
-                          href={`mailto:${item.description}`}
-                          title="Mail Us"
-                        >
-                          <span>
-                            <Icon className="fs-2 mx-2" />
-                          </span>{" "}
-                          {item.description}
-                        </Link>
-                      ) : item.title === "Phone" ? (
-                        <Link href={`tel:${item.description}`} title="Call Us">
-                          <span>
-                            <Icon className="fs-2 mx-2" />
-                          </span>{" "}
-                          {item.description}
-                        </Link>
-                      ) : (
-                        <>
-                          <span>
-                            <Icon className="fs-2 mx-2" />
-                          </span>{" "}
-                          {item.description}
-                        </>
-                      )}
-                    </li>
-                  );
-                })}
-              </ul>
-            </Col>
-            <Col xl={6} lg={6} md={6} sm={12} xs={12} className="mb-3">
-              <ContactForm />
-            </Col>
-          </Row>
-        </Container>
-      </section>
+      {contactData && (
+        <section>
+          <Container>
+            <Row>
+              {/* Left Column: Contact Info */}
+              {(contactData.subheading ||
+                contactData.title ||
+                contactData.description ||
+                contactData.iconBox?.length > 0) && (
+                <Col
+                  xl={6}
+                  lg={6}
+                  md={6}
+                  sm={12}
+                  xs={12}
+                  className="mb-3 align-content-center"
+                >
+                  {contactData.subheading && (
+                    <span>{contactData.subheading}</span>
+                  )}
+                  {contactData.title && <h2>{contactData.title}</h2>}
+                  <hr />
+                  {contactData.description && <p>{contactData.description}</p>}
+
+                  {contactData.iconBox?.length > 0 && (
+                    <ul className="list-unstyled">
+                      {contactData.iconBox.map((item, index) => {
+                        const Icon = item.icon;
+                        const description = item.description || "";
+                        const isEmail = item.title?.toLowerCase() === "email";
+                        const isPhone = item.title?.toLowerCase() === "phone";
+
+                        return (
+                          <li
+                            key={item.id || index}
+                            className="mb-3 p-3 border rounded shadow-sm d-flex align-items-center"
+                          >
+                            {Icon && (
+                              <Icon className="fs-2 mx-2 text-primary" />
+                            )}
+                            <div>
+                              {isEmail ? (
+                                <Link
+                                  href={`mailto:${description}`}
+                                  title="Mail Us"
+                                  className="text-decoration-none text-dark"
+                                >
+                                  {description}
+                                </Link>
+                              ) : isPhone ? (
+                                <Link
+                                  href={`tel:${description}`}
+                                  title="Call Us"
+                                  className="text-decoration-none text-dark"
+                                >
+                                  {description}
+                                </Link>
+                              ) : (
+                                <span>{description}</span>
+                              )}
+                            </div>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  )}
+                </Col>
+              )}
+
+              {/* Right Column: Contact Form */}
+              <Col
+                xl={6}
+                lg={6}
+                md={6}
+                sm={12}
+                xs={12}
+                className="mb-3 align-content-center"
+              >
+                <ContactForm />
+              </Col>
+            </Row>
+          </Container>
+        </section>
+      )}
 
       {/* Map Section */}
-      <section>
-        <Container>
-          <Row>
-            <Col>
-              <iframe
-                src={contactData.mapLink}
-                width="1000"
-                height="450"
-                className="rounded"
-                style={{ border: "0", width: "100%" }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </Col>
-          </Row>
-        </Container>
-      </section>
+      {contactData?.mapLink && (
+        <section>
+          <Container>
+            <Row>
+              <Col>
+                <iframe
+                  src={contactData.mapLink}
+                  title="Our Location"
+                  width="100%"
+                  height="450"
+                  className="rounded shadow-sm"
+                  style={{
+                    border: 0,
+                    width: "100%",
+                    minHeight: "350px",
+                  }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+      )}
 
-      {/* FAQ Section */}
+      {/* FAQs Section */}
       <section>
         <FaqAccordion data={faqData} section="contact" />
       </section>
