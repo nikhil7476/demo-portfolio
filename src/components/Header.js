@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Link from "next/link";
 import {
   Navbar,
   Nav,
@@ -5,8 +7,6 @@ import {
   Offcanvas,
   NavDropdown,
 } from "react-bootstrap";
-import Image from "next/image";
-import Link from "next/link";
 
 function Header() {
   return (
