@@ -233,7 +233,7 @@ const serviceData = {
         featuredDescription:
           "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
         sectionImage:
-          "/assets/Services/software-development/about-software-development.webp",
+          "/assets/Services/website-development/about-website-development.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
@@ -259,7 +259,7 @@ const serviceData = {
         description:
           "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
         sectionImage:
-          "/assets/Services/software-development/software-development-future.webp",
+          "/assets/Services/website-development/website-development-future.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
@@ -330,7 +330,7 @@ const serviceData = {
         featuredDescription:
           "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
         sectionImage:
-          "/assets/Services/software-development/about-software-development.webp",
+          "/assets/Services/mobile-app-development/about-mobile-app-development.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
@@ -356,7 +356,7 @@ const serviceData = {
         description:
           "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
         sectionImage:
-          "/assets/Services/software-development/software-development-future.webp",
+          "/assets/Services/mobile-app-development/mobile-app-development-future.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
@@ -425,7 +425,7 @@ const serviceData = {
         featuredDescription:
           "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
         sectionImage:
-          "/assets/Services/software-development/about-software-development.webp",
+          "/assets/Services/digital-marketing/about-digital-marketing.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
@@ -451,7 +451,7 @@ const serviceData = {
         description:
           "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
         sectionImage:
-          "/assets/Services/software-development/software-development-future.webp",
+          "/assets/Services/digital-marketing/digital-marketing-future.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
@@ -519,8 +519,7 @@ const serviceData = {
         ],
         featuredDescription:
           "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
-        sectionImage:
-          "/assets/Services/software-development/about-software-development.webp",
+        sectionImage: "/assets/Services/ui-ux-design/about-ui-ux-design.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
@@ -545,8 +544,7 @@ const serviceData = {
         heading: "Future-Ready Software",
         description:
           "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
-        sectionImage:
-          "/assets/Services/software-development/software-development-future.webp",
+        sectionImage: "/assets/Services/ui-ux-design/ui-ux-design-future.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
@@ -614,7 +612,7 @@ const serviceData = {
         featuredDescription:
           "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
         sectionImage:
-          "/assets/Services/software-development/about-software-development.webp",
+          "/assets/Services/ecoomerce-solutions/about-e-coomerce.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
@@ -640,7 +638,7 @@ const serviceData = {
         description:
           "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
         sectionImage:
-          "/assets/Services/software-development/software-development-future.webp",
+          "/assets/Services/ecoomerce-solutions/e-coomerce-future.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
@@ -709,7 +707,7 @@ const serviceData = {
         featuredDescription:
           "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
         sectionImage:
-          "/assets/Services/software-development/about-software-development.webp",
+          "/assets/Services/cyber-security-solutions/about-cybersecurity.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
@@ -735,7 +733,7 @@ const serviceData = {
         description:
           "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
         sectionImage:
-          "/assets/Services/software-development/software-development-future.webp",
+          "/assets/Services/cyber-security-solutions/cybersecurity-future.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
@@ -802,8 +800,7 @@ const serviceData = {
         ],
         featuredDescription:
           "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
-        sectionImage:
-          "/assets/Services/software-development/about-software-development.webp",
+        sectionImage: "/assets/Services/ai-solutions/about-ai-solution.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
@@ -828,8 +825,7 @@ const serviceData = {
         heading: "Future-Ready Software",
         description:
           "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
-        sectionImage:
-          "/assets/Services/software-development/software-development-future.webp",
+        sectionImage: "/assets/Services/ai-solutions/ai-solution-future.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
@@ -898,7 +894,7 @@ const serviceData = {
         featuredDescription:
           "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
         sectionImage:
-          "/assets/Services/software-development/about-software-development.webp",
+          "/assets/Services/hire-dedicated-devlopers/about-dedicated-devlopers.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
@@ -924,7 +920,7 @@ const serviceData = {
         description:
           "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
         sectionImage:
-          "/assets/Services/software-development/software-development-future.webp",
+          "/assets/Services/hire-dedicated-devlopers/dedicated-devlopers-future.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
@@ -992,7 +988,7 @@ const serviceData = {
         featuredDescription:
           "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
         sectionImage:
-          "/assets/Services/software-development/about-software-development.webp",
+          "/assets/Services/hire-proxy-developers/about-proxy-dev.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
@@ -1018,7 +1014,7 @@ const serviceData = {
         description:
           "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
         sectionImage:
-          "/assets/Services/software-development/software-development-future.webp",
+          "/assets/Services/hire-proxy-developers/proxy-dev-future.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
