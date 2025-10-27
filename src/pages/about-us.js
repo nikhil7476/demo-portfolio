@@ -158,9 +158,9 @@ function AboutUs() {
                           src={aboutData.section2.review.image}
                           alt={aboutData.section2.review.title || "Review"}
                           title={aboutData.section2.review.title || "Review"}
-                          width={aboutData.section2.review.imageWidth || 80}
-                          height={aboutData.section2.review.imageHeight || 80}
-                          className="img-fluid rounded-circle"
+                          width={aboutData.section2.review.imageWidth || 135}
+                          height={aboutData.section2.review.imageHeight || 40}
+                          className="img-fluid"
                         />
                       )}
                       {aboutData.section2.review.title && (
@@ -343,13 +343,17 @@ function AboutUs() {
                           xs={12}
                           className="mb-3"
                         >
-                          {item.icon && (
-                            <span className="fs-1">{item.icon}</span>
-                          )}
-                          {item.title && <h3 className="my-2">{item.title}</h3>}
-                          {item.description && (
-                            <p className="mb-0">{item.description}</p>
-                          )}
+                          <div className="h-100 bg-dark shadow p-3 rounded align-content-center">
+                            {item.icon && (
+                              <span className="fs-1">{item.icon}</span>
+                            )}
+                            {item.title && (
+                              <h3 className="my-2">{item.title}</h3>
+                            )}
+                            {item.description && (
+                              <p className="mb-0">{item.description}</p>
+                            )}
+                          </div>
                         </Col>
                       ))}
                     </Row>
@@ -425,11 +429,15 @@ function AboutUs() {
                         xs={12}
                         className="mb-3"
                       >
-                        {item.icon && <span className="fs-1">{item.icon}</span>}
-                        {item.title && <h3 className="my-2">{item.title}</h3>}
-                        {item.description && (
-                          <p className="mb-0">{item.description}</p>
-                        )}
+                        <div className="h-100 bg-dark shadow p-3 rounded align-content-center">
+                          {item.icon && (
+                            <span className="fs-1">{item.icon}</span>
+                          )}
+                          {item.title && <h3 className="my-2">{item.title}</h3>}
+                          {item.description && (
+                            <p className="mb-0">{item.description}</p>
+                          )}
+                        </div>
                       </Col>
                     ))}
                   </Row>
