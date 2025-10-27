@@ -1,6 +1,6 @@
 // src/utils/productData.js
 
-import { FaGraduationCap, FaMailBulk } from "react-icons/fa";
+import { FaGraduationCap, FaMailBulk, FaCheckCircle } from "react-icons/fa";
 import { TbDeviceDesktopDollar } from "react-icons/tb";
 
 const productData = {
@@ -39,56 +39,56 @@ const productData = {
         iconBox: [
           {
             id: 1,
-            icon: "/assets/Products/custom-school-erp/icons/admissions-icon.webp",
+            icon: <FaCheckCircle />,
             title: "Master Entry",
             description:
               "Configure classes, subjects, sessions, exams, and other base data.",
           },
           {
             id: 2,
-            icon: "/assets/Products/custom-school-erp/icons/admissions-icon.webp",
+            icon: <FaCheckCircle />,
             title: "Students",
             description:
               "Manage student profiles, admissions, attendance, & academic records.",
           },
           {
             id: 3,
-            icon: "/assets/Products/custom-school-erp/icons/admissions-icon.webp",
+            icon: <FaCheckCircle />,
             title: "Fees",
             description:
               "Create structures, collect payments, track dues, and generate receipts.",
           },
           {
             id: 4,
-            icon: "/assets/Products/custom-school-erp/icons/admissions-icon.webp",
+            icon: <FaCheckCircle />,
             title: "Transport",
             description:
               "Assign routes, manage vehicles, stops, drivers, and transport fees.",
           },
           {
             id: 5,
-            icon: "/assets/Products/custom-school-erp/icons/admissions-icon.webp",
+            icon: <FaCheckCircle />,
             title: "Exam",
             description:
               "Schedule exams, enter marks, generate results, and report cards.",
           },
           {
             id: 6,
-            icon: "/assets/Products/custom-school-erp/icons/admissions-icon.webp",
+            icon: <FaCheckCircle />,
             title: "Account",
             description:
               "Track income, expenses, salaries, ledgers, and financial reports.",
           },
           {
             id: 7,
-            icon: "/assets/Products/custom-school-erp/icons/admissions-icon.webp",
+            icon: <FaCheckCircle />,
             title: "User Management",
             description:
               "Create users, assign roles, manage access and login security.",
           },
           {
             id: 8,
-            icon: "/assets/Products/custom-school-erp/icons/admissions-icon.webp",
+            icon: <FaCheckCircle />,
             title: "Stock",
             description:
               "Track inventory, manage items, purchases, issues, and stock reports.",
@@ -201,37 +201,37 @@ const productData = {
         iconBox: [
           {
             id: 1,
-            icon: "/assets/Products/custom-school-erp/icons/admissions-icon.webp",
+            icon: <FaCheckCircle />,
             title: "Lead Tracking",
             description: "Auto-capture from forms, chat, ads.",
           },
           {
             id: 2,
-            icon: "/assets/Products/custom-school-erp/icons/admissions-icon.webp",
+            icon: <FaCheckCircle />,
             title: "Sales Pipeline",
             description: "Custom stages, drag-drop movement",
           },
           {
             id: 3,
-            icon: "/assets/Products/custom-school-erp/icons/admissions-icon.webp",
+            icon: <FaCheckCircle />,
             title: "Communication",
             description: "Log calls, emails, WhatsApp & meetings",
           },
           {
             id: 4,
-            icon: "/assets/Products/custom-school-erp/icons/admissions-icon.webp",
+            icon: <FaCheckCircle />,
             title: "Task Automation",
             description: "Reminders, triggers, follow-ups",
           },
           {
             id: 5,
-            icon: "/assets/Products/custom-school-erp/icons/admissions-icon.webp",
+            icon: <FaCheckCircle />,
             title: "Team Access",
             description: "Role-based dashboards",
           },
           {
             id: 6,
-            icon: "/assets/Products/custom-school-erp/icons/admissions-icon.webp",
+            icon: <FaCheckCircle />,
             title: "Analytics",
             description: "Revenue, deals, win/loss, rep metrics",
           },
@@ -276,42 +276,42 @@ const productData = {
         iconBox: [
           {
             id: 1,
-            icon: "/assets/Products/custom-school-erp/icons/admissions-icon.webp",
+            icon: <FaCheckCircle />,
             title: "Subscriber Capture",
             description:
               "Seamlessly collect leads from forms, landing pages, popups, and third-party tools all in one place",
           },
           {
             id: 2,
-            icon: "/assets/Products/custom-school-erp/icons/admissions-icon.webp",
+            icon: <FaCheckCircle />,
             title: "Send Scheduler",
             description:
               "Plan and automate emails at the perfect time with an intuitive drag-and-drop scheduler.",
           },
           {
             id: 3,
-            icon: "/assets/Products/custom-school-erp/icons/admissions-icon.webp",
+            icon: <FaCheckCircle />,
             title: "Message Logs & History",
             description:
               "Keep track of every email, delivery status, bounce, reply, and automation path clean and organized.",
           },
           {
             id: 4,
-            icon: "/assets/Products/custom-school-erp/icons/admissions-icon.webp",
+            icon: <FaCheckCircle />,
             title: "Campaign Automation",
             description:
               "Set up smart flows for welcome emails, re-engagement, follow-ups, and more.",
           },
           {
             id: 5,
-            icon: "/assets/Products/custom-school-erp/icons/admissions-icon.webp",
+            icon: <FaCheckCircle />,
             title: "User & Role Management",
             description:
               "Create separate access for marketers, managers, or clients, each with their own controls & permissions.",
           },
           {
             id: 6,
-            icon: "/assets/Products/custom-school-erp/icons/admissions-icon.webp",
+            icon: <FaCheckCircle />,
             title: "Campaign Insights",
             description:
               "Track opens, clicks, conversions, and engagement metrics in real time to improve performance.",
