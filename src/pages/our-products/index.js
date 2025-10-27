@@ -90,6 +90,7 @@ function OurProducts() {
                                   href={`/our-products/${product.slug}`}
                                   title="View Product"
                                   className="ctaButton"
+                                  target="_blank"
                                 >
                                   View Product <FaArrowRightLong />
                                 </Link>
@@ -123,6 +124,7 @@ function OurProducts() {
                                   href={`/our-products/${product.slug}`}
                                   title="View Product"
                                   className="ctaButton"
+                                  target="_blank"
                                 >
                                   View Product <FaArrowRightLong />
                                 </Link>
