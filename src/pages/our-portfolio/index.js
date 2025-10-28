@@ -19,7 +19,7 @@ function OurPortfolio() {
       {/* POrtfolio Section */}
       <PortfolioGallery />
 
-      {/* Testimonial & Contact Form */}
+      {/* Testimonial & Contact Form Section */}
       <section>
         <Container>
           <Row>
@@ -36,7 +36,7 @@ function OurPortfolio() {
       {/* Marquee Section */}
       <ServiceMarquee />
 
-      {/* FAQ Accordion */}
+      {/* FAQs Section */}
       <section>
         <FaqAccordion data={faqData} section="portfolio" />
       </section>
