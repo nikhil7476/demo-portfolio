@@ -170,7 +170,7 @@ function PortfolioDetail() {
             <Row>
               <Col>
                 <span>{portfolio.section3.subheading}</span>
-                <h2>{portfolio.section3.title}</h2>
+                <h2>{portfolio.section3.heading}</h2>
                 <hr />
               </Col>
             </Row>
