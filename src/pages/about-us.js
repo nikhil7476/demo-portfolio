@@ -97,7 +97,9 @@ function AboutUs() {
                           key={index}
                           className="mb-2"
                         >
-                          <FaCheckSquare className="me-2 text-primary" />
+                          <span className="me-2">
+                            <FaCheckSquare />
+                          </span>
                           {item}
                         </Col>
                       ))}
