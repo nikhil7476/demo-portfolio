@@ -149,11 +149,11 @@ const serviceData = {
           "Strategic software development tailored to your business objectives. We begin with in-depth system analysis and competitor benchmarking to uncover opportunities for innovation. Our team builds development roadmaps that address immediate technical needs while planning for scalable, future-ready solutions. Each product is crafted with user-centric design, seamless integration, and performance in mind—ensuring your software is as functional as it is forward-thinking.",
         featuredPoints: [
           "Custom-Fit Software",
-          "Scalable roadmaps",
-          "Easy system integration",
-          "Smart tech insights",
-          "Clean, bold UI/UX",
-          "Growth-ready backend",
+          "Scalable Roadmaps",
+          "Easy System Integration",
+          "Smart Tech Insights",
+          "Clean, Bold UI/UX",
+          "Growth-Ready Backend",
         ],
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
@@ -243,12 +243,12 @@ const serviceData = {
         description:
           "Strategic website development aligned with your business goals. We begin with thorough competitor and UX analysis to identify opportunities and create impactful, future-ready solutions. Every website we build is cleanly designed, fast, and scalable—with the user experience at the core.",
         featuredPoints: [
-          "Branded custom websites",
-          "Fast, scalable plans",
-          "Smooth tool integration",
-          "Insight-driven analysis",
-          "Modern, clean UI/UX",
-          "Scalable web systems",
+          "Branded Custom Websites",
+          "Fast, Scalable Plans",
+          "Smooth Tool Integration",
+          "Insight-Driven Analysis",
+          "Modern, Clean UI/UX",
+          "Scalable Web Systems",
         ],
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
@@ -271,7 +271,7 @@ const serviceData = {
         iconBox: [
           {
             id: 1,
-            title: "Tailored Development Strategies",
+            title: "Tailored Website Development Strategies",
             description:
               "Custom website planning aligned with your business goals, user journeys, and technical requirements.",
             icon: <AiFillCode />,
@@ -410,20 +410,20 @@ const serviceData = {
       featuredImage: "/assets/Services/digital-marketing-tab-featured.webp",
       section1: {
         subheading: "Why Choose?",
-        heading: "Our Custom Software Development Services",
+        heading: "Our Digital Marketing Services",
         description:
-          "A comprehensive suite of software development services designed to streamline operations, enhance user experience, and implement innovative technology solutions—strategically crafted to align with your business goals and meet the unique demands of your digital products.",
-        featuredHeading: "Our Software Stands Out",
+          "A Complete Range of Digital Marketing Services designed to amplify your online presence, engage your target audience, and drive measurable growth—strategically aligned with your business objectives and the evolving dynamics of the digital landscape.",
+        featuredHeading: "Our Marketing Makes an Impact",
         featuredPoints: [
-          "Adaptable",
-          "Custom",
-          "Compatible",
-          "Scalable",
-          "User-Friendly",
-          "Secure",
+          "Strategic",
+          "Tailored",
+          "Results-Driven",
+          "Consistent",
+          "Creative",
+          "Multi-Channel",
         ],
         featuredDescription:
-          "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
+          "Our digital marketing solutions are customized to meet your unique brand goals, offering more precision and flexibility than generic approaches. Built for scalability, our campaigns grow with your business and integrate seamlessly with your current platforms—ensuring consistent branding, optimized performance, and maximum ROI.",
         sectionImage:
           "/assets/Services/digital-marketing/about-digital-marketing.webp",
         ctaText: "Contact Us",
@@ -431,25 +431,25 @@ const serviceData = {
       },
       section2: {
         subheading: "Core Features",
-        heading: "Core Features of Our Software Development Service",
+        heading: "Core Features of Our Digital Marketing Service",
         description:
-          "Strategic software development tailored to your business objectives. We begin with in-depth system analysis and competitor benchmarking to uncover opportunities for innovation. Our team builds development roadmaps that address immediate technical needs while planning for scalable, future-ready solutions. Each product is crafted with user-centric design, seamless integration, and performance in mind—ensuring your software is as functional as it is forward-thinking.",
+          "Strategic digital marketing crafted around your business goals. We begin with in-depth brand analysis and competitor benchmarking to identify high-impact opportunities. Our team creates data-driven marketing roadmaps that deliver immediate results while building long-term brand equity. Each campaign is designed with your audience in mind—ensuring optimized performance, seamless platform integration, and measurable growth.",
         featuredPoints: [
-          "Custom-Fit Software",
-          "Scalable roadmaps",
-          "Easy system integration",
-          "Smart tech insights",
-          "Clean, bold UI/UX",
-          "Growth-ready backend",
+          "Custom Marketing Plans",
+          "Scalable Campaign Paths",
+          "Platform/Tool Integration",
+          "Growth-Focused analysis",
+          "Engaging, Smart Content",
+          "ROI-Driven Performance",
         ],
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
       section3: {
         icon: <AiFillCode />,
-        heading: "Future-Ready Software",
+        heading: "Future-Ready Marketing",
         description:
-          "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
+          "We craft intelligent, scalable marketing strategies tailored to your business goals. Forget one-size-fits-all campaigns—our solutions are data-driven, precise, and built for impact. Each strategy adapts to changing markets and audience behaviors, keeping your brand relevant and competitive. We focus on long-term growth, performance, and measurable results. With flexible, evolving plans, we ensure your marketing stays ahead of the curve.",
         sectionImage:
           "/assets/Services/digital-marketing/digital-marketing-future.webp",
         ctaText: "Contact Us",
@@ -457,36 +457,36 @@ const serviceData = {
       },
       section4: {
         subheading: "Success Solutions",
-        heading: "Your Partner in Digital Success",
+        heading: "Your Partner in Digital Growth",
         description:
-          "Our software development services go beyond writing code—we deliver innovative, user-focused, and scalable digital solutions tailored to your business objectives. Backed by a team of skilled developers and strategists, we focus on precision, performance, and long-term value. Whether you’re building from scratch or modernizing legacy systems, we help your business thrive in the digital landscape.",
+          "Our digital marketing services go beyond ads and clicks—we deliver innovative, audience-focused, and results-driven strategies tailored to your business objectives. Backed by a team of skilled marketers, creatives, and analysts, we focus on impact, performance, and long-term brand success. Whether you’re launching a new campaign or optimizing existing efforts, we help your business thrive in the digital world.",
         iconBox: [
           {
             id: 1,
-            title: "Tailored Development Strategies",
+            title: "Tailored Marketing Strategies",
             description:
-              "Custom software planning aligned with your business goals, user needs, and technical requirements.",
+              "Custom marketing plans aligned with your business goals, audience needs, and market opportunities.",
             icon: <AiFillCode />,
           },
           {
             id: 2,
-            title: "Data-Driven Development",
+            title: "Transparent Communication & Reporting",
             description:
-              "Real-time analytics, user behavior tracking, and performance metrics guide ongoing improvements and feature planning.",
+              "Clear updates, performance dashboards, and in-depth reports keep you informed every step of the way.",
             icon: <AiFillCode />,
           },
           {
             id: 3,
-            title: "End-to-End Development Solutions",
+            title: "End-to-End Campaign Management",
             description:
-              "From concept and design to development, testing, deployment, and maintenance—we manage the full software lifecycle.",
+              "From strategy and content creation to execution, optimization, and reporting—we handle the full marketing lifecycle.",
             icon: <AiFillCode />,
           },
           {
             id: 4,
-            title: "Transparent Progress & Reporting",
+            title: "Data-Driven Marketing",
             description:
-              "Clear communication, milestone updates, and detailed technical reports keep you informed throughout the development process.",
+              "Real-time analytics, customer behavior insights, and performance metrics fuel continuous improvement and campaign refinement.",
             icon: <AiFillCode />,
           },
         ],
@@ -505,81 +505,81 @@ const serviceData = {
       featuredImage: "/assets/Services/ui-ux-tab-featured.webp",
       section1: {
         subheading: "Why Choose?",
-        heading: "Our Custom Software Development Services",
+        heading: "Our UI/UX Design Services",
         description:
-          "A comprehensive suite of software development services designed to streamline operations, enhance user experience, and implement innovative technology solutions—strategically crafted to align with your business goals and meet the unique demands of your digital products.",
-        featuredHeading: "Our Software Stands Out",
+          "Our UI/UX design services are focused on improving user journeys, simplifying interactions, and enhancing brand perception—strategically aligned with your business objectives and user expectations.",
+        featuredHeading: "Our UI/UX Designs Stand Out",
         featuredPoints: [
+          "User-Centric",
           "Adaptable",
-          "Custom",
-          "Compatible",
-          "Scalable",
-          "User-Friendly",
-          "Secure",
+          "Custom-Built",
+          "Visually Engaging",
+          "Conversion-Focused",
+          "Tested & Refined",
         ],
         featuredDescription:
-          "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
+          "We don’t believe in one-size-fits-all interfaces. Our designs are crafted specifically for your target users and business goals. Built for consistency, scalability, and accessibility, our UI/UX solutions ensure seamless experiences across all screens and platforms.",
         sectionImage: "/assets/Services/ui-ux-design/about-ui-ux-design.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
       section2: {
         subheading: "Core Features",
-        heading: "Core Features of Our Software Development Service",
+        heading: "Core Features of Our UI/UX Design Services",
         description:
-          "Strategic software development tailored to your business objectives. We begin with in-depth system analysis and competitor benchmarking to uncover opportunities for innovation. Our team builds development roadmaps that address immediate technical needs while planning for scalable, future-ready solutions. Each product is crafted with user-centric design, seamless integration, and performance in mind—ensuring your software is as functional as it is forward-thinking.",
+          "Our design process begins with deep research and analysis to understand your users, competition, and product goals. The result? Intuitive, attractive, and functional interfaces that deliver real impact.",
         featuredPoints: [
-          "Custom-Fit Software",
-          "Scalable roadmaps",
-          "Easy system integration",
-          "Smart tech insights",
-          "Clean, bold UI/UX",
-          "Growth-ready backend",
+          "Custom UI/UX Design",
+          "Scalable Design Plans",
+          "Prototypes + Testing",
+          "Insight-Driven Research",
+          "Clean, Smooth Interfaces",
+          "Design Systems & Libs",
         ],
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
       section3: {
         icon: <AiFillCode />,
-        heading: "Future-Ready Software",
+        heading: "Future-Ready Digital Interfaces",
         description:
-          "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
+          "We design smart, scalable interfaces that grow with your product and user needs. Our UX solutions go beyond aesthetics to ensure every interaction feels natural, intuitive, and engaging. Accessibility and usability are at the core of our approach. We focus on creating seamless experiences that drive retention and conversion. With every design decision, we prioritize clarity, consistency, and user satisfaction.",
         sectionImage: "/assets/Services/ui-ux-design/ui-ux-design-future.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
       section4: {
         subheading: "Success Solutions",
-        heading: "Your Partner in Digital Success",
+        heading: "Your Partner in UI/UX Success",
         description:
-          "Our software development services go beyond writing code—we deliver innovative, user-focused, and scalable digital solutions tailored to your business objectives. Backed by a team of skilled developers and strategists, we focus on precision, performance, and long-term value. Whether you’re building from scratch or modernizing legacy systems, we help your business thrive in the digital landscape.",
+          "Our UI/UX design services go beyond visuals—we build meaningful user experiences rooted in strategy, research, and empathy. With a multidisciplinary team of designers, strategists, and researchers, we focus on creating designs that are not only visually impressive but also functional, accessible, and user-driven.",
         iconBox: [
           {
             id: 1,
-            title: "Tailored Development Strategies",
+            title: "Tailored Design Strategies",
             description:
               "Custom software planning aligned with your business goals, user needs, and technical requirements.",
             icon: <AiFillCode />,
           },
           {
             id: 2,
-            title: "Data-Driven Development",
+            title: "Research-Driven Design",
             description:
-              "Real-time analytics, user behavior tracking, and performance metrics guide ongoing improvements and feature planning.",
+              "Custom design approaches aligned with your brand, goals, and audience behavior.",
             icon: <AiFillCode />,
           },
           {
             id: 3,
-            title: "End-to-End Development Solutions",
+            title: "End-to-End UI/UX Solutions",
             description:
-              "From concept and design to development, testing, deployment, and maintenance—we manage the full software lifecycle.",
+              "We use user personas, journey mapping, A/B testing, and analytics to guide our design decisions.",
             icon: <AiFillCode />,
           },
           {
             id: 4,
-            title: "Transparent Progress & Reporting",
+            title: "Transparent Process & Collaboration",
             description:
-              "Clear communication, milestone updates, and detailed technical reports keep you informed throughout the development process.",
+              "You stay in the loop with regular feedback sessions, design presentations, and collaborative decision-making.",
             icon: <AiFillCode />,
           },
         ],
@@ -597,20 +597,20 @@ const serviceData = {
       featuredImage: "/assets/Services/ecom-solutions-tab-featured.webp",
       section1: {
         subheading: "Why Choose?",
-        heading: "Our Custom Software Development Services",
+        heading: "Our E-Commerce Solutions",
         description:
-          "A comprehensive suite of software development services designed to streamline operations, enhance user experience, and implement innovative technology solutions—strategically crafted to align with your business goals and meet the unique demands of your digital products.",
-        featuredHeading: "Our Software Stands Out",
+          "Our e-commerce solutions are designed to simplify operations, enhance user engagement, and drive conversions—strategically aligned with your business objectives and the evolving demands of digital commerce.",
+        featuredHeading: "Our E-commerce Platforms Stand Out",
         featuredPoints: [
           "Adaptable",
-          "Custom",
-          "Compatible",
-          "Scalable",
+          "Custom-Built",
+          "Device Compatible",
           "User-Friendly",
-          "Secure",
+          "Integrated",
+          "Secure Checkout",
         ],
         featuredDescription:
-          "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
+          "We don’t believe in cookie-cutter online stores. Our e-commerce websites are tailored to your brand, offering unmatched flexibility and functionality. Built for scalability, our solutions grow with your business and integrate effortlessly with your inventory, payment gateways, CRMs, and third-party tools.",
         sectionImage:
           "/assets/Services/ecoomerce-solutions/about-e-coomerce.webp",
         ctaText: "Contact Us",
@@ -618,25 +618,25 @@ const serviceData = {
       },
       section2: {
         subheading: "Core Features",
-        heading: "Core Features of Our Software Development Service",
+        heading: "Core Features of Our E-commerce Solutions",
         description:
-          "Strategic software development tailored to your business objectives. We begin with in-depth system analysis and competitor benchmarking to uncover opportunities for innovation. Our team builds development roadmaps that address immediate technical needs while planning for scalable, future-ready solutions. Each product is crafted with user-centric design, seamless integration, and performance in mind—ensuring your software is as functional as it is forward-thinking.",
+          "We approach every e-commerce project with a deep understanding of your business, products, and customers. From user behavior insights to competitive benchmarking, we design future-ready platforms that convert.",
         featuredPoints: [
-          "Custom-Fit Software",
-          "Scalable roadmaps",
-          "Easy system integration",
-          "Smart tech insights",
-          "Clean, bold UI/UX",
-          "Growth-ready backend",
+          "Custom E-Com Solutions",
+          "Fast, Scalable Launch",
+          "Full System Integration",
+          "Growth-Focused Insights",
+          "Conversion-Led UI/UX",
+          "Traffic-Ready Backend",
         ],
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
       section3: {
         icon: <AiFillCode />,
-        heading: "Future-Ready Software",
+        heading: "Future-Ready E-commerce Platforms",
         description:
-          "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
+          "We develop smart, scalable online stores tailored to your business growth. No templates or shortcuts—just custom, future-ready solutions that adapt to evolving customer needs. Our e-commerce platforms support new sales channels, improve user experience, and strengthen your digital brand. Built for performance and flexibility, they help you stay competitive in a dynamic market.",
         sectionImage:
           "/assets/Services/ecoomerce-solutions/e-coomerce-future.webp",
         ctaText: "Contact Us",
@@ -644,36 +644,36 @@ const serviceData = {
       },
       section4: {
         subheading: "Success Solutions",
-        heading: "Your Partner in Digital Success",
+        heading: "Your Partner in E-commerce Success",
         description:
-          "Our software development services go beyond writing code—we deliver innovative, user-focused, and scalable digital solutions tailored to your business objectives. Backed by a team of skilled developers and strategists, we focus on precision, performance, and long-term value. Whether you’re building from scratch or modernizing legacy systems, we help your business thrive in the digital landscape.",
+          "Our e-commerce services go beyond development—we build conversion-focused, customer-first digital shopping experiences. With a skilled team of developers, designers, and digital strategists, we focus on long-term ROI, seamless operations, and brand consistency. Whether launching a new store or re-platforming an existing one, we’re here to power your e-commerce success.",
         iconBox: [
           {
             id: 1,
-            title: "Tailored Development Strategies",
+            title: "Tailored Store Strategies",
             description:
-              "Custom software planning aligned with your business goals, user needs, and technical requirements.",
+              "Custom planning aligned with your product type, customer behavior, and sales objectives.",
             icon: <AiFillCode />,
           },
           {
             id: 2,
-            title: "Data-Driven Development",
+            title: "Data-Driven Optimization",
             description:
-              "Real-time analytics, user behavior tracking, and performance metrics guide ongoing improvements and feature planning.",
+              "Leverage real-time analytics, conversion tracking, and user flow insights to optimize store performance and customer satisfaction.",
             icon: <AiFillCode />,
           },
           {
             id: 3,
-            title: "End-to-End Development Solutions",
+            title: "End-to-End E-commerce Development",
             description:
-              "From concept and design to development, testing, deployment, and maintenance—we manage the full software lifecycle.",
+              "From store design and product catalog setup to payment integration, deployment, and maintenance—we manage the complete lifecycle.",
             icon: <AiFillCode />,
           },
           {
             id: 4,
             title: "Transparent Progress & Reporting",
             description:
-              "Clear communication, milestone updates, and detailed technical reports keep you informed throughout the development process.",
+              "We provide clear communication, detailed updates, and regular performance reports so you always know where your store stands.",
             icon: <AiFillCode />,
           },
         ],
@@ -692,20 +692,20 @@ const serviceData = {
       featuredImage: "/assets/Services/cybersecurity-tab-featured.webp",
       section1: {
         subheading: "Why Choose?",
-        heading: "Our Custom Software Development Services",
+        heading: "Smart Cyber Security Solutions",
         description:
-          "A comprehensive suite of software development services designed to streamline operations, enhance user experience, and implement innovative technology solutions—strategically crafted to align with your business goals and meet the unique demands of your digital products.",
-        featuredHeading: "Our Software Stands Out",
+          "Built with real-world threat intelligence and modern defense strategies, our cybersecurity solutions are aligned with your business goals. We secure your infrastructure, protect critical data, and enable safe digital growth—while adapting to today’s evolving threat landscape.",
+        featuredHeading: "Our Cybersecurity Solutions Stand Out",
         featuredPoints: [
-          "Adaptable",
-          "Custom",
-          "Compatible",
-          "Scalable",
-          "User-Friendly",
-          "Secure",
+          "Detection",
+          "Monitoring",
+          "Protection",
+          "Customization",
+          "Scalability",
+          "Compliance",
         ],
         featuredDescription:
-          "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
+          "No one-size-fits-all tools here. Our cybersecurity solutions are purpose-built to match your specific challenges. They evolve with your infrastructure, providing proactive defense, intelligent insights, and secure continuity for your operations.",
         sectionImage:
           "/assets/Services/cyber-security-solutions/about-cybersecurity.webp",
         ctaText: "Contact Us",
@@ -713,25 +713,25 @@ const serviceData = {
       },
       section2: {
         subheading: "Core Features",
-        heading: "Core Features of Our Software Development Service",
+        heading: "Core Features of Our Cyber Security Solutions",
         description:
-          "Strategic software development tailored to your business objectives. We begin with in-depth system analysis and competitor benchmarking to uncover opportunities for innovation. Our team builds development roadmaps that address immediate technical needs while planning for scalable, future-ready solutions. Each product is crafted with user-centric design, seamless integration, and performance in mind—ensuring your software is as functional as it is forward-thinking.",
+          "We begin by understanding your threat landscape, infrastructure, and business priorities. From there, we craft tailored cybersecurity strategies that deliver real protection—blending modern technology with practical implementation.",
         featuredPoints: [
-          "Custom-Fit Software",
-          "Scalable roadmaps",
-          "Easy system integration",
-          "Smart tech insights",
-          "Clean, bold UI/UX",
-          "Growth-ready backend",
+          "Custom Protection",
+          "Scalable Defense",
+          "Seamless Integration",
+          "Threat Analysis",
+          "Secure Access",
+          "Real-Time Monitoring",
         ],
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
       section3: {
         icon: <AiFillCode />,
-        heading: "Future-Ready Software",
+        heading: "Future-Ready Cybersecurity Solutions",
         description:
-          "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
+          "We develop intelligent, scalable security systems that evolve with your business. From threat prediction and automated response to risk analytics and continuous monitoring, our solutions are built for long-term protection. Designed to adapt and learn over time, they strengthen your defense posture as threats grow more complex. With future-proof architecture and real-time threat intelligence, we ensure resilience, performance, and security at every layer.",
         sectionImage:
           "/assets/Services/cyber-security-solutions/cybersecurity-future.webp",
         ctaText: "Contact Us",
@@ -739,36 +739,36 @@ const serviceData = {
       },
       section4: {
         subheading: "Success Solutions",
-        heading: "Your Partner in Digital Success",
+        heading: "Your Partner in Cybersecurity Excellence",
         description:
-          "Our software development services go beyond writing code—we deliver innovative, user-focused, and scalable digital solutions tailored to your business objectives. Backed by a team of skilled developers and strategists, we focus on precision, performance, and long-term value. Whether you’re building from scratch or modernizing legacy systems, we help your business thrive in the digital landscape.",
+          "Our cybersecurity solutions go beyond firewalls—we deliver intelligent, responsible, and business-ready protection tailored to your infrastructure. Backed by security analysts, ethical hackers, and compliance experts, we focus on precision, performance, and adaptability. Whether securing your first digital assets or expanding enterprise-wide protection, we’re here to help you stay ahead in an increasingly connected world.",
         iconBox: [
           {
             id: 1,
-            title: "Tailored Development Strategies",
+            title: "Tailored Security Strategies",
             description:
-              "Custom software planning aligned with your business goals, user needs, and technical requirements.",
+              "Custom protection plans built around your industry, compliance needs, and risk landsc",
             icon: <AiFillCode />,
           },
           {
             id: 2,
-            title: "Data-Driven Development",
+            title: "Insight-Driven Protection",
             description:
-              "Real-time analytics, user behavior tracking, and performance metrics guide ongoing improvements and feature planning.",
+              "Real-time analytics, threat intelligence, and behavioral analysis power proactive defense and faster response.",
             icon: <AiFillCode />,
           },
           {
             id: 3,
-            title: "End-to-End Development Solutions",
+            title: "End-to-End Cyber Defense",
             description:
-              "From concept and design to development, testing, deployment, and maintenance—we manage the full software lifecycle.",
+              "From risk assessment and solution deployment to monitoring and incident response—we cover the full security lifecycle.",
             icon: <AiFillCode />,
           },
           {
             id: 4,
-            title: "Transparent Progress & Reporting",
+            title: "Transparent Process & Collaboration",
             description:
-              "Clear communication, milestone updates, and detailed technical reports keep you informed throughout the development process.",
+              "Clear reporting, active communication, and full visibility keep you informed and empowered at every step.",
             icon: <AiFillCode />,
           },
         ],
