@@ -24,10 +24,16 @@ function PortfolioGallery() {
           <span>Our Portfolio</span>
           <h2>Projects That Speak for Themselves</h2>
           <hr />
+          <p>
+            Each project in my portfolio reflects a blend of creativity,
+            precision, and purpose. From idea to execution, these works showcase
+            real-world solutions built with clean code, thoughtful design, and
+            measurable impact — letting the results do the talking.
+          </p>
         </div>
 
         {/* Filter Buttons */}
-        <div className="text-center mb-3">
+        <div className="text-center my-3">
           {["All", "Website Design", "Custom Software", "Mobile App"].map(
             (cat) => (
               <Button

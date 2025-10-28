@@ -8,12 +8,16 @@ import ContactForm from "@/components/ContactForm";
 import ServiceMarquee from "@/components/ServiceMarquee";
 import FaqAccordion from "@/components/FaqAccordion";
 import faqData from "@/utils/json/faqData";
+import PortfolioGallery from "@/components/PortfolioGallery";
 
 function OurPortfolio() {
   return (
     <>
       {/* Banner Section */}
       <Banner data={bannerData.portfolio.main} />
+
+      {/* POrtfolio Section */}
+      <PortfolioGallery />
 
       {/* Testimonial & Contact Form */}
       <section>
