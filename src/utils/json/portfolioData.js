@@ -88,62 +88,47 @@ const portfolioData = {
           {
             id: 1,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-1.webp",
+              "/assets/Portfolio/transport-logistics/transport-website-gallery-1.webp",
           },
           {
             id: 2,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-2.webp",
+              "/assets/Portfolio/transport-logistics/transport-website-gallery-2.webp",
           },
           {
             id: 3,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-3.webp",
+              "/assets/Portfolio/transport-logistics/transport-website-gallery-3.webp",
           },
           {
             id: 4,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-4.webp",
+              "/assets/Portfolio/transport-logistics/transport-website-gallery-4.webp",
           },
           {
             id: 5,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-5.webp",
+              "/assets/Portfolio/transport-logistics/transport-website-gallery-5.webp",
           },
           {
             id: 6,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-6.webp",
+              "/assets/Portfolio/transport-logistics/transport-website-gallery-6.webp",
           },
           {
             id: 7,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-7.webp",
+              "/assets/Portfolio/transport-logistics/transport-website-gallery-7.webp",
           },
           {
             id: 8,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-8.webp",
+              "/assets/Portfolio/transport-logistics/transport-website-gallery-8.webp",
           },
           {
             id: 9,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-9.webp",
-          },
-          {
-            id: 10,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-10.webp",
-          },
-          {
-            id: 11,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-11.webp",
-          },
-          {
-            id: 12,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-12.webp",
+              "/assets/Portfolio/transport-logistics/transport-website-gallery-9.webp",
           },
         ],
         ctaLink: "/our-services",
@@ -230,62 +215,47 @@ const portfolioData = {
           {
             id: 1,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-1.webp",
+              "/assets/Portfolio/la-bellea/labellea-website-gallery-1.webp",
           },
           {
             id: 2,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-2.webp",
+              "/assets/Portfolio/la-bellea/labellea-website-gallery-2.webp",
           },
           {
             id: 3,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-3.webp",
+              "/assets/Portfolio/la-bellea/labellea-website-gallery-3.webp",
           },
           {
             id: 4,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-4.webp",
+              "/assets/Portfolio/la-bellea/labellea-website-gallery-4.webp",
           },
           {
             id: 5,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-5.webp",
+              "/assets/Portfolio/la-bellea/labellea-website-gallery-5.webp",
           },
           {
             id: 6,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-6.webp",
+              "/assets/Portfolio/la-bellea/labellea-website-gallery-6.webp",
           },
           {
             id: 7,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-7.webp",
+              "/assets/Portfolio/la-bellea/labellea-website-gallery-7.webp",
           },
           {
             id: 8,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-8.webp",
+              "/assets/Portfolio/la-bellea/labellea-website-gallery-8.webp",
           },
           {
             id: 9,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-9.webp",
-          },
-          {
-            id: 10,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-10.webp",
-          },
-          {
-            id: 11,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-11.webp",
-          },
-          {
-            id: 12,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-12.webp",
+              "/assets/Portfolio/la-bellea/labellea-website-gallery-9.webp",
           },
         ],
         ctaLink: "/our-services",
@@ -371,62 +341,47 @@ const portfolioData = {
           {
             id: 1,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-1.webp",
+              "/assets/Portfolio/restaurant-and-cuisines/restaurant-website-gallery-1.webp",
           },
           {
             id: 2,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-2.webp",
+              "/assets/Portfolio/restaurant-and-cuisines/restaurant-website-gallery-2.webp",
           },
           {
             id: 3,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-3.webp",
+              "/assets/Portfolio/restaurant-and-cuisines/restaurant-website-gallery-3.webp",
           },
           {
             id: 4,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-4.webp",
+              "/assets/Portfolio/restaurant-and-cuisines/restaurant-website-gallery-4.webp",
           },
           {
             id: 5,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-5.webp",
+              "/assets/Portfolio/restaurant-and-cuisines/restaurant-website-gallery-5.webp",
           },
           {
             id: 6,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-6.webp",
+              "/assets/Portfolio/restaurant-and-cuisines/restaurant-website-gallery-6.webp",
           },
           {
             id: 7,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-7.webp",
+              "/assets/Portfolio/restaurant-and-cuisines/restaurant-website-gallery-7.webp",
           },
           {
             id: 8,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-8.webp",
+              "/assets/Portfolio/restaurant-and-cuisines/restaurant-website-gallery-8.webp",
           },
           {
             id: 9,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-9.webp",
-          },
-          {
-            id: 10,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-10.webp",
-          },
-          {
-            id: 11,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-11.webp",
-          },
-          {
-            id: 12,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-12.webp",
+              "/assets/Portfolio/restaurant-and-cuisines/restaurant-website-gallery-9.webp",
           },
         ],
         ctaLink: "/our-services",
@@ -512,62 +467,47 @@ const portfolioData = {
           {
             id: 1,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-1.webp",
+              "/assets/Portfolio/photography/photography-website-gallery-1.webp",
           },
           {
             id: 2,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-2.webp",
+              "/assets/Portfolio/photography/photography-website-gallery-2.webp",
           },
           {
             id: 3,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-3.webp",
+              "/assets/Portfolio/photography/photography-website-gallery-3.webp",
           },
           {
             id: 4,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-4.webp",
+              "/assets/Portfolio/photography/photography-website-gallery-4.webp",
           },
           {
             id: 5,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-5.webp",
+              "/assets/Portfolio/photography/photography-website-gallery-5.webp",
           },
           {
             id: 6,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-6.webp",
+              "/assets/Portfolio/photography/photography-website-gallery-6.webp",
           },
           {
             id: 7,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-7.webp",
+              "/assets/Portfolio/photography/photography-website-gallery-7.webp",
           },
           {
             id: 8,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-8.webp",
+              "/assets/Portfolio/photography/photography-website-gallery-8.webp",
           },
           {
             id: 9,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-9.webp",
-          },
-          {
-            id: 10,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-10.webp",
-          },
-          {
-            id: 11,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-11.webp",
-          },
-          {
-            id: 12,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-12.webp",
+              "/assets/Portfolio/photography/photography-website-gallery-9.webp",
           },
         ],
         ctaLink: "/our-services",
@@ -653,62 +593,47 @@ const portfolioData = {
           {
             id: 1,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-1.webp",
+              "/assets/Portfolio/opal-smiles/dental-website-gallery-1.webp",
           },
           {
             id: 2,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-2.webp",
+              "/assets/Portfolio/opal-smiles/dental-website-gallery-2.webp",
           },
           {
             id: 3,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-3.webp",
+              "/assets/Portfolio/opal-smiles/dental-website-gallery-3.webp",
           },
           {
             id: 4,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-4.webp",
+              "/assets/Portfolio/opal-smiles/dental-website-gallery-4.webp",
           },
           {
             id: 5,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-5.webp",
+              "/assets/Portfolio/opal-smiles/dental-website-gallery-5.webp",
           },
           {
             id: 6,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-6.webp",
+              "/assets/Portfolio/opal-smiles/dental-website-gallery-6.webp",
           },
           {
             id: 7,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-7.webp",
+              "/assets/Portfolio/opal-smiles/dental-website-gallery-7.webp",
           },
           {
             id: 8,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-8.webp",
+              "/assets/Portfolio/opal-smiles/dental-website-gallery-8.webp",
           },
           {
             id: 9,
             image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-9.webp",
-          },
-          {
-            id: 10,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-10.webp",
-          },
-          {
-            id: 11,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-11.webp",
-          },
-          {
-            id: 12,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-12.webp",
+              "/assets/Portfolio/opal-smiles/dental-website-gallery-9.webp",
           },
         ],
         ctaLink: "/our-services",
@@ -786,74 +711,6 @@ const portfolioData = {
               "See what’s working and where to improve with live delivery data that actually makes sense.",
           },
         ],
-      },
-      section3: {
-        subheading: "Product Gallery",
-        heading: "Reliability That Moves With Every Mile",
-        gallery: [
-          {
-            id: 1,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-1.webp",
-          },
-          {
-            id: 2,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-2.webp",
-          },
-          {
-            id: 3,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-3.webp",
-          },
-          {
-            id: 4,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-4.webp",
-          },
-          {
-            id: 5,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-5.webp",
-          },
-          {
-            id: 6,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-6.webp",
-          },
-          {
-            id: 7,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-7.webp",
-          },
-          {
-            id: 8,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-8.webp",
-          },
-          {
-            id: 9,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-9.webp",
-          },
-          {
-            id: 10,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-10.webp",
-          },
-          {
-            id: 11,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-11.webp",
-          },
-          {
-            id: 12,
-            image:
-              "/assets/Products/custom-school-erp/school-erp-gallery-12.webp",
-          },
-        ],
-        ctaLink: "/our-services",
-        ctaText: "Discover Our Services",
       },
     },
   ],
