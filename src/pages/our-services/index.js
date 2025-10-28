@@ -24,7 +24,7 @@ export default function OurServices() {
   return (
     <>
       {/* Meta Head */}
-      <MetaHead page="service" />
+      <MetaHead page="services" />
 
       {/* Banner Section */}
       <Banner data={bannerData.services.main} />

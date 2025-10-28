@@ -7,31 +7,51 @@ import metaData from "@/utils/json/metaData";
 const MetaHead = ({ page, subPage }) => {
   const router = useRouter();
 
-  // Get metadata safely
-  let meta = metaData[page];
+  let meta;
 
-  if (!meta) {
-    // Fallback meta
+  // Step 1: Find the meta object for the page
+  const pageMeta = metaData[page];
+
+  if (!pageMeta) {
+    // Default fallback meta
     meta = {
-      metaTitle: "MakersOfCode | A Full-Stack Company",
-      metaDescription: "Welcome to the MakersOfCode.",
-      keywords: ["MakersOfCode", "software company", "development", "services"],
+      metaTitle: "MakersOfCode | Where Technology Meets Excellence",
+      metaDescription:
+        "Welcome to MakersOfCode — your partner for modern, scalable, and innovative digital solutions.",
+      keywords: [
+        "MakersOfCode",
+        "web development",
+        "software company",
+        "Next.js",
+        "React",
+        "development services",
+      ],
       ogImage: "/assets/Header/MOC-logo.png",
     };
   } else {
-    // Handle cases where meta is an array (like home, about, blogs, etc.)
-    if (Array.isArray(meta)) {
-      meta = meta[0];
+    // Step 2: Handle array-based pages (home, about, blogs, contact, etc.)
+    if (Array.isArray(pageMeta)) {
+      meta = pageMeta[0];
     }
-    // Handle nested objects (like services)
-    else if (subPage && meta[subPage]) {
-      meta = meta[subPage];
+
+    // Step 3: Handle object-based pages (services, portfolio, products)
+    else if (typeof pageMeta === "object") {
+      if (subPage && pageMeta[subPage]) {
+        // Subpage found
+        meta = pageMeta[subPage];
+      } else if (pageMeta.main && Array.isArray(pageMeta.main)) {
+        // Main index page (like /services)
+        meta = pageMeta.main[0];
+      } else {
+        // Directly use the object if no main array exists
+        meta = pageMeta;
+      }
     }
   }
 
   const { metaTitle, metaDescription, keywords = [], ogImage } = meta;
 
-  // Base URL
+  // Step 4: Canonical URL setup
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "";
   const canonicalUrl = `${baseUrl}${router.asPath}`;
 
@@ -45,7 +65,7 @@ const MetaHead = ({ page, subPage }) => {
       {/* Canonical URL */}
       <link rel="canonical" href={canonicalUrl} />
 
-      {/* Open Graph (OG) Meta */}
+      {/* Open Graph Meta */}
       <meta property="og:title" content={metaTitle} />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:image" content={`${baseUrl}${ogImage}`} />

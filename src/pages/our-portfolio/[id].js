@@ -29,7 +29,7 @@ function PortfolioDetail() {
   return (
     <>
       {/* Meta Head */}
-      <MetaHead page="services" subPage={id} />
+      <MetaHead page="portfolio" subPage={id} />
 
       {/* Banner Section */}
       <Banner data={bannerData.portfolio[id]} />

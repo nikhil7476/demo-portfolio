@@ -29,7 +29,7 @@ function ProductDetail() {
   return (
     <>
       {/* Meta Head */}
-      <MetaHead page="services" subPage={id} />
+      <MetaHead page="products" subPage={id} />
 
       {/* Banner Section */}
       <Banner data={bannerData.products[id]} />
