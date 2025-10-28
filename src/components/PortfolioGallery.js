@@ -72,6 +72,7 @@ function PortfolioGallery() {
                   <Image
                     src={item.image}
                     alt={item.title}
+                    title={item.title}
                     width={350}
                     height={350}
                     className="img-fluid rounded-top w-100"
@@ -81,6 +82,7 @@ function PortfolioGallery() {
                   {item.link ? (
                     <Link
                       href={item.link}
+                      title={item.title}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-decoration-none"
