@@ -218,20 +218,20 @@ const serviceData = {
       featuredImage: "/assets/Services/website-development-tab-featured.webp",
       section1: {
         subheading: "Why Choose?",
-        heading: "Our Custom Software Development Services",
+        heading: "Our Custom Website Development Services",
         description:
-          "A comprehensive suite of software development services designed to streamline operations, enhance user experience, and implement innovative technology solutions—strategically crafted to align with your business goals and meet the unique demands of your digital products.",
-        featuredHeading: "Our Software Stands Out",
+          "Our web development services are built to streamline operations, enhance user experience, and implement cutting-edge design and functionality—strategically aligned with your business goals and tailored to the evolving needs of your digital presence.",
+        featuredHeading: "Our Websites Stands Out",
         featuredPoints: [
+          "Device Compatible",
+          "Custom-Built",
           "Adaptable",
-          "Custom",
-          "Compatible",
-          "Scalable",
-          "User-Friendly",
+          "SEO-Optimized",
+          "Fast-Loading",
           "Secure",
         ],
         featuredDescription:
-          "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
+          "Our websites are developed specifically for your needs—offering far more flexibility than template-based designs. Built for performance and scalability, they integrate seamlessly with your business tools and adapt effortlessly as your business evolves.",
         sectionImage:
           "/assets/Services/website-development/about-website-development.webp",
         ctaText: "Contact Us",
@@ -239,25 +239,25 @@ const serviceData = {
       },
       section2: {
         subheading: "Core Features",
-        heading: "Core Features of Our Software Development Service",
+        heading: "Core Features of Our Web Development Services",
         description:
-          "Strategic software development tailored to your business objectives. We begin with in-depth system analysis and competitor benchmarking to uncover opportunities for innovation. Our team builds development roadmaps that address immediate technical needs while planning for scalable, future-ready solutions. Each product is crafted with user-centric design, seamless integration, and performance in mind—ensuring your software is as functional as it is forward-thinking.",
+          "Strategic website development aligned with your business goals. We begin with thorough competitor and UX analysis to identify opportunities and create impactful, future-ready solutions. Every website we build is cleanly designed, fast, and scalable—with the user experience at the core.",
         featuredPoints: [
-          "Custom-Fit Software",
-          "Scalable roadmaps",
-          "Easy system integration",
-          "Smart tech insights",
-          "Clean, bold UI/UX",
-          "Growth-ready backend",
+          "Branded custom websites",
+          "Fast, scalable plans",
+          "Smooth tool integration",
+          "Insight-driven analysis",
+          "Modern, clean UI/UX",
+          "Scalable web systems",
         ],
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
       section3: {
         icon: <AiFillCode />,
-        heading: "Future-Ready Software",
+        heading: "Future-Ready Websites",
         description:
-          "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
+          "We build intelligent, scalable websites designed to grow with your business—no cookie-cutter templates or shortcuts. Our custom web solutions adapt to shifting goals, user behavior, and emerging tech trends. Built for performance and flexibility, they ensure long-term relevance and lasting impact. Every site we create is tailored to reflect your brand and support your future growth.",
         sectionImage:
           "/assets/Services/website-development/website-development-future.webp",
         ctaText: "Contact Us",
@@ -265,36 +265,36 @@ const serviceData = {
       },
       section4: {
         subheading: "Success Solutions",
-        heading: "Your Partner in Digital Success",
+        heading: "Your Partner in Web Success",
         description:
-          "Our software development services go beyond writing code—we deliver innovative, user-focused, and scalable digital solutions tailored to your business objectives. Backed by a team of skilled developers and strategists, we focus on precision, performance, and long-term value. Whether you’re building from scratch or modernizing legacy systems, we help your business thrive in the digital landscape.",
+          "Our web development services go far beyond just coding—we deliver thoughtful, results-driven digital experiences tailored to your business. Backed by skilled designers, developers, and strategists, we focus on design precision, speed, performance, and future growth. Whether starting from scratch or revamping an outdated website, we help your brand stand out online.",
         iconBox: [
           {
             id: 1,
             title: "Tailored Development Strategies",
             description:
-              "Custom software planning aligned with your business goals, user needs, and technical requirements.",
+              "Custom website planning aligned with your business goals, user journeys, and technical requirements.",
             icon: <AiFillCode />,
           },
           {
             id: 2,
             title: "Data-Driven Development",
             description:
-              "Real-time analytics, user behavior tracking, and performance metrics guide ongoing improvements and feature planning.",
+              "Using analytics, user behavior tracking, and performance metrics, we continuously optimize your website for results.",
             icon: <AiFillCode />,
           },
           {
             id: 3,
-            title: "End-to-End Development Solutions",
+            title: "End-to-End Web Solutions",
             description:
-              "From concept and design to development, testing, deployment, and maintenance—we manage the full software lifecycle.",
+              "From planning and UI/UX design to development, testing, and maintenance—we manage the entire web lifecycle.",
             icon: <AiFillCode />,
           },
           {
             id: 4,
             title: "Transparent Progress & Reporting",
             description:
-              "Clear communication, milestone updates, and detailed technical reports keep you informed throughout the development process.",
+              "Clear communication, milestone updates, and regular reporting keep you in the loop at every stage.",
             icon: <AiFillCode />,
           },
         ],
@@ -315,20 +315,20 @@ const serviceData = {
         "/assets/Services/mobile-app-development-tab-featured.webp",
       section1: {
         subheading: "Why Choose?",
-        heading: "Our Custom Software Development Services",
+        heading: "Our Mobile Development Services",
         description:
-          "A comprehensive suite of software development services designed to streamline operations, enhance user experience, and implement innovative technology solutions—strategically crafted to align with your business goals and meet the unique demands of your digital products.",
-        featuredHeading: "Our Software Stands Out",
+          "Our Comprehensive Suite of Mobile App Development Services are designed to streamline operations, elevate user experience, and bring innovative features to life—strategically built to align with your business goals and the unique demands of your digital presence.",
+        featuredHeading: "Our Mobile Apps Stand Out",
         featuredPoints: [
           "Adaptable",
-          "Custom",
-          "Compatible",
-          "Scalable",
-          "User-Friendly",
+          "Custom-Built",
+          "Intuitive UI/UX",
+          "High Performance",
+          "Reliable",
           "Secure",
         ],
         featuredDescription:
-          "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
+          "Our custom mobile apps are crafted specifically for offering more flexibility than off-the-shelf solutions. Designed for scalability, they evolve with your growing needs and integrate seamlessly with your existing digital ecosystem—ensuring smooth performance & minimal disruption.",
         sectionImage:
           "/assets/Services/mobile-app-development/about-mobile-app-development.webp",
         ctaText: "Contact Us",
@@ -336,25 +336,25 @@ const serviceData = {
       },
       section2: {
         subheading: "Core Features",
-        heading: "Core Features of Our Software Development Service",
+        heading: "Core Features of Our Mobile App Development Service",
         description:
-          "Strategic software development tailored to your business objectives. We begin with in-depth system analysis and competitor benchmarking to uncover opportunities for innovation. Our team builds development roadmaps that address immediate technical needs while planning for scalable, future-ready solutions. Each product is crafted with user-centric design, seamless integration, and performance in mind—ensuring your software is as functional as it is forward-thinking.",
+          "Strategic mobile app development tailored to your business objectives. We begin with thorough market analysis and competitor benchmarking to uncover innovation opportunities. Our team creates development roadmaps that address immediate app requirements while planning for scalable, future-ready growth. Each app is designed with intuitive UX, seamless backend integration, and high-performance standards—ensuring your mobile solution is both functional and future-proof.",
         featuredPoints: [
-          "Custom-Fit Software",
-          "Scalable roadmaps",
-          "Easy system integration",
-          "Smart tech insights",
-          "Clean, bold UI/UX",
-          "Growth-ready backend",
+          "Goal-Driven Mobile Apps",
+          "Scalable Dev Roadmaps",
+          "Seamless System Sync",
+          "Growth-Focused Analysis",
+          "Engaging, Clean UI/UX",
+          "Growth-Ready Architecture",
         ],
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
       section3: {
         icon: <AiFillCode />,
-        heading: "Future-Ready Software",
+        heading: "Future-Ready Mobile Apps",
         description:
-          "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
+          "We craft intelligent, scalable mobile apps aligned with your business goals—no generic templates, only custom-built solutions. Each app is designed to grow with your business and adapt to evolving user needs. We focus on performance, usability, and long-term value. Our solutions ensure seamless functionality and a great user experience across devices. Built for today, ready for tomorrow.",
         sectionImage:
           "/assets/Services/mobile-app-development/mobile-app-development-future.webp",
         ctaText: "Contact Us",
@@ -362,36 +362,36 @@ const serviceData = {
       },
       section4: {
         subheading: "Success Solutions",
-        heading: "Your Partner in Digital Success",
+        heading: "Your Partner in Mobile Success",
         description:
-          "Our software development services go beyond writing code—we deliver innovative, user-focused, and scalable digital solutions tailored to your business objectives. Backed by a team of skilled developers and strategists, we focus on precision, performance, and long-term value. Whether you’re building from scratch or modernizing legacy systems, we help your business thrive in the digital landscape.",
+          "Our mobile app development services go beyond just building apps—we deliver innovative, user-centric, and scalable mobile solutions aligned with your business goals. Backed by a team of expert developers, designers, and strategists, we focus on usability, performance, and long-term value. Whether you’re launching a new app or modernizing an existing one, we help your business thrive in the mobile-first world.",
         iconBox: [
           {
             id: 1,
-            title: "Tailored Development Strategies",
+            title: "Tailored App Development Strategies",
             description:
-              "Custom software planning aligned with your business goals, user needs, and technical requirements.",
+              "Custom mobile app planning aligned with your business objectives, user expectations, and platform requirements.",
             icon: <AiFillCode />,
           },
           {
             id: 2,
-            title: "Data-Driven Development",
+            title: "Data-Driven App Optimization",
             description:
-              "Real-time analytics, user behavior tracking, and performance metrics guide ongoing improvements and feature planning.",
+              "Leverage real-time analytics, user behavior tracking, and performance metrics to continuously improve your app's features and functionality.",
             icon: <AiFillCode />,
           },
           {
             id: 3,
-            title: "End-to-End Development Solutions",
+            title: "End-to-End App Development Solutions",
             description:
-              "From concept and design to development, testing, deployment, and maintenance—we manage the full software lifecycle.",
+              "From concept and UI/UX design to development, testing, deployment, and support—we handle the entire mobile app lifecycle.",
             icon: <AiFillCode />,
           },
           {
             id: 4,
-            title: "Transparent Progress & Reporting",
+            title: "Transparent Communication & Reporting",
             description:
-              "Clear communication, milestone updates, and detailed technical reports keep you informed throughout the development process.",
+              "Stay informed at every stage with clear updates, milestone tracking, and detailed progress reports.",
             icon: <AiFillCode />,
           },
         ],

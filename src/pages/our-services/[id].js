@@ -265,7 +265,7 @@ export default function ServicesDetail() {
                         xs={12}
                         className="mb-3"
                       >
-                        <div className="h-100 align-content-center">
+                        <div className="h-100">
                           {point.icon && (
                             <span className="fs-1 mb-2">{point.icon}</span>
                           )}
