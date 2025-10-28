@@ -9,6 +9,9 @@ export default function Document() {
           type="image/png"
           href="/assets/site-icon-preview.png"
         />
+        <meta name="author" content="MakersOfCode" />
+        <meta name="publisher" content="MakersOfCode" />
+        <meta name="robots" content="index, follow" />
       </Head>
       <body>
         <Main />
