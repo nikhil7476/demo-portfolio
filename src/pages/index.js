@@ -103,8 +103,8 @@ function Home() {
                   xl={4}
                   lg={4}
                   md={6}
-                  sm={6}
-                  xs={6}
+                  sm={12}
+                  xs={12}
                   className="mb-3 text-center align-content-center"
                 >
                   {stat.description && <p>{stat.description}</p>}
