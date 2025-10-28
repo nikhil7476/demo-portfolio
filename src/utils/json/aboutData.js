@@ -15,7 +15,7 @@ const aboutData = {
       "Real-Time Analytics",
     ],
     ctaText: "Explore Our Services",
-    ctaLink: "/about-us",
+    ctaLink: "/our-services",
     sectionImage: "/assets/About/about-us.webp",
     imageWidth: "600",
     imageHeight: "660",
