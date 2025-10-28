@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Banner from "@/components/Banner";
 import bannerData from "@/utils/json/bannerData";
+import MetaHead from "@/components/MetaHead";
 import Testimonial from "@/components/Testimonial";
 import testimonialData from "@/utils/json/testimonialData";
 import ContactForm from "@/components/ContactForm";
@@ -13,6 +14,9 @@ import PortfolioGallery from "@/components/PortfolioGallery";
 function OurPortfolio() {
   return (
     <>
+      {/* Meta Head */}
+      <MetaHead page="portfolio" />
+
       {/* Banner Section */}
       <Banner data={bannerData.portfolio.main} />
 

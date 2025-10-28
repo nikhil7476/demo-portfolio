@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaCheckCircle } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
+import MetaHead from "@/components/MetaHead";
 import Banner from "@/components/Banner";
 import bannerData from "@/utils/json/bannerData";
 import productData from "@/utils/json/productData";
@@ -27,6 +28,9 @@ function ProductDetail() {
 
   return (
     <>
+      {/* Meta Head */}
+      <MetaHead page="services" subPage={id} />
+
       {/* Banner Section */}
       <Banner data={bannerData.products[id]} />
 
