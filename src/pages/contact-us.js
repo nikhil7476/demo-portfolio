@@ -56,14 +56,15 @@ function Contact() {
                             className="mb-3 p-3 border rounded shadow-sm d-flex align-items-center"
                           >
                             {Icon && (
-                              <Icon className="fs-2 mx-2 text-primary" />
+                              <span>
+                                <Icon className="fs-2 mx-2" />
+                              </span>
                             )}
                             <div>
                               {isEmail ? (
                                 <Link
                                   href={`mailto:${description}`}
                                   title="Mail Us"
-                                  className="text-decoration-none text-dark"
                                 >
                                   {description}
                                 </Link>
@@ -71,12 +72,11 @@ function Contact() {
                                 <Link
                                   href={`tel:${description}`}
                                   title="Call Us"
-                                  className="text-decoration-none text-dark"
                                 >
                                   {description}
                                 </Link>
                               ) : (
-                                <span>{description}</span>
+                                <p className="m-0 p-0">{description}</p>
                               )}
                             </div>
                           </li>
