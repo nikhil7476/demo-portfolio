@@ -143,74 +143,74 @@ const portfolioData = {
       metaDescription:
         "I create secure and scalable REST APIs with Node.js & MongoDB.",
       section1: {
-        subheading: "About Transport & Logistic Website",
-        heading: "Smart Transport & Logistic Solutions",
+        subheading: "About La Bellea Makeup",
+        heading: "A Beauty Experience That Grows with You",
         description:
-          "Our platform adapts to your growth—simplifying shipment management and boosting delivery speed, clarity, and confidence at every stage.",
+          "From beginners to beauty pros, La Bellea fits your style. Whether it’s everyday elegance or bold transformations, we make it easy to shine.",
         featuredPoints: [
-          "Built for Growth",
-          "Data-Driven Clarity",
-          "Workflow Automation",
-          "Tailored for You",
+          "Personalized Beauty",
+          "Makeup Routines",
+          "Glow-Up Progress",
+          "Fully Custom Looks",
         ],
         sectionImage:
-          "/assets/Portfolio/transport-logistics/transport-website-featured.webp",
-        ctaLink: "https://frightservice.online/",
+          "/assets/Portfolio/la-bellea/makeup-website-featured.webp",
+        ctaLink: "https://labelleamakeup.store/",
         ctaText: "Visit Website",
       },
       section2: {
         subheading: "Core Highlights",
-        heading: "Intelligent Logistics for Every Stage of Your Supply Chain",
+        heading: "Smart Beauty Tools for Every Step of Your Glam Journey",
         description:
-          "Whether you’re expanding your delivery network, optimizing dispatch, or analyzing performance—our all-in-one logistics solution helps you move smarter, respond faster, and operate more efficiently. It’s the intelligent transport backbone that keeps your operations organized, scalable, and always aligned with your service promise.",
+          "From discovering your perfect foundation match to tracking your skincare progress, La Bellea gives you everything you need to glow with confidence. Whether you’re building a new look or refining your beauty routine, we keep it simple, personal, and always on point.",
         iconBox: [
           {
             id: 1,
             icon: <FaCheckCircle />,
-            title: "Seamless Order Collection",
+            title: "Beauty Profile Builder",
             description:
-              "Bring delivery requests from all your sales channels into one streamlined system.",
+              "Easily create your personal profile with skin tone, preferences, and favorite products — so every recommendation fits you perfectly.",
           },
           {
             id: 2,
             icon: <FaCheckCircle />,
-            title: "Smarter Delivery Timing",
+            title: "Look Scheduler",
             description:
-              "Time every delivery perfectly with built-in tools that align routes to real-world.",
+              "Plan your glam for every occasion with a visual scheduler — from workdays to weddings, never miss a beat.",
           },
           {
             id: 3,
             icon: <FaCheckCircle />,
-            title: "Clean Delivery Records",
+            title: "Look History & Logs",
             description:
-              "Every route, stop, and status—logged, organized, and ready when you need it.",
+              "Track your past makeup styles, saved tutorials, and favorite products — always ready when you need a glow-up repeat.",
           },
           {
             id: 4,
             icon: <FaCheckCircle />,
-            title: "Effortless Route Planning",
+            title: "Routine Planner",
             description:
-              "Automatically assign drivers, optimize routes, and keep schedules on track—without the manual mess.",
+              "Build your skincare or makeup routine with guided steps, timing, and seasonal suggestions tailored just for you.",
           },
           {
             id: 5,
             icon: <FaCheckCircle />,
-            title: "Team Access, Your Way",
+            title: "Access for Pros & Enthusiasts",
             description:
-              "Give dispatchers, drivers, and partners the right level of access no more mix-ups or overreach.",
+              "Whether you're a beauty pro, influencer, or self-care enthusiast — manage your routines, looks, and recommendations all in one place.",
           },
           {
             id: 6,
             icon: <FaCheckCircle />,
-            title: "Instant Operational Insights",
+            title: "Glow Insights",
             description:
-              "See what’s working and where to improve with live delivery data that actually makes sense.",
+              "See what’s working! Track skin improvements, product effectiveness, and your favorite looks over time.",
           },
         ],
       },
       section3: {
         subheading: "Product Gallery",
-        heading: "Reliability That Moves With Every Mile",
+        heading: "Flawless Beauty Behind Every Look You Create",
         gallery: [
           {
             id: 1,
@@ -269,74 +269,74 @@ const portfolioData = {
       title: "Restaurant & Cuisines",
       metaDescription: "Cross-platform mobile apps built with React Native.",
       section1: {
-        subheading: "About Transport & Logistic Website",
-        heading: "Smart Transport & Logistic Solutions",
+        subheading: "Restaurant & Cuisines Website",
+        heading: "Where Every Meal Matches Your Mood",
         description:
-          "Our platform adapts to your growth—simplifying shipment management and boosting delivery speed, clarity, and confidence at every stage.",
+          "From first-time guests to loyal regulars, our service adapts to your cravings—whether it’s a quick bite or a special occasion, made to match your mood.",
         featuredPoints: [
-          "Built for Growth",
-          "Data-Driven Clarity",
-          "Workflow Automation",
-          "Tailored for You",
+          "Personalized Menu",
+          "Order History",
+          "Smart Reservation",
+          "Custom Event Menus",
         ],
         sectionImage:
-          "/assets/Portfolio/transport-logistics/transport-website-featured.webp",
-        ctaLink: "https://frightservice.online/",
-        ctaText: "Visit Website",
+          "/assets/Portfolio/restaurant-and-cuisines/restaurant-website-featured.webp",
+        ctaLink: "/contact-us/",
+        ctaText: "Contact Us",
       },
       section2: {
         subheading: "Core Highlights",
-        heading: "Intelligent Logistics for Every Stage of Your Supply Chain",
+        heading: "Smart Hospitality Tools for Every Dining Moment",
         description:
-          "Whether you’re expanding your delivery network, optimizing dispatch, or analyzing performance—our all-in-one logistics solution helps you move smarter, respond faster, and operate more efficiently. It’s the intelligent transport backbone that keeps your operations organized, scalable, and always aligned with your service promise.",
+          "From discovering new dishes to booking tables and tracking favorites — our platform brings ease, flavor, and personality to your every visit.",
         iconBox: [
           {
             id: 1,
             icon: <FaCheckCircle />,
-            title: "Seamless Order Collection",
+            title: "Guest Preferences Tracker",
             description:
-              "Bring delivery requests from all your sales channels into one streamlined system.",
+              "Collect diner preferences from past visits, events, and online orders — all in one place.",
           },
           {
             id: 2,
             icon: <FaCheckCircle />,
-            title: "Smarter Delivery Timing",
+            title: "Meal Scheduler",
             description:
-              "Time every delivery perfectly with built-in tools that align routes to real-world.",
+              "Let guests plan meals ahead of time — for special days, diets, or just cravings.",
           },
           {
             id: 3,
             icon: <FaCheckCircle />,
-            title: "Clean Delivery Records",
+            title: "Order Logs & Favorites",
             description:
-              "Every route, stop, and status—logged, organized, and ready when you need it.",
+              "Keep a detailed record of guest favorites, allergies, and past orders.",
           },
           {
             id: 4,
             icon: <FaCheckCircle />,
-            title: "Effortless Route Planning",
+            title: "Automated Reservation Reminders",
             description:
-              "Automatically assign drivers, optimize routes, and keep schedules on track—without the manual mess.",
+              "Send friendly alerts to help guests never miss a reservation.",
           },
           {
             id: 5,
             icon: <FaCheckCircle />,
-            title: "Team Access, Your Way",
+            title: "Staff & Kitchen Coordination",
             description:
-              "Give dispatchers, drivers, and partners the right level of access no more mix-ups or overreach.",
+              "Ensure seamless service with roles and permissions for chefs, waitstaff, and hosts.",
           },
           {
             id: 6,
             icon: <FaCheckCircle />,
-            title: "Instant Operational Insights",
+            title: "Dining Insights",
             description:
-              "See what’s working and where to improve with live delivery data that actually makes sense.",
+              "Understand what guests love — track bestsellers, peak hours, and customer engagement.",
           },
         ],
       },
       section3: {
         subheading: "Product Gallery",
-        heading: "Reliability That Moves With Every Mile",
+        heading: "Delicious Precision Behind Every Dish You Serve",
         gallery: [
           {
             id: 1,
@@ -395,74 +395,74 @@ const portfolioData = {
       title: "Photography",
       metaDescription: "Cross-platform mobile apps built with React Native.",
       section1: {
-        subheading: "About Transport & Logistic Website",
-        heading: "Smart Transport & Logistic Solutions",
+        subheading: "About Photography Website",
+        heading: "Photography That Evolves With You",
         description:
-          "Our platform adapts to your growth—simplifying shipment management and boosting delivery speed, clarity, and confidence at every stage.",
+          "From milestone moments to brand shoots, our photography evolves with you—framing every chapter with clarity, style, and meaning.",
         featuredPoints: [
-          "Built for Growth",
-          "Data-Driven Clarity",
-          "Workflow Automation",
-          "Tailored for You",
+          "Bespoke Shoot",
+          "Style Guidance",
+          "Session Packages",
+          "Visual Narratives",
         ],
         sectionImage:
-          "/assets/Portfolio/transport-logistics/transport-website-featured.webp",
-        ctaLink: "https://frightservice.online/",
+          "/assets/Portfolio/photography/photopixel-website-featured.webp",
+        ctaLink: "https://photopixel.photography/",
         ctaText: "Visit Website",
       },
       section2: {
         subheading: "Core Highlights",
-        heading: "Intelligent Logistics for Every Stage of Your Supply Chain",
+        heading: "Smart Photography Tools for Every Step of the Journey",
         description:
-          "Whether you’re expanding your delivery network, optimizing dispatch, or analyzing performance—our all-in-one logistics solution helps you move smarter, respond faster, and operate more efficiently. It’s the intelligent transport backbone that keeps your operations organized, scalable, and always aligned with your service promise.",
+          "From capturing your vision to delivering your final gallery — our platform keeps the process creative, seamless, and fully personalized.",
         iconBox: [
           {
             id: 1,
             icon: <FaCheckCircle />,
-            title: "Seamless Order Collection",
+            title: "Client Vision Boards",
             description:
-              "Bring delivery requests from all your sales channels into one streamlined system.",
+              "Gather inspiration, themes, and visual preferences to shape each shoot with intention.",
           },
           {
             id: 2,
             icon: <FaCheckCircle />,
-            title: "Smarter Delivery Timing",
+            title: "Photography Calendar",
             description:
-              "Time every delivery perfectly with built-in tools that align routes to real-world.",
+              "Manage bookings, pre-shoot meetings, editing deadlines, and gallery releases.",
           },
           {
             id: 3,
             icon: <FaCheckCircle />,
-            title: "Clean Delivery Records",
+            title: "Session History & Progress Logs",
             description:
-              "Every route, stop, and status—logged, organized, and ready when you need it.",
+              "Keep track of edits, retouching rounds, feedback, and delivery milestones.",
           },
           {
             id: 4,
             icon: <FaCheckCircle />,
-            title: "Effortless Route Planning",
+            title: "Automated Shoot Scheduling",
             description:
-              "Automatically assign drivers, optimize routes, and keep schedules on track—without the manual mess.",
+              "Plan sessions, delivery timelines, and key touchpoints — all in one place.",
           },
           {
             id: 5,
             icon: <FaCheckCircle />,
-            title: "Team Access, Your Way",
+            title: "Collaborative Access",
             description:
-              "Give dispatchers, drivers, and partners the right level of access no more mix-ups or overreach.",
+              "Invite team members, stylists, or clients to view, comment, or co-create with custom access.",
           },
           {
             id: 6,
             icon: <FaCheckCircle />,
-            title: "Instant Operational Insights",
+            title: "Insights & Client Feedback",
             description:
-              "See what’s working and where to improve with live delivery data that actually makes sense.",
+              "Analyze preferences and reactions to refine your creative direction for future sessions.",
           },
         ],
       },
       section3: {
         subheading: "Product Gallery",
-        heading: "Reliability That Moves With Every Mile",
+        heading: "Every Moment, Captured with Artistic Precision",
         gallery: [
           {
             id: 1,
@@ -521,74 +521,74 @@ const portfolioData = {
       title: "Opal Smiles",
       metaDescription: "Cross-platform mobile apps built with React Native.",
       section1: {
-        subheading: "About Transport & Logistic Website",
-        heading: "Smart Transport & Logistic Solutions",
+        subheading: "About Dental Website",
+        heading: "A Dental Experience That Grows with You",
         description:
-          "Our platform adapts to your growth—simplifying shipment management and boosting delivery speed, clarity, and confidence at every stage.",
+          "From first visits to lifelong care, Opal Smiles supports every stage of your dental journey—with comfort, expertise, and lasting results.",
         featuredPoints: [
-          "Built for Growth",
-          "Data-Driven Clarity",
-          "Workflow Automation",
-          "Tailored for You",
+          "Personalized Patients",
+          "Smart Appointments",
+          "Treatment Tracking",
+          "Customized Care Plans",
         ],
         sectionImage:
-          "/assets/Portfolio/transport-logistics/transport-website-featured.webp",
-        ctaLink: "https://frightservice.online/",
+          "/assets/Portfolio/opal-smiles/dental-website-featured.webp",
+        ctaLink: "https://opalsmile.shop/",
         ctaText: "Visit Website",
       },
       section2: {
         subheading: "Core Highlights",
-        heading: "Intelligent Logistics for Every Stage of Your Supply Chain",
+        heading: "Smart Dental Tools for Every Stage of Your Oral Care",
         description:
-          "Whether you’re expanding your delivery network, optimizing dispatch, or analyzing performance—our all-in-one logistics solution helps you move smarter, respond faster, and operate more efficiently. It’s the intelligent transport backbone that keeps your operations organized, scalable, and always aligned with your service promise.",
+          "From booking appointments to tracking treatments and maintaining healthy habits — Opal Smiles is built to make your dental care simple, efficient, and personalized.",
         iconBox: [
           {
             id: 1,
             icon: <FaCheckCircle />,
-            title: "Seamless Order Collection",
+            title: "Easy Appointment Booking",
             description:
-              "Bring delivery requests from all your sales channels into one streamlined system.",
+              "Schedule checkups, cleanings, or consultations — all in just a few clicks.",
           },
           {
             id: 2,
             icon: <FaCheckCircle />,
-            title: "Smarter Delivery Timing",
+            title: "Visit Scheduler",
             description:
-              "Time every delivery perfectly with built-in tools that align routes to real-world.",
+              "Plan upcoming visits and get reminders to stay on top of your oral health.",
           },
           {
             id: 3,
             icon: <FaCheckCircle />,
-            title: "Clean Delivery Records",
+            title: "Treatment Logs & History",
             description:
-              "Every route, stop, and status—logged, organized, and ready when you need it.",
+              "View your past procedures, x-rays, prescriptions, and ongoing treatment plans.",
           },
           {
             id: 4,
             icon: <FaCheckCircle />,
-            title: "Effortless Route Planning",
+            title: "Treatment Planner",
             description:
-              "Automatically assign drivers, optimize routes, and keep schedules on track—without the manual mess.",
+              "Follow customized care paths for braces, implants, cleanings, and more.",
           },
           {
             id: 5,
             icon: <FaCheckCircle />,
-            title: "Team Access, Your Way",
+            title: "Families & Specialists Access",
             description:
-              "Give dispatchers, drivers, and partners the right level of access no more mix-ups or overreach.",
+              "Let family members or dental professionals manage care under one account.",
           },
           {
             id: 6,
             icon: <FaCheckCircle />,
-            title: "Instant Operational Insights",
+            title: "Smile Insights",
             description:
-              "See what’s working and where to improve with live delivery data that actually makes sense.",
+              "Track improvements, monitor dental health, and celebrate milestones with confidence.",
           },
         ],
       },
       section3: {
         subheading: "Product Gallery",
-        heading: "Reliability That Moves With Every Mile",
+        heading: "Excellence Behind Every Smile We Help You Achieve",
         gallery: [
           {
             id: 1,
@@ -647,68 +647,68 @@ const portfolioData = {
       title: "CRMS Mobile App",
       metaDescription: "Cross-platform mobile apps built with React Native.",
       section1: {
-        subheading: "About Transport & Logistic Website",
-        heading: "Smart Transport & Logistic Solutions",
+        subheading: "About Custom CRMS Mobile App",
+        heading: "A CRM That Grows With Your Business",
         description:
-          "Our platform adapts to your growth—simplifying shipment management and boosting delivery speed, clarity, and confidence at every stage.",
+          "Whether you’re a solo professional or scaling a growing team, CRMS adapts to your workflow. Manage leads, track communications, and close deals — all from your phone.",
         featuredPoints: [
-          "Built for Growth",
-          "Data-Driven Clarity",
-          "Workflow Automation",
-          "Tailored for You",
+          "Unified Client Dashboard",
+          "Lead & Sales Tracking",
+          "Smart Contact Management",
+          "Customizable Workflows",
         ],
         sectionImage:
-          "/assets/Portfolio/transport-logistics/transport-website-featured.webp",
-        ctaLink: "https://frightservice.online/",
-        ctaText: "Visit Website",
+          "/assets/Portfolio/crms-mobile-app/crms-app-featured.webp",
+        ctaLink: "/contact-us",
+        ctaText: "Contact Us",
       },
       section2: {
         subheading: "Core Highlights",
-        heading: "Intelligent Logistics for Every Stage of Your Supply Chain",
+        heading: "Smart CRM Tools for Every Stage of the Customer Journey",
         description:
-          "Whether you’re expanding your delivery network, optimizing dispatch, or analyzing performance—our all-in-one logistics solution helps you move smarter, respond faster, and operate more efficiently. It’s the intelligent transport backbone that keeps your operations organized, scalable, and always aligned with your service promise.",
+          "From capturing leads to closing deals and retaining clients — CRMS Mobile gives you the tools to stay ahead, stay connected, and stay productive wherever you go.",
         iconBox: [
           {
             id: 1,
             icon: <FaCheckCircle />,
-            title: "Seamless Order Collection",
+            title: "Lead Capture",
             description:
-              "Bring delivery requests from all your sales channels into one streamlined system.",
+              "Instantly collect new leads from forms, landing pages, or integrations — all in one place.",
           },
           {
             id: 2,
             icon: <FaCheckCircle />,
-            title: "Smarter Delivery Timing",
+            title: "Order Scheduler",
             description:
-              "Time every delivery perfectly with built-in tools that align routes to real-world.",
+              "Book calls or meetings with clients using a drag-and-drop mobile calendar.",
           },
           {
             id: 3,
             icon: <FaCheckCircle />,
-            title: "Clean Delivery Records",
+            title: "Activity Logs & History",
             description:
-              "Every route, stop, and status—logged, organized, and ready when you need it.",
+              "Track every message, call, deal update, and workflow for clear visibility.",
           },
           {
             id: 4,
             icon: <FaCheckCircle />,
-            title: "Effortless Route Planning",
+            title: "Workflow Automation",
             description:
-              "Automatically assign drivers, optimize routes, and keep schedules on track—without the manual mess.",
+              "Create follow-up sequences, reminders, and auto-responses with minimal effort.",
           },
           {
             id: 5,
             icon: <FaCheckCircle />,
-            title: "Team Access, Your Way",
+            title: "User Roles & Team Access",
             description:
-              "Give dispatchers, drivers, and partners the right level of access no more mix-ups or overreach.",
+              "Assign permissions to sales reps, managers, or partners for smooth team collaboration.",
           },
           {
             id: 6,
             icon: <FaCheckCircle />,
-            title: "Instant Operational Insights",
+            title: "Performance Insights",
             description:
-              "See what’s working and where to improve with live delivery data that actually makes sense.",
+              "Monitor KPIs like conversion rates, response times, and pipeline value in real time.",
           },
         ],
       },
