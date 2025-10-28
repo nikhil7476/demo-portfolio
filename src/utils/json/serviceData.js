@@ -786,81 +786,81 @@ const serviceData = {
       featuredImage: "/assets/Services/ai-solution-services-tab-featured.webp",
       section1: {
         subheading: "Why Choose?",
-        heading: "Our Custom Software Development Services",
+        heading: "Our Artificial Intelligence Solutions",
         description:
-          "A comprehensive suite of software development services designed to streamline operations, enhance user experience, and implement innovative technology solutions—strategically crafted to align with your business goals and meet the unique demands of your digital products.",
-        featuredHeading: "Our Software Stands Out",
+          "Our AI services are designed to optimize workflows, enhance decision-making, and introduce smart automation—strategically aligned with your business goals and driven by real-world data and machine learning insights.",
+        featuredHeading: "Our AI Solutions Stand Out",
         featuredPoints: [
           "Adaptable",
-          "Custom",
-          "Compatible",
+          "Custom-Built",
+          "Data-Driven",
           "Scalable",
-          "User-Friendly",
-          "Secure",
+          "Intelligent Automation",
+          "Secure & Compliant",
         ],
         featuredDescription:
-          "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
+          "No generic models or plug-and-play tools. Our AI solutions are built from the ground up for your business use case. Scalable, intelligent, and seamlessly integrated, our systems evolve with your operations and deliver real-time insights, automation, and innovation.",
         sectionImage: "/assets/Services/ai-solutions/about-ai-solution.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
       section2: {
         subheading: "Core Features",
-        heading: "Core Features of Our Software Development Service",
+        heading: "Core Features of Our Artificial Intelligence Solutions",
         description:
-          "Strategic software development tailored to your business objectives. We begin with in-depth system analysis and competitor benchmarking to uncover opportunities for innovation. Our team builds development roadmaps that address immediate technical needs while planning for scalable, future-ready solutions. Each product is crafted with user-centric design, seamless integration, and performance in mind—ensuring your software is as functional as it is forward-thinking.",
+          "We start by understanding your data, industry, and objectives. From there, we create AI-driven strategies and systems that deliver real-world value—combining innovation with practical execution.",
         featuredPoints: [
-          "Custom-Fit Software",
-          "Scalable roadmaps",
-          "Easy system integration",
-          "Smart tech insights",
-          "Clean, bold UI/UX",
-          "Growth-ready backend",
+          "Custom AI Solutions",
+          "Scalable AI Systems",
+          "Smooth AI Integration",
+          "Insight-Led Data Analysis",
+          "User-Friendly AI UI",
+          "Real-Time Performance",
         ],
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
       section3: {
         icon: <AiFillCode />,
-        heading: "Future-Ready Software",
+        heading: "Future-Ready AI Applications",
         description:
-          "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
+          "We build smart, scalable AI systems that grow with your business needs. Whether it's predictive analytics, automation, recommendation engines, or natural language processing, our solutions are designed for long-term impact. They continuously learn and adapt to deliver better results over time. With future-focused architecture and real-time intelligence, we ensure performance, efficiency, and innovation at every stage.",
         sectionImage: "/assets/Services/ai-solutions/ai-solution-future.webp",
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
       section4: {
         subheading: "Success Solutions",
-        heading: "Your Partner in Digital Success",
+        heading: "Your Partner in AI-Driven Success",
         description:
-          "Our software development services go beyond writing code—we deliver innovative, user-focused, and scalable digital solutions tailored to your business objectives. Backed by a team of skilled developers and strategists, we focus on precision, performance, and long-term value. Whether you’re building from scratch or modernizing legacy systems, we help your business thrive in the digital landscape.",
+          "Our AI solutions go beyond algorithms—we deliver intelligent, responsible, and business-ready systems tailored to your needs. Backed by data scientists, ML engineers, and strategic consultants, we focus on precision, performance, and innovation. Whether implementing your first AI use case or scaling your AI infrastructure, we’re here to help you lead in a data-driven world.",
         iconBox: [
           {
             id: 1,
-            title: "Tailored Development Strategies",
+            title: "TTailored AI Strategies",
             description:
-              "Custom software planning aligned with your business goals, user needs, and technical requirements.",
+              "Custom planning based on your industry, data availability, and strategic goals.",
             icon: <AiFillCode />,
           },
           {
             id: 2,
-            title: "Data-Driven Development",
+            title: "Insight-Driven Intelligence",
             description:
-              "Real-time analytics, user behavior tracking, and performance metrics guide ongoing improvements and feature planning.",
+              "Our systems use real-time analytics, behavioral data, and predictive modeling to power smarter decision-making.",
             icon: <AiFillCode />,
           },
           {
             id: 3,
-            title: "End-to-End Development Solutions",
+            title: "End-to-End AI Development",
             description:
-              "From concept and design to development, testing, deployment, and maintenance—we manage the full software lifecycle.",
+              "From data collection and model training to deployment and ongoing optimization—we handle the entire AI lifecycle.",
             icon: <AiFillCode />,
           },
           {
             id: 4,
-            title: "Transparent Progress & Reporting",
+            title: "Transparent Process & Collaboration",
             description:
-              "Clear communication, milestone updates, and detailed technical reports keep you informed throughout the development process.",
+              "Frequent checkpoints, progress reports, and model transparency ensure you're informed and in control at every stage.",
             icon: <AiFillCode />,
           },
         ],
@@ -878,21 +878,21 @@ const serviceData = {
       featuredImage:
         "/assets/Services/hire-dedicated-developer-tab-featured.webp",
       section1: {
-        subheading: "Why Choose?",
-        heading: "Our Custom Software Development Services",
+        subheading: "Why Hire?",
+        heading: "Our Dedicated Developers",
         description:
-          "A comprehensive suite of software development services designed to streamline operations, enhance user experience, and implement innovative technology solutions—strategically crafted to align with your business goals and meet the unique demands of your digital products.",
-        featuredHeading: "Our Software Stands Out",
+          "A comprehensive suite of Dedicated Developer Services is designed to give you full control, greater speed, and enhanced productivity—aligned with your project requirements, timelines, and technology stack.",
+        featuredHeading: "Our Dedicated Developers Stands Out",
         featuredPoints: [
-          "Adaptable",
-          "Custom",
-          "Compatible",
-          "Scalable",
-          "User-Friendly",
-          "Secure",
+          "Highly Skilled",
+          "Custom Focused",
+          "Agile Minded",
+          "Problem Solvers",
+          "Client Centric",
+          "Tech Savvy",
         ],
         featuredDescription:
-          "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
+          "Our developers aren’t just coders—they’re problem solvers who adapt to your workflow, understand your objectives, and deliver value throughout the project lifecycle. Whether you need frontend, backend, mobile, or full-stack development, we’ve got the right talent for your team.",
         sectionImage:
           "/assets/Services/hire-dedicated-devlopers/about-dedicated-devlopers.webp",
         ctaText: "Contact Us",
@@ -900,25 +900,25 @@ const serviceData = {
       },
       section2: {
         subheading: "Core Features",
-        heading: "Core Features of Our Software Development Service",
+        heading: "Core Features of Our Hire Dedicated Developer Service",
         description:
-          "Strategic software development tailored to your business objectives. We begin with in-depth system analysis and competitor benchmarking to uncover opportunities for innovation. Our team builds development roadmaps that address immediate technical needs while planning for scalable, future-ready solutions. Each product is crafted with user-centric design, seamless integration, and performance in mind—ensuring your software is as functional as it is forward-thinking.",
+          "We match you with top-tier talent after thoroughly understanding your project scope, tech requirements, and timelines. Our dedicated developers become an integral part of your team—committed to delivering quality code and consistent progress.",
         featuredPoints: [
-          "Custom-Fit Software",
-          "Scalable roadmaps",
-          "Easy system integration",
-          "Smart tech insights",
-          "Clean, bold UI/UX",
-          "Growth-ready backend",
+          "Vetted Tech Talent",
+          "Flexible Hiring Models",
+          "Regular Performance Updates",
+          "Smart Resource Planning",
+          "Clear, Direct Workflow",
+          "Full Control, No Overhead",
         ],
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
       section3: {
         icon: <AiFillCode />,
-        heading: "Future-Ready Software",
+        heading: "Future-Ready Development Teams",
         description:
-          "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
+          "Scale your development capacity with agile, future-ready teams tailored to your needs. Our dedicated developers bring deep expertise in the latest technologies and coding standards, ensuring your project is optimized for performance, scalability, and long-term success. With a focus on adaptability and clean development practices, we help you stay ahead in an evolving tech landscape.",
         sectionImage:
           "/assets/Services/hire-dedicated-devlopers/dedicated-devlopers-future.webp",
         ctaText: "Contact Us",
@@ -926,36 +926,36 @@ const serviceData = {
       },
       section4: {
         subheading: "Success Solutions",
-        heading: "Your Partner in Digital Success",
+        heading: "Your Partner in Scalable Development",
         description:
-          "Our software development services go beyond writing code—we deliver innovative, user-focused, and scalable digital solutions tailored to your business objectives. Backed by a team of skilled developers and strategists, we focus on precision, performance, and long-term value. Whether you’re building from scratch or modernizing legacy systems, we help your business thrive in the digital landscape.",
+          "Our Hire Dedicated Developer model goes beyond outsourcing. We offer you the ability to scale fast, retain control, and build with confidence. With a vetted pool of experienced developers, we focus on quality, collaboration, and long-term partnership.",
         iconBox: [
           {
             id: 1,
-            title: "Tailored Development Strategies",
+            title: "Tailored Resource Planning",
             description:
-              "Custom software planning aligned with your business goals, user needs, and technical requirements.",
+              "We understand your business goals and assign developers who fit your project needs and work culture.",
             icon: <AiFillCode />,
           },
           {
             id: 2,
-            title: "Data-Driven Development",
+            title: "Skill-Specific Experts",
             description:
-              "Real-time analytics, user behavior tracking, and performance metrics guide ongoing improvements and feature planning.",
+              "Choose from a range of frontend, backend, full-stack, mobile, and CMS developers with proven expertise.",
             icon: <AiFillCode />,
           },
           {
             id: 3,
-            title: "End-to-End Development Solutions",
+            title: "End-to-End Development Support",
             description:
-              "From concept and design to development, testing, deployment, and maintenance—we manage the full software lifecycle.",
+              "From planning and design to coding, testing, and deployment—our developers handle every phase with precision.",
             icon: <AiFillCode />,
           },
           {
             id: 4,
-            title: "Transparent Progress & Reporting",
+            title: "Transparent Collaboration",
             description:
-              "Clear communication, milestone updates, and detailed technical reports keep you informed throughout the development process.",
+              "Direct communication, daily syncs, and progress reports ensure you're always in control of your project.",
             icon: <AiFillCode />,
           },
         ],
@@ -972,21 +972,21 @@ const serviceData = {
       description: "Skilled Proxy Developers",
       featuredImage: "/assets/Services/hire-proxy-developer-tab-featured.webp",
       section1: {
-        subheading: "Why Choose?",
-        heading: "Our Custom Software Development Services",
+        subheading: "Why Hire",
+        heading: "Our Proxy Developers",
         description:
-          "A comprehensive suite of software development services designed to streamline operations, enhance user experience, and implement innovative technology solutions—strategically crafted to align with your business goals and meet the unique demands of your digital products.",
-        featuredHeading: "Our Software Stands Out",
+          "Our proxy developer services are designed to support professionals and businesses with expert-level representation during interviews, onboarding phases, or client evaluations—ensuring successful outcomes with minimal stress.",
+        featuredHeading: "Our Proxy Developers Stand Out",
         featuredPoints: [
-          "Adaptable",
-          "Custom",
-          "Compatible",
-          "Scalable",
-          "User-Friendly",
-          "Secure",
+          "Technically Sound",
+          "Discreet & Professional",
+          "Client-Focused",
+          "Solution Driven",
+          "Highly Reliable",
+          "Seamlessly Integrated",
         ],
         featuredDescription:
-          "Our custom software is tailored to your business goals, offering more flexibility than off-the-shelf solutions. Built for scalability, it grows with your needs while integrating smoothly with your existing systems for minimal disruption and maximum efficiency.",
+          "We assign experts who have hands-on experience in the required tech stack and communication skills to present confidently. They understand your background, project context, and role requirements to represent you accurately and successfully.",
         sectionImage:
           "/assets/Services/hire-proxy-developers/about-proxy-dev.webp",
         ctaText: "Contact Us",
@@ -994,25 +994,25 @@ const serviceData = {
       },
       section2: {
         subheading: "Core Features",
-        heading: "Core Features of Our Software Development Service",
+        heading: "Core Features of Our Proxy Developer Services",
         description:
-          "Strategic software development tailored to your business objectives. We begin with in-depth system analysis and competitor benchmarking to uncover opportunities for innovation. Our team builds development roadmaps that address immediate technical needs while planning for scalable, future-ready solutions. Each product is crafted with user-centric design, seamless integration, and performance in mind—ensuring your software is as functional as it is forward-thinking.",
+          "We work closely with you to understand your background, goals, and job/client requirements, and then assign the right expert to step in where needed—delivering seamless and effective representation.",
         featuredPoints: [
-          "Custom-Fit Software",
-          "Scalable roadmaps",
-          "Easy system integration",
-          "Smart tech insights",
-          "Clean, bold UI/UX",
-          "Growth-ready backend",
+          "Full-Stack Experts",
+          "Live Tech Round Support",
+          "Flexible Communication",
+          "Aligned Briefing Calls",
+          "Secure, Private Process",
+          "Feedback-Driven Success",
         ],
         ctaText: "Contact Us",
         ctaLink: "/contact-us",
       },
       section3: {
         icon: <AiFillCode />,
-        heading: "Future-Ready Software",
+        heading: "Future-Ready Technical Representation",
         description:
-          "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
+          "Our proxy developers are highly skilled in handling complex interviews, coding challenges, and technical discussions with ease. They bring deep expertise across the latest tools, frameworks, and industry trends to every session. Their confident, up-to-date representation ensures your strengths are showcased effectively. With a focus on clarity and precision, they navigate each stage seamlessly—delivering reliable support when it matters most.",
         sectionImage:
           "/assets/Services/hire-proxy-developers/proxy-dev-future.webp",
         ctaText: "Contact Us",
@@ -1020,36 +1020,36 @@ const serviceData = {
       },
       section4: {
         subheading: "Success Solutions",
-        heading: "Your Partner in Digital Success",
+        heading: "Your Partner in Professional Success",
         description:
-          "Our software development services go beyond writing code—we deliver innovative, user-focused, and scalable digital solutions tailored to your business objectives. Backed by a team of skilled developers and strategists, we focus on precision, performance, and long-term value. Whether you’re building from scratch or modernizing legacy systems, we help your business thrive in the digital landscape.",
+          "Whether you’re a job seeker, freelancer, or part of a development agency, our proxy developers act as a silent yet powerful partner—helping you succeed in technical conversations, gain new opportunities, and build trust with clients or employers.",
         iconBox: [
           {
             id: 1,
-            title: "Tailored Development Strategies",
+            title: "Pre-Call Alignment",
             description:
-              "Custom software planning aligned with your business goals, user needs, and technical requirements.",
+              "We conduct thorough briefing sessions to understand your experience, the job description, and expectations.",
             icon: <AiFillCode />,
           },
           {
             id: 2,
-            title: "Data-Driven Development",
+            title: "Multi-Tech Expertise",
             description:
-              "Real-time analytics, user behavior tracking, and performance metrics guide ongoing improvements and feature planning.",
+              "Choose from proxy developers specializing in JavaScript, React, Angular, Node.js, Python, Java, DevOps, Data Engineering, and more.",
             icon: <AiFillCode />,
           },
           {
             id: 3,
-            title: "End-to-End Development Solutions",
+            title: "Real-Time Representation",
             description:
-              "From concept and design to development, testing, deployment, and maintenance—we manage the full software lifecycle.",
+              "Our expert developers join technical calls or interviews on your behalf and handle all technical discussions with precision.",
             icon: <AiFillCode />,
           },
           {
             id: 4,
-            title: "Transparent Progress & Reporting",
+            title: "100% Confidential & Secure",
             description:
-              "Clear communication, milestone updates, and detailed technical reports keep you informed throughout the development process.",
+              "We maintain complete confidentiality throughout the process, ensuring your identity and goals are protected.",
             icon: <AiFillCode />,
           },
         ],
