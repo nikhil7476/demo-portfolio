@@ -3,29 +3,47 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { Navbar, Nav, Container, Row, Col, NavDropdown } from "react-bootstrap";
-import { FaWhatsapp } from "react-icons/fa";
+import {
+  FaWhatsapp,
+  FaMicrosoft,
+  FaAppStoreIos,
+  FaDigitalOcean,
+  FaShoppingCart,
+  FaRobot,
+} from "react-icons/fa";
+import { FaInternetExplorer } from "react-icons/fa6";
+import {
+  MdOutlineDesignServices,
+  MdOutlineSecurity,
+  MdDeveloperMode,
+} from "react-icons/md";
 import { IoIosArrowDown } from "react-icons/io";
+import { SiTraefikproxy } from "react-icons/si";
 import { MdMenu } from "react-icons/md";
 
 const menuCategories = [
   {
     links: [
       {
+        icon: <FaMicrosoft />,
         name: "Software Development",
         description: "Softwares For Your Business.",
         href: "/our-services/software-development/",
       },
       {
+        icon: <FaAppStoreIos />,
         name: "Mobile App Development",
         description: "Apps For Android & iOS.",
         href: "/our-services/mobile-app-development/",
       },
       {
+        icon: <FaInternetExplorer />,
         name: "Website Development",
         description: "Modern Websites That Perform",
         href: "/our-services/website-development/",
       },
       {
+        icon: <MdOutlineDesignServices />,
         name: "UI/UX Design",
         description: "Designs That User Loves",
         href: "/our-services/ui-ux-design/",
@@ -35,16 +53,19 @@ const menuCategories = [
   {
     links: [
       {
+        icon: <FaDigitalOcean />,
         name: "Digital Marketing",
         description: "Grow Fast With Smart Marketing",
         href: "/our-services/digital-marketing/",
       },
       {
+        icon: <FaShoppingCart />,
         name: "Ecommerce Solutions",
         description: "Sell Better With Ecommerce",
         href: "/our-services/ecommerce-solutions/",
       },
       {
+        icon: <MdOutlineSecurity />,
         name: "Cyber Security Solutions",
         description: "Smart Digital Threat Protection",
         href: "/our-services/cyber-security-solutions/",
@@ -54,16 +75,19 @@ const menuCategories = [
   {
     links: [
       {
+        icon: <FaRobot />,
         name: "AI Solutions",
         description: "AI Tools For Smarter Work",
         href: "/our-services/artificial-intelligence-solutions/",
       },
       {
+        icon: <MdDeveloperMode />,
         name: "Hire Dedicated Developers",
         description: "Full Time Devs For Your Team",
         href: "/our-services/hire-dedicated-devlopers/",
       },
       {
+        icon: <SiTraefikproxy />,
         name: "Hire Proxy Developers",
         description: "Experts For Interview Success",
         href: "/our-services/hire-proxy-developers/",
@@ -96,8 +120,15 @@ const MegaMenuContent = () => (
                         title={link.name}
                         className="mega-menu-link"
                       >
-                        <span>{link.name}</span>
-                        <p>{link.description}</p>
+                        <div className="d-flex gap-2">
+                          <div>
+                            <span className="fs-2">{link.icon}</span>
+                          </div>
+                          <div>
+                            <span>{link.name}</span>
+                            <p>{link.description}</p>
+                          </div>
+                        </div>
                       </Link>
                     </li>
                   ))}
