@@ -97,7 +97,7 @@ const menuCategories = [
 ];
 
 const MegaMenuContent = () => (
-  <div className="mega-menu-panel shadow p-4 rounded-lg">
+  <div className="mega-menu-panel shadow p-2">
     <Container fluid>
       <Row>
         <Col xl={9} lg={9} md={8} sm={12} xs={12} className="mb-3">
@@ -110,7 +110,7 @@ const MegaMenuContent = () => (
                 sm={12}
                 xs={12}
                 key={index}
-                className="mb-4 mb-lg-0"
+                className="mb-3 mb-lg-0"
               >
                 <ul className="list-unstyled h-100">
                   {category.links.map((link, linkIndex) => (
