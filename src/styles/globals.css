@@ -201,9 +201,118 @@ textarea:active {
   box-shadow: none !important;
 }
 
-/* ===== Navbar Styling ===== */
-.navbar-transparent {
-  background-color: rgba(28, 29, 32, 0.75) !important;
+/* === Mega Menu Styles === */
+.header {
+  background-color: #1c1d20;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+.header-logo {
+  width: 25%;
+}
+
+.header-menu {
+  width: 75%;
+}
+
+/* Brand logo */
+.brand-logo {
+  width: 75%;
+  height: auto;
+}
+
+/* Header Nav Links */
+.header-nav .nav-link {
+  color: var(--heading) !important;
+  font-size: 18px;
+  font-weight: 400 !important;
+  line-height: 1.2em;
+}
+
+/* CTA Button */
+.header-ctaButton {
+  background: var(--button-bg) !important;
+  color: var(--button-text) !important;
+  border: 1px solid var(--button-border) !important;
+  padding: 10px 20px !important;
+  cursor: pointer;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.header-ctaButton:hover {
+  color: var(--link-hover) !important;
+  background-color: transparent !important;
+}
+
+/* Mega Menu Dropdown */
+.mega-menu-dropdown .dropdown-menu {
+  width: 100vw;
+  max-width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0;
+  background: transparent;
+}
+
+/* Mega Menu Hover Link */
+.mega-menu-link:hover {
+  color: var(--link-hover);
+}
+
+/* Mega Menu Panel */
+.mega-menu-panel {
+  background-color: var(--section);
+}
+
+.mega-menu-panel .mega-menu-link span {
+  color: var(--heading);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2em;
+  text-transform: capitalize;
+}
+
+.mega-menu-panel .mega-menu-link:hover span {
+  color: var(--link-hover);
+}
+
+.mega-menu-panel .mega-menu-link p {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1.5em;
+}
+
+/* Work Menu Dropdown */
+.work-menu-dropdown .dropdown-menu {
+  background: var(--section);
+}
+
+.work-menu-dropdown .dropdown-menu .dropdown-item {
+  background: transparent;
+}
+
+/* Desktop Behavior */
+@media (min-width: 992px) {
+  .mega-menu-dropdown .dropdown-menu {
+    display: none !important;
+  }
+  .mega-menu-dropdown:hover .dropdown-menu {
+    display: block !important;
+  }
+}
+
+/* Responsive Adjustment */
+@media (max-width: 991.98px) {
+  .mega-menu-panel {
+    padding: 0 !important;
+    box-shadow: none !important;
+  }
 }
 
 /* ===== Stats Styling ===== */
