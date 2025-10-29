@@ -232,6 +232,10 @@ textarea:active {
   line-height: 1.2em;
 }
 
+.header-nav-icon {
+  color: var(--accent) !important;
+}
+
 /* CTA Button */
 .header-ctaButton {
   background: var(--button-bg) !important;

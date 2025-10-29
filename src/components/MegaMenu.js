@@ -120,9 +120,11 @@ const MegaMenuContent = () => (
                         title={link.name}
                         className="mega-menu-link"
                       >
-                        <div className="d-flex gap-2">
+                        <div className="d-flex gap-3">
                           <div>
-                            <span className="fs-2">{link.icon}</span>
+                            <span className="fs-2 header-nav-icon">
+                              {link.icon}
+                            </span>
                           </div>
                           <div>
                             <span>{link.name}</span>
