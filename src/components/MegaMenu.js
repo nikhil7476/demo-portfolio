@@ -172,7 +172,7 @@ export default function MegaMenu() {
 
   return (
     <Navbar expand="lg" sticky="top" className="header">
-      <Container fluid className="px-3 px-md-5">
+      <Container className="w-100">
         <Navbar.Brand href="/" title="MakersOfCode" className="header-logo">
           <Image
             src="/assets/Header/MOC-logo.png"
@@ -189,7 +189,7 @@ export default function MegaMenu() {
         </Navbar.Toggle>
 
         <Navbar.Collapse id="basic-navbar-nav" className="header-menu">
-          <Nav className="me-auto header-nav">
+          <Nav className="me-auto header-nav text-center">
             <Nav.Link as={Link} href="/">
               Home
             </Nav.Link>
