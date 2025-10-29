@@ -219,13 +219,11 @@ textarea:active {
   width: 75%;
 }
 
-/* Brand logo */
 .brand-logo {
   width: 75%;
   height: auto;
 }
 
-/* Header Nav Links */
 .header-nav .nav-link {
   color: var(--heading) !important;
   font-size: 18px;
@@ -237,7 +235,6 @@ textarea:active {
   color: var(--accent) !important;
 }
 
-/* CTA Button */
 .header-ctaButton {
   background: var(--button-bg) !important;
   color: var(--button-text) !important;
@@ -255,7 +252,6 @@ textarea:active {
   background-color: transparent !important;
 }
 
-/* Mega Menu Dropdown */
 .mega-menu-dropdown .dropdown-menu {
   width: 100vw;
   max-width: 100%;
@@ -265,12 +261,10 @@ textarea:active {
   background: transparent;
 }
 
-/* Mega Menu Hover Link */
 .mega-menu-link:hover {
   color: var(--link-hover);
 }
 
-/* Mega Menu Panel */
 .mega-menu-panel {
   background-color: var(--section);
 }
@@ -293,7 +287,6 @@ textarea:active {
   line-height: 1.5em;
 }
 
-/* Work Menu Dropdown */
 .work-menu-dropdown .dropdown-menu {
   background: var(--section);
 }
@@ -342,7 +335,7 @@ textarea:active {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5) !important;
+  background: rgba(0, 0, 0, 0.65) !important;
   z-index: 0;
 }
 
@@ -358,6 +351,7 @@ textarea:active {
   transform: rotate(90deg);
   left: 50% !important;
   top: 0;
+  z-index: 99 !important;
 }
 
 /* ===== Marquee Styles ===== */

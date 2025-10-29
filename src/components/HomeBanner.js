@@ -26,9 +26,24 @@ const HomeBanner = () => {
               minHeight: "500px",
               display: "flex",
               alignItems: "center",
+              position: "relative",
+              overflow: "hidden",
             }}
           >
-            <Container>
+            {/* Overlay */}
+            <div
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+                backgroundColor: "rgba(0, 0, 0, 0.65)", // adjust opacity as needed
+                zIndex: 1,
+              }}
+            ></div>
+
+            <Container style={{ position: "relative", zIndex: 2 }}>
               <Row className="align-items-center">
                 <Col className="text-white">
                   {slide.subHeading && <span>{slide.subHeading}</span>}
