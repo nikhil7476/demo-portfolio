@@ -131,28 +131,27 @@ export default function OurServices() {
                     <h2>{serviceData.serviceMain.section2.heading}</h2>
                   )}
                   <hr />
+                  {/* Render ServiceTab only if section2 exists */}
+                  <ServiceTab />
+
+                  {serviceData.serviceMain.section2.ctaLink &&
+                    serviceData.serviceMain.section2.ctaText && (
+                      <Row>
+                        <Col className="text-center">
+                          <Link
+                            href={serviceData.serviceMain.section2.ctaLink}
+                            title={serviceData.serviceMain.section2.ctaText}
+                            className="ctaButton"
+                          >
+                            {serviceData.serviceMain.section2.ctaText}{" "}
+                            <FaArrowRightLong />
+                          </Link>
+                        </Col>
+                      </Row>
+                    )}
                 </Col>
               </Row>
             )}
-
-            {/* Render ServiceTab only if section2 exists */}
-            <ServiceTab />
-
-            {serviceData.serviceMain.section2.ctaLink &&
-              serviceData.serviceMain.section2.ctaText && (
-                <Row>
-                  <Col className="text-center">
-                    <Link
-                      href={serviceData.serviceMain.section2.ctaLink}
-                      title={serviceData.serviceMain.section2.ctaText}
-                      className="ctaButton"
-                    >
-                      {serviceData.serviceMain.section2.ctaText}{" "}
-                      <FaArrowRightLong />
-                    </Link>
-                  </Col>
-                </Row>
-              )}
           </Container>
         </section>
       )}

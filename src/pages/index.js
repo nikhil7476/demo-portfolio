@@ -220,18 +220,18 @@ function Home() {
               <span>Our Services</span>
               <h2>Most Experienced Services</h2>
               <hr />
-            </Col>
-          </Row>
-          <ServiceTab />
-          <Row>
-            <Col className="text-center">
-              <Link
-                href="/our-services"
-                title="Explore Our Services"
-                className="ctaButton"
-              >
-                Explore Our Services <FaArrowRightLong />
-              </Link>
+              <ServiceTab />
+              <Row>
+                <Col className="text-center">
+                  <Link
+                    href="/our-services"
+                    title="Explore Our Services"
+                    className="ctaButton"
+                  >
+                    Explore Our Services <FaArrowRightLong />
+                  </Link>
+                </Col>
+              </Row>
             </Col>
           </Row>
         </Container>
