@@ -105,9 +105,13 @@ function Home() {
                   md={6}
                   sm={12}
                   xs={12}
-                  className="mb-3 text-center align-content-center"
+                  className="mb-3 text-center align-content-center counter-container"
                 >
-                  {stat.description && <p>{stat.description}</p>}
+                  {stat.description && (
+                    <div className="counter mb-3">
+                      <p className="m-0">{stat.description}</p>
+                    </div>
+                  )}
 
                   {typeof stat.value === "number" && (
                     <CountUp
@@ -126,7 +130,9 @@ function Home() {
                   )}
 
                   {stat.label && (
-                    <p className="bg-light text-dark rounded">{stat.label}</p>
+                    <div className="d-flex justify-content-center">
+                      <p className="counter-label m-0">{stat.label}</p>
+                    </div>
                   )}
                 </Col>
               ))}
@@ -161,7 +167,7 @@ function Home() {
                   className="mb-3"
                 >
                   <div
-                    className="p-4 align-content-end rounded"
+                    className="p-4 align-content-end rounded product-card-container"
                     style={{
                       backgroundImage: product.featuredImage
                         ? `url(${product.featuredImage})`
@@ -174,10 +180,14 @@ function Home() {
                         : "transparent",
                     }}
                   >
-                    <div className="bg-dark bg-opacity-75 text-white p-3 rounded">
-                      {product.title && <h3>{product.title}</h3>}
+                    <div className="product-card">
+                      {product.title && (
+                        <h3 className="product-card-title">{product.title}</h3>
+                      )}
                       {product.shortDescription && (
-                        <p>{product.shortDescription}</p>
+                        <p className="product-card-description">
+                          {product.shortDescription}
+                        </p>
                       )}
                       {product.slug && (
                         <Link
@@ -185,7 +195,7 @@ function Home() {
                           title={`Learn more about ${
                             product.title || "this product"
                           }`}
-                          className="text-white"
+                          className=" product-card-link"
                         >
                           Read More <FaArrowRightLong />
                         </Link>

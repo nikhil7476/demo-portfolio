@@ -140,7 +140,7 @@ function ServiceTab() {
       <Tab.Container
         defaultActiveKey={allServices[0]?.slug}
         id="service-tab"
-        className="mb-3"
+        className="mb-3 service-tab-container"
       >
         <Row className="align-items-center">
           {/* Scroll arrows + horizontal nav */}
@@ -150,7 +150,7 @@ function ServiceTab() {
               <Button
                 variant="dark"
                 size="sm"
-                className="me-2 shadow rounded-circle border-0"
+                className="service-nav-arrow me-2"
                 onClick={() => scroll("left")}
                 style={{ zIndex: 2 }}
               >
@@ -182,10 +182,13 @@ function ServiceTab() {
                       style={{
                         flex: `0 0 calc(100% / ${visibleTabs})`,
                         textAlign: "center",
-                        padding: "0 0.25rem",
+                        padding: "0 5px",
                       }}
                     >
-                      <Nav.Link eventKey={service.slug} className="text-nowrap">
+                      <Nav.Link
+                        eventKey={service.slug}
+                        className="text-nowrap service-tab-title"
+                      >
                         {service.title}
                       </Nav.Link>
                     </Nav.Item>
@@ -197,7 +200,7 @@ function ServiceTab() {
               <Button
                 variant="dark"
                 size="sm"
-                className="ms-2 shadow rounded-circle border-0"
+                className="service-nav-arrow ms-2"
                 onClick={() => scroll("right")}
                 style={{ zIndex: 2 }}
               >

@@ -168,13 +168,16 @@ button:hover {
 .ctaButton {
   background: var(--button-bg) !important;
   color: var(--button-text) !important;
-  border: 1px solid var(--button-border) !important;
+  margin: 10px 0px !important;
   padding: 10px 20px !important;
-  cursor: pointer;
-  font-size: 18px !important;
+  font-family: var(--font-heading) !important;
+  font-size: 20px !important;
   font-weight: 600 !important;
-  border-radius: 25px;
-  transition: all 0.3s ease;
+  text-transform: capitalize !important;
+  line-height: 1.2em !important;
+  border: 1px solid var(--button-border) !important;
+  border-radius: 25px !important;
+  transition: all 0.3s ease !important;
 }
 
 .ctaButton:hover {
@@ -354,6 +357,76 @@ textarea:active {
   z-index: 99 !important;
 }
 
+/* ===== Counter Container =====*/
+.counter-container {
+  cursor: pointer;
+}
+
+.counter-container .counter {
+  visibility: hidden;
+  background-color: #28292f;
+  padding: 10px 10px 10px 10px;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #caef45;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.counter-container:hover .counter {
+  visibility: visible;
+}
+
+.counter-container .counter-label {
+  width: 70%;
+  color: #28292f;
+  background-color: #ffffff;
+  font-family: var(--font-heading);
+  font-size: 18px;
+  font-weight: 600 !important;
+  line-height: 1.2em;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+/* ===== Home Products =====*/
+
+.product-card-container {
+  cursor: pointer;
+}
+
+.product-card-container .product-card {
+  display: none;
+  background-color: #28292fe0;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.product-card-container:hover .product-card {
+  display: block;
+}
+
+.product-card-container .product-card .product-card-title {
+  color: #ffffff;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  line-height: 1.2em;
+}
+
+.product-card-container .product-card .product-card-description {
+  color: #c1c1c1;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 1.5em;
+}
+
+.product-card-container .product-card .product-card-link {
+  color: #caef45 !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 1.2em;
+  transition: color 0.3s ease;
+}
+
 /* ===== Marquee Styles ===== */
 .service-marquee-wrapper {
   overflow: hidden;
@@ -422,6 +495,45 @@ textarea:active {
   .service-title {
     font-size: 1rem;
   }
+}
+
+/* ===== Service Tabs ===== */
+
+.service-nav-arrow {
+  cursor: pointer !important;
+  color: #caef45 !important;
+  background: transparent !important;
+  padding: 8px !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  font-family: var(--font-heading) !important;
+  line-height: 1.2em !important;
+  border: 1px solid var(--button-border) !important;
+  border-radius: 100% !important;
+  transition: all 0.3s ease !important;
+}
+
+.service-nav-arrow:hover {
+  color: var(--button-text) !important;
+  background: var(--button-bg) !important;
+}
+
+.service-tab-title {
+  padding: 10px 20px !important;
+  color: #ffffff !important;
+  background-color: #28292f !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  font-family: var(--font-heading) !important;
+  text-transform: capitalize !important;
+  line-height: 1.2em !important;
+  border-radius: 5px !important;
+}
+
+.service-tab-title:hover,
+.service-tab-title.active {
+  background-color: #caef45 !important;
+  color: #233050 !important;
 }
 
 /* ===== Responsive Typography ===== */

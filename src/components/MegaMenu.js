@@ -268,9 +268,6 @@ export default function MegaMenu() {
             </NavDropdown>
 
             <Nav.Link as={Link} href="/contact-us">
-              Blog
-            </Nav.Link>
-            <Nav.Link as={Link} href="/contact-us">
               Contact Us
             </Nav.Link>
           </Nav>
