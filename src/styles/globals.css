@@ -97,13 +97,13 @@ h6 {
 h1 {
   font-size: 70px !important;
   background: linear-gradient(to right, #ffffff 30%, #caef45 70%) !important;
-  -webkit-background-clip: text !important;
+  background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 h2 {
   font-size: 45px !important;
   background: linear-gradient(to right, #ffffff 10%, #caef45 90%) !important;
-  -webkit-background-clip: text !important;
+  background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 h3 {
