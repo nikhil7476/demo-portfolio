@@ -275,10 +275,17 @@ textarea:active {
 }
 
 .header-nav .nav-link {
+  padding: 10px 15px !important;
   color: var(--heading) !important;
-  font-size: 18px;
+  font-size: 18px !important;
   font-weight: 400 !important;
-  line-height: 1.2em;
+  font-family: var(--font-heading) !important;
+  line-height: 1.2em !important;
+}
+
+.header-nav .nav-link:hover,
+.header-nav .nav-link.active {
+  color: var(--link-hover) !important;
 }
 
 .header-nav-icon {
@@ -286,13 +293,13 @@ textarea:active {
 }
 
 .header-ctaButton {
+  width: fit-content !important;
   background: var(--button-bg) !important;
   color: var(--button-text) !important;
-  border: 1px solid var(--button-border) !important;
   padding: 10px 20px !important;
-  cursor: pointer;
   font-size: 18px !important;
   font-weight: 600 !important;
+  border: 1px solid var(--button-border) !important;
   border-radius: 25px;
   transition: all 0.3s ease;
 }
@@ -749,6 +756,19 @@ textarea:active {
   }
   p {
     font-size: 15px !important;
+  }
+  .header-menu .navbar-nav {
+    flex-wrap: wrap !important;
+    align-content: center !important;
+  }
+  .header-menu .mobile-mega-menu-dropdown {
+    padding: 0px !important;
+    margin: 0px !important;
+    background-color: transparent !important;
+  }
+  .header-menu .mobile-mega-menu-dropdown p {
+    padding: 0px !important;
+    margin: 0px !important;
   }
 }
 

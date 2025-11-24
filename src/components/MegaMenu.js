@@ -276,7 +276,7 @@ export default function MegaMenu() {
             </Nav.Link>
           </Nav>
 
-          <Nav>
+          <Nav className="text-center">
             <Nav.Link
               href="https://wa.me/919084583845"
               title="Whatsapp Us"
