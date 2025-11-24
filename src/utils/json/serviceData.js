@@ -13,6 +13,7 @@ import {
   FaShoppingCart,
   FaCloudUploadAlt,
 } from "react-icons/fa";
+import { FiLayers, FiBox, FiBarChart2, FiUsers } from "react-icons/fi";
 import { FaInternetExplorer } from "react-icons/fa6";
 import { GiBrain } from "react-icons/gi";
 import { IoShareSocialOutline } from "react-icons/io5";
@@ -182,28 +183,28 @@ const serviceData = {
             title: "Tailored Development Strategies",
             description:
               "Custom software planning aligned with your business goals, user needs, and technical requirements.",
-            icon: <AiFillCode />,
+            icon: <FiLayers />,
           },
           {
             id: 2,
             title: "Data-Driven Development",
             description:
               "Real-time analytics, user behavior tracking, and performance metrics guide ongoing improvements and feature planning.",
-            icon: <AiFillCode />,
+            icon: <FiBox />,
           },
           {
             id: 3,
             title: "End-to-End Development Solutions",
             description:
               "From concept and design to development, testing, deployment, and maintenance—we manage the full software lifecycle.",
-            icon: <AiFillCode />,
+            icon: <FiBarChart2 />,
           },
           {
             id: 4,
             title: "Transparent Progress & Reporting",
             description:
               "Clear communication, milestone updates, and detailed technical reports keep you informed throughout the development process.",
-            icon: <AiFillCode />,
+            icon: <FiUsers />,
           },
         ],
         ctaText: "Contact Us",
@@ -277,28 +278,28 @@ const serviceData = {
             title: "Tailored Website Development Strategies",
             description:
               "Custom website planning aligned with your business goals, user journeys, and technical requirements.",
-            icon: <AiFillCode />,
+            icon: <FiLayers />,
           },
           {
             id: 2,
             title: "Data-Driven Development",
             description:
               "Using analytics, user behavior tracking, and performance metrics, we continuously optimize your website for results.",
-            icon: <AiFillCode />,
+            icon: <FiBox />,
           },
           {
             id: 3,
             title: "End-to-End Web Solutions",
             description:
               "From planning and UI/UX design to development, testing, and maintenance—we manage the entire web lifecycle.",
-            icon: <AiFillCode />,
+            icon: <FiBarChart2 />,
           },
           {
             id: 4,
             title: "Transparent Progress & Reporting",
             description:
               "Clear communication, milestone updates, and regular reporting keep you in the loop at every stage.",
-            icon: <AiFillCode />,
+            icon: <FiUsers />,
           },
         ],
         ctaText: "Contact Us",
@@ -374,28 +375,28 @@ const serviceData = {
             title: "Tailored App Development Strategies",
             description:
               "Custom mobile app planning aligned with your business objectives, user expectations, and platform requirements.",
-            icon: <AiFillCode />,
+            icon: <FiLayers />,
           },
           {
             id: 2,
             title: "Data-Driven App Optimization",
             description:
               "Leverage real-time analytics, user behavior tracking, and performance metrics to continuously improve your app's features and functionality.",
-            icon: <AiFillCode />,
+            icon: <FiBox />,
           },
           {
             id: 3,
             title: "End-to-End App Development Solutions",
             description:
               "From concept and UI/UX design to development, testing, deployment, and support—we handle the entire mobile app lifecycle.",
-            icon: <AiFillCode />,
+            icon: <FiBarChart2 />,
           },
           {
             id: 4,
             title: "Transparent Communication & Reporting",
             description:
               "Stay informed at every stage with clear updates, milestone tracking, and detailed progress reports.",
-            icon: <AiFillCode />,
+            icon: <FiUsers />,
           },
         ],
         ctaText: "Contact Us",
@@ -469,28 +470,28 @@ const serviceData = {
             title: "Tailored Marketing Strategies",
             description:
               "Custom marketing plans aligned with your business goals, audience needs, and market opportunities.",
-            icon: <AiFillCode />,
+            icon: <FiLayers />,
           },
           {
             id: 2,
             title: "Transparent Communication & Reporting",
             description:
               "Clear updates, performance dashboards, and in-depth reports keep you informed every step of the way.",
-            icon: <AiFillCode />,
+            icon: <FiBox />,
           },
           {
             id: 3,
             title: "End-to-End Campaign Management",
             description:
               "From strategy and content creation to execution, optimization, and reporting—we handle the full marketing lifecycle.",
-            icon: <AiFillCode />,
+            icon: <FiBarChart2 />,
           },
           {
             id: 4,
             title: "Data-Driven Marketing",
             description:
               "Real-time analytics, customer behavior insights, and performance metrics fuel continuous improvement and campaign refinement.",
-            icon: <AiFillCode />,
+            icon: <FiUsers />,
           },
         ],
         ctaText: "Contact Us",
@@ -562,28 +563,28 @@ const serviceData = {
             title: "Tailored Design Strategies",
             description:
               "Custom software planning aligned with your business goals, user needs, and technical requirements.",
-            icon: <AiFillCode />,
+            icon: <FiLayers />,
           },
           {
             id: 2,
             title: "Research-Driven Design",
             description:
               "Custom design approaches aligned with your brand, goals, and audience behavior.",
-            icon: <AiFillCode />,
+            icon: <FiBox />,
           },
           {
             id: 3,
             title: "End-to-End UI/UX Solutions",
             description:
               "We use user personas, journey mapping, A/B testing, and analytics to guide our design decisions.",
-            icon: <AiFillCode />,
+            icon: <FiBarChart2 />,
           },
           {
             id: 4,
             title: "Transparent Process & Collaboration",
             description:
               "You stay in the loop with regular feedback sessions, design presentations, and collaborative decision-making.",
-            icon: <AiFillCode />,
+            icon: <FiUsers />,
           },
         ],
         ctaText: "Contact Us",
@@ -657,28 +658,28 @@ const serviceData = {
             title: "Tailored Store Strategies",
             description:
               "Custom planning aligned with your product type, customer behavior, and sales objectives.",
-            icon: <AiFillCode />,
+            icon: <FiLayers />,
           },
           {
             id: 2,
             title: "Data-Driven Optimization",
             description:
               "Leverage real-time analytics, conversion tracking, and user flow insights to optimize store performance and customer satisfaction.",
-            icon: <AiFillCode />,
+            icon: <FiBox />,
           },
           {
             id: 3,
             title: "End-to-End E-commerce Development",
             description:
               "From store design and product catalog setup to payment integration, deployment, and maintenance—we manage the complete lifecycle.",
-            icon: <AiFillCode />,
+            icon: <FiBarChart2 />,
           },
           {
             id: 4,
             title: "Transparent Progress & Reporting",
             description:
               "We provide clear communication, detailed updates, and regular performance reports so you always know where your store stands.",
-            icon: <AiFillCode />,
+            icon: <FiUsers />,
           },
         ],
         ctaText: "Contact Us",
@@ -752,28 +753,28 @@ const serviceData = {
             title: "Tailored Security Strategies",
             description:
               "Custom protection plans built around your industry, compliance needs, and risk landsc",
-            icon: <AiFillCode />,
+            icon: <FiLayers />,
           },
           {
             id: 2,
             title: "Insight-Driven Protection",
             description:
               "Real-time analytics, threat intelligence, and behavioral analysis power proactive defense and faster response.",
-            icon: <AiFillCode />,
+            icon: <FiBox />,
           },
           {
             id: 3,
             title: "End-to-End Cyber Defense",
             description:
               "From risk assessment and solution deployment to monitoring and incident response—we cover the full security lifecycle.",
-            icon: <AiFillCode />,
+            icon: <FiBarChart2 />,
           },
           {
             id: 4,
             title: "Transparent Process & Collaboration",
             description:
               "Clear reporting, active communication, and full visibility keep you informed and empowered at every step.",
-            icon: <AiFillCode />,
+            icon: <FiUsers />,
           },
         ],
         ctaText: "Contact Us",
@@ -845,28 +846,28 @@ const serviceData = {
             title: "TTailored AI Strategies",
             description:
               "Custom planning based on your industry, data availability, and strategic goals.",
-            icon: <AiFillCode />,
+            icon: <FiLayers />,
           },
           {
             id: 2,
             title: "Insight-Driven Intelligence",
             description:
               "Our systems use real-time analytics, behavioral data, and predictive modeling to power smarter decision-making.",
-            icon: <AiFillCode />,
+            icon: <FiBox />,
           },
           {
             id: 3,
             title: "End-to-End AI Development",
             description:
               "From data collection and model training to deployment and ongoing optimization—we handle the entire AI lifecycle.",
-            icon: <AiFillCode />,
+            icon: <FiBarChart2 />,
           },
           {
             id: 4,
             title: "Transparent Process & Collaboration",
             description:
               "Frequent checkpoints, progress reports, and model transparency ensure you're informed and in control at every stage.",
-            icon: <AiFillCode />,
+            icon: <FiUsers />,
           },
         ],
         ctaText: "Contact Us",
@@ -941,28 +942,28 @@ const serviceData = {
             title: "Tailored Resource Planning",
             description:
               "We understand your business goals and assign developers who fit your project needs and work culture.",
-            icon: <AiFillCode />,
+            icon: <FiLayers />,
           },
           {
             id: 2,
             title: "Skill-Specific Experts",
             description:
               "Choose from a range of frontend, backend, full-stack, mobile, and CMS developers with proven expertise.",
-            icon: <AiFillCode />,
+            icon: <FiBox />,
           },
           {
             id: 3,
             title: "End-to-End Development Support",
             description:
               "From planning and design to coding, testing, and deployment—our developers handle every phase with precision.",
-            icon: <AiFillCode />,
+            icon: <FiBarChart2 />,
           },
           {
             id: 4,
             title: "Transparent Collaboration",
             description:
               "Direct communication, daily syncs, and progress reports ensure you're always in control of your project.",
-            icon: <AiFillCode />,
+            icon: <FiUsers />,
           },
         ],
         ctaText: "Contact Us",
@@ -1036,28 +1037,28 @@ const serviceData = {
             title: "Pre-Call Alignment",
             description:
               "We conduct thorough briefing sessions to understand your experience, the job description, and expectations.",
-            icon: <AiFillCode />,
+            icon: <FiLayers />,
           },
           {
             id: 2,
             title: "Multi-Tech Expertise",
             description:
               "Choose from proxy developers specializing in JavaScript, React, Angular, Node.js, Python, Java, DevOps, Data Engineering, and more.",
-            icon: <AiFillCode />,
+            icon: <FiBox />,
           },
           {
             id: 3,
             title: "Real-Time Representation",
             description:
               "Our expert developers join technical calls or interviews on your behalf and handle all technical discussions with precision.",
-            icon: <AiFillCode />,
+            icon: <FiBarChart2 />,
           },
           {
             id: 4,
             title: "100% Confidential & Secure",
             description:
               "We maintain complete confidentiality throughout the process, ensuring your identity and goals are protected.",
-            icon: <AiFillCode />,
+            icon: <FiUsers />,
           },
         ],
         ctaText: "Contact Us",
@@ -1129,28 +1130,28 @@ const serviceData = {
             title: "Strategic AI Agent Planning",
             description:
               "Custom-built roadmaps based on your processes, data, and business objectives.",
-            icon: <AiFillCode />,
+            icon: <FiLayers />,
           },
           {
             id: 2,
             title: "Full-Cycle Agent Development",
             description:
               "From workflow mapping and logic design to deployment, testing, and continuous improvement.",
-            icon: <AiFillCode />,
+            icon: <FiBox />,
           },
           {
             id: 3,
             title: "Intelligence Powered by Insights",
             description:
               "Real-time data, behavioral patterns, and predictive logic drive smarter automated decisions.",
-            icon: <AiFillCode />,
+            icon: <FiBarChart2 />,
           },
           {
             id: 4,
             title: "Clear, Collaborative Process",
             description:
               "Transparent updates, regular checkpoints, and full visibility into how your agents learn and operate.",
-            icon: <AiFillCode />,
+            icon: <FiUsers />,
           },
         ],
         ctaText: "Contact Us",
@@ -1222,28 +1223,28 @@ const serviceData = {
             title: "Tailored SaaS Strategies",
             description:
               "Custom product planning based on your business model, user requirements, and long-term objectives.",
-            icon: <AiFillCode />,
+            icon: <FiLayers />,
           },
           {
             id: 2,
             title: "End-to-End SaaS Development",
             description:
               "From architecture and coding to deployment, optimization, and continuous updates—we handle the full product lifecycle.",
-            icon: <AiFillCode />,
+            icon: <FiBox />,
           },
           {
             id: 3,
             title: "Insight-Driven Product Intelligence",
             description:
               "Real-time analytics, user behavior tracking, and performance insights for smarter product decisions.",
-            icon: <AiFillCode />,
+            icon: <FiBarChart2 />,
           },
           {
             id: 4,
             title: "Transparent Collaboration & Process",
             description:
               "Clear communication, frequent updates, and complete visibility into development—ensuring you stay informed at every step.",
-            icon: <AiFillCode />,
+            icon: <FiUsers />,
           },
         ],
         ctaText: "Contact Us",

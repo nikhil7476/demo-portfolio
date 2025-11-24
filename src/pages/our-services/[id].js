@@ -209,7 +209,7 @@ export default function ServicesDetail() {
                       <span className="fs-1">{service.section3.icon}</span>
                     )}
                     {service.section3.heading && (
-                      <h2 className="mt-2">{service.section3.heading}</h2>
+                      <h3 className="mt-2">{service.section3.heading}</h3>
                     )}
                     {service.section3.description && (
                       <p>{service.section3.description}</p>
@@ -265,14 +265,16 @@ export default function ServicesDetail() {
                         xs={12}
                         className="mb-3"
                       >
-                        <div className="h-100">
-                          {point.icon && (
-                            <span className="fs-1 mb-2">{point.icon}</span>
-                          )}
-                          {point.title && (
-                            <h3 className="my-2">{point.title}</h3>
-                          )}
-                          {point.description && <p>{point.description}</p>}
+                        <div className="d-flex gap-3 h-100">
+                          <div>
+                            {point.icon && (
+                              <span className="fs-1">{point.icon}</span>
+                            )}
+                          </div>
+                          <div>
+                            {point.title && <h3>{point.title}</h3>}
+                            {point.description && <p>{point.description}</p>}
+                          </div>
                         </div>
                       </Col>
                     ))}

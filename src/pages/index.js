@@ -294,7 +294,11 @@ function Home() {
                           key={index}
                           className="d-flex align-items-start gap-3 mb-3"
                         >
-                          {item.icon && <div className="fs-6">{item.icon}</div>}
+                          <div>
+                            {item.icon && (
+                              <span className="fs-1">{item.icon}</span>
+                            )}
+                          </div>
                           <div>
                             {item.title && <h3>{item.title}</h3>}
                             {item.description && <p>{item.description}</p>}
