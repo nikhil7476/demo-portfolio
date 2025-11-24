@@ -15,6 +15,7 @@ import testimonialData from "@/utils/json/testimonialData";
 import ContactForm from "@/components/ContactForm";
 import FaqAccordion from "@/components/FaqAccordion";
 import faqData from "@/utils/json/faqData";
+import Timeline from "@/components/Timeline";
 
 function AboutUs() {
   return (
@@ -230,38 +231,10 @@ function AboutUs() {
                   {aboutData.section3.description && (
                     <p>{aboutData.section3.description}</p>
                   )}
+                  <Timeline />
                 </Col>
               </Row>
             )}
-
-            {/* Timeline */}
-            {aboutData.section3.timeline?.length > 0 && (
-              <Row>
-                {aboutData.section3.timeline.map((item, index) => (
-                  <Col
-                    key={item.id || index}
-                    xs={12}
-                    className="mb-4 d-flex align-items-start"
-                  >
-                    {item.icon && (
-                      <div className="fs-2 me-3 text-primary">{item.icon}</div>
-                    )}
-                    <div>
-                      {(item.step || item.title) && (
-                        <h5 className="mb-1 fw-bold">
-                          {item.step && `${item.step}: `}
-                          {item.title}
-                        </h5>
-                      )}
-                      {item.description && (
-                        <p className="mb-0">{item.description}</p>
-                      )}
-                    </div>
-                  </Col>
-                ))}
-              </Row>
-            )}
-
             {/* CTA Button */}
             {aboutData.section3.ctaLink && aboutData.section3.ctaText && (
               <Row>

@@ -2,20 +2,23 @@
 
 import { AiFillCode } from "react-icons/ai";
 import {
-  FaChartLine,
-  FaQuidditch,
   FaRobot,
   FaFileAlt,
   FaUserCheck,
   FaLaptopCode,
   FaAmazonPay,
+  FaMicrosoft,
+  FaAppStoreIos,
+  FaDigitalOcean,
+  FaShoppingCart,
+  FaCloudUploadAlt,
 } from "react-icons/fa";
-import { FaMobileRetro, FaCartShopping } from "react-icons/fa6";
-import { GrCloudSoftware } from "react-icons/gr";
+import { FaInternetExplorer } from "react-icons/fa6";
+import { GiBrain } from "react-icons/gi";
 import { IoShareSocialOutline } from "react-icons/io5";
 import {
-  MdScreenSearchDesktop,
-  MdSecurity,
+  MdOutlineDesignServices,
+  MdOutlineSecurity,
   MdDeveloperMode,
   MdDesignServices,
   MdOutlineScreenSearchDesktop,
@@ -110,12 +113,12 @@ const serviceData = {
   myservices: [
     {
       id: 1,
-      icon: <GrCloudSoftware />,
+      icon: <FaMicrosoft />,
       slug: "software-development",
       subtitle: "Software Development",
       title: "Software Development",
       description:
-        "We create custom software tailored to your business needs - ensuring scalability, security, and performance to streamline operations and support growth.",
+        "We build reliable, scalable, and high-performance software tailored to your business needs. Our team focuses on creating robust solutions that streamline operations, improve efficiency, and support long-term growth.",
       featuredImage: "/assets/Services/software-development-tab-featured.webp",
       aboutImage:
         "/assets/Services/software-development/about-software-development.webp",
@@ -159,7 +162,7 @@ const serviceData = {
         ctaLink: "/contact-us",
       },
       section3: {
-        icon: <AiFillCode />,
+        icon: <FaMicrosoft />,
         heading: "Future-Ready Software",
         description:
           "We craft intelligent, scalable software tailored to your unique business goals—no generic templates, just smart, purpose-built solutions. Our software evolves with your needs, adapting effortlessly as your operations grow. Designed for performance, flexibility, and long-term value, it supports continuous innovation. We ensure every line of code adds clarity, capability, and impact.",
@@ -209,12 +212,12 @@ const serviceData = {
     },
     {
       id: 2,
-      icon: <MdScreenSearchDesktop />,
+      icon: <FaInternetExplorer />,
       slug: "website-development",
       subtitle: "Website Development",
       title: "Website Development",
       description:
-        "We build fast, secure, and SEO-friendly websites that look great on all devices—whether it's a simple site or a full web app.",
+        "We create fast, modern, and visually appealing websites that work flawlessly across all devices. Our websites are designed to enhance your online presence, improve user experience, and support your business goals.",
       featuredImage: "/assets/Services/website-development-tab-featured.webp",
       section1: {
         subheading: "Why Choose?",
@@ -254,7 +257,7 @@ const serviceData = {
         ctaLink: "/contact-us",
       },
       section3: {
-        icon: <AiFillCode />,
+        icon: <FaInternetExplorer />,
         heading: "Future-Ready Websites",
         description:
           "We build intelligent, scalable websites designed to grow with your business—no cookie-cutter templates or shortcuts. Our custom web solutions adapt to shifting goals, user behavior, and emerging tech trends. Built for performance and flexibility, they ensure long-term relevance and lasting impact. Every site we create is tailored to reflect your brand and support your future growth.",
@@ -304,12 +307,12 @@ const serviceData = {
     },
     {
       id: 3,
-      icon: <FaMobileRetro />,
+      icon: <FaAppStoreIos />,
       slug: "mobile-app-development",
       subtitle: "Mobile App Development",
       title: "Mobile App Development",
       description:
-        "We develop high-performance iOS and Android apps focused on usability, scalability, and seamless user experiences.",
+        "We design and develop intuitive mobile apps for both Android and iOS platforms. Our apps deliver seamless performance, modern interfaces, and a user-friendly experience that engages and retains your audience.",
       metaDescription: "Cross-platform mobile apps built with React Native.",
       featuredImage:
         "/assets/Services/mobile-app-development-tab-featured.webp",
@@ -351,7 +354,7 @@ const serviceData = {
         ctaLink: "/contact-us",
       },
       section3: {
-        icon: <AiFillCode />,
+        icon: <FaAppStoreIos />,
         heading: "Future-Ready Mobile Apps",
         description:
           "We craft intelligent, scalable mobile apps aligned with your business goals—no generic templates, only custom-built solutions. Each app is designed to grow with your business and adapt to evolving user needs. We focus on performance, usability, and long-term value. Our solutions ensure seamless functionality and a great user experience across devices. Built for today, ready for tomorrow.",
@@ -401,12 +404,12 @@ const serviceData = {
     },
     {
       id: 4,
-      icon: <FaChartLine />,
+      icon: <FaDigitalOcean />,
       slug: "digital-marketing",
       subtitle: "Digital Marketing",
       title: "Digital Marketing",
       description:
-        "We drive online growth with SEO, social media, PPC, and content marketing—boosting visibility, engagement, and conversions.",
+        "We help you grow faster with proven digital marketing strategies that drive results. From SEO and social media to targeted campaigns, we ensure your brand reaches the right audience at the right time.",
       featuredImage: "/assets/Services/digital-marketing-tab-featured.webp",
       section1: {
         subheading: "Why Choose?",
@@ -446,7 +449,7 @@ const serviceData = {
         ctaLink: "/contact-us",
       },
       section3: {
-        icon: <AiFillCode />,
+        icon: <FaDigitalOcean />,
         heading: "Future-Ready Marketing",
         description:
           "We craft intelligent, scalable marketing strategies tailored to your business goals. Forget one-size-fits-all campaigns—our solutions are data-driven, precise, and built for impact. Each strategy adapts to changing markets and audience behaviors, keeping your brand relevant and competitive. We focus on long-term growth, performance, and measurable results. With flexible, evolving plans, we ensure your marketing stays ahead of the curve.",
@@ -496,12 +499,12 @@ const serviceData = {
     },
     {
       id: 5,
-      icon: <FaQuidditch />,
+      icon: <MdOutlineDesignServices />,
       slug: "ui-ux-design",
       subtitle: "UI/UX Design",
       title: "UI/UX Design",
       description:
-        "We design intuitive, engaging interfaces that enhance user experience—transforming complex ideas into clean, user-friendly digital products.",
+        "We craft clean, intuitive, and engaging user experiences that your customers will love. Our design process focuses on usability, visual harmony, and smooth interactions to elevate your digital products.",
       featuredImage: "/assets/Services/ui-ux-tab-featured.webp",
       section1: {
         subheading: "Why Choose?",
@@ -540,7 +543,7 @@ const serviceData = {
         ctaLink: "/contact-us",
       },
       section3: {
-        icon: <AiFillCode />,
+        icon: <MdOutlineDesignServices />,
         heading: "Future-Ready Digital Interfaces",
         description:
           "We design smart, scalable interfaces that grow with your product and user needs. Our UX solutions go beyond aesthetics to ensure every interaction feels natural, intuitive, and engaging. Accessibility and usability are at the core of our approach. We focus on creating seamless experiences that drive retention and conversion. With every design decision, we prioritize clarity, consistency, and user satisfaction.",
@@ -589,11 +592,12 @@ const serviceData = {
     },
     {
       id: 6,
-      icon: <FaCartShopping />,
+      icon: <FaShoppingCart />,
       slug: "ecommerce-solutions",
       subtitle: "Ecommerce Solutions",
       title: "Ecommerce Solutions",
-      description: "End-to-End Ecommerce Solutions",
+      description:
+        "We develop powerful ecommerce platforms that make selling easier and more efficient. Our solutions include smooth checkout experiences, secure payment systems, and tools that help boost conversions.",
       featuredImage: "/assets/Services/ecom-solutions-tab-featured.webp",
       section1: {
         subheading: "Why Choose?",
@@ -633,7 +637,7 @@ const serviceData = {
         ctaLink: "/contact-us",
       },
       section3: {
-        icon: <AiFillCode />,
+        icon: <FaShoppingCart />,
         heading: "Future-Ready E-commerce Platforms",
         description:
           "We develop smart, scalable online stores tailored to your business growth. No templates or shortcuts—just custom, future-ready solutions that adapt to evolving customer needs. Our e-commerce platforms support new sales channels, improve user experience, and strengthen your digital brand. Built for performance and flexibility, they help you stay competitive in a dynamic market.",
@@ -683,12 +687,12 @@ const serviceData = {
     },
     {
       id: 7,
-      icon: <MdSecurity />,
+      icon: <MdOutlineSecurity />,
       slug: "cyber-security-solutions",
       subtitle: "Cyber Security Solutions",
       title: "Cyber Security Solutions",
       description:
-        "We protect your business with proactive cybersecurity solutions—covering threat detection, network security, compliance, and risk management.",
+        "We protect your business from digital threats with robust cybersecurity solutions. From vulnerability assessments to real-time monitoring, we ensure your data, systems, and customers stay safe.",
       featuredImage: "/assets/Services/cybersecurity-tab-featured.webp",
       section1: {
         subheading: "Why Choose?",
@@ -728,7 +732,7 @@ const serviceData = {
         ctaLink: "/contact-us",
       },
       section3: {
-        icon: <AiFillCode />,
+        icon: <MdOutlineSecurity />,
         heading: "Future-Ready Cybersecurity Solutions",
         description:
           "We develop intelligent, scalable security systems that evolve with your business. From threat prediction and automated response to risk analytics and continuous monitoring, our solutions are built for long-term protection. Designed to adapt and learn over time, they strengthen your defense posture as threats grow more complex. With future-proof architecture and real-time threat intelligence, we ensure resilience, performance, and security at every layer.",
@@ -780,9 +784,10 @@ const serviceData = {
       id: 8,
       icon: <FaRobot />,
       slug: "artificial-intelligence-solutions",
-      subtitle: "Artificial Intelligence Solutions",
-      title: "Artificial Intelligence Solutions",
-      description: "Tailored AI Technologies & Solutions",
+      subtitle: "AI Solutions",
+      title: "AI Solutions",
+      description:
+        "We integrate smart AI tools into your processes to enhance decision-making, automate routine tasks, and improve efficiency. Our AI-driven solutions help your business stay ahead in a rapidly evolving tech landscape.",
       featuredImage: "/assets/Services/ai-solution-services-tab-featured.webp",
       section1: {
         subheading: "Why Choose?",
@@ -821,7 +826,7 @@ const serviceData = {
         ctaLink: "/contact-us",
       },
       section3: {
-        icon: <AiFillCode />,
+        icon: <FaRobot />,
         heading: "Future-Ready AI Applications",
         description:
           "We build smart, scalable AI systems that grow with your business needs. Whether it's predictive analytics, automation, recommendation engines, or natural language processing, our solutions are designed for long-term impact. They continuously learn and adapt to deliver better results over time. With future-focused architecture and real-time intelligence, we ensure performance, efficiency, and innovation at every stage.",
@@ -874,7 +879,8 @@ const serviceData = {
       slug: "hire-dedicated-devlopers",
       subtitle: "Hire Dedicated Developers",
       title: "Hire Dedicated Developers",
-      description: "Expert & Dedicated Developers",
+      description:
+        "Scale your team effortlessly with our skilled and experienced developers. Whether short-term or long-term, our talent works seamlessly with your workflows to accelerate your project delivery.",
       featuredImage:
         "/assets/Services/hire-dedicated-developer-tab-featured.webp",
       section1: {
@@ -915,7 +921,7 @@ const serviceData = {
         ctaLink: "/contact-us",
       },
       section3: {
-        icon: <AiFillCode />,
+        icon: <MdDeveloperMode />,
         heading: "Future-Ready Development Teams",
         description:
           "Scale your development capacity with agile, future-ready teams tailored to your needs. Our dedicated developers bring deep expertise in the latest technologies and coding standards, ensuring your project is optimized for performance, scalability, and long-term success. With a focus on adaptability and clean development practices, we help you stay ahead in an evolving tech landscape.",
@@ -969,7 +975,8 @@ const serviceData = {
       slug: "hire-proxy-developers",
       subtitle: "Hire Proxy Developers",
       title: "Hire Proxy Developers",
-      description: "Skilled Proxy Developers",
+      description:
+        "Our expert proxy developers help you prepare for and clear technical interviews with confidence. They provide hands-on guidance, practical solutions, and the support needed to excel in complex evaluations.",
       featuredImage: "/assets/Services/hire-proxy-developer-tab-featured.webp",
       section1: {
         subheading: "Why Hire",
@@ -1009,7 +1016,7 @@ const serviceData = {
         ctaLink: "/contact-us",
       },
       section3: {
-        icon: <AiFillCode />,
+        icon: <SiTraefikproxy />,
         heading: "Future-Ready Technical Representation",
         description:
           "Our proxy developers are highly skilled in handling complex interviews, coding challenges, and technical discussions with ease. They bring deep expertise across the latest tools, frameworks, and industry trends to every session. Their confident, up-to-date representation ensures your strengths are showcased effectively. With a focus on clarity and precision, they navigate each stage seamlessly—delivering reliable support when it matters most.",
@@ -1050,6 +1057,192 @@ const serviceData = {
             title: "100% Confidential & Secure",
             description:
               "We maintain complete confidentiality throughout the process, ensuring your identity and goals are protected.",
+            icon: <AiFillCode />,
+          },
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+    },
+    {
+      id: 11,
+      icon: <GiBrain />,
+      slug: "ai-agents",
+      subtitle: "AI Agents",
+      title: "AI Agents",
+      description:
+        "We create AI agents capable of handling everything from predictive analysis to complete autonomous workflows. These agents help automate operations, reduce manual work, and enhance productivity.",
+      featuredImage: "/assets/Services/ai-agents-tab-featured.webp",
+      section1: {
+        subheading: "Why Chose?",
+        heading: "Our Artificial Intelligence Agents",
+        description:
+          "Our AI Agents are engineered to streamline operations, automate complex tasks, and enhance decision-making across every part of your business. Each agent is purpose-built to align with your workflows, learn from your data, and deliver consistent, intelligent outcomes—24/7.",
+        featuredHeading: "What Makes Our AI Agents Different",
+        featuredPoints: [
+          "Evolving",
+          "Expandable",
+          "Tailored",
+          "Self-Driven",
+          "Insightful",
+          "Protected",
+        ],
+        featuredDescription:
+          "We don’t use cookie-cutter models or simple chatbots. Our AI Agents are developed from the ground up for your unique use cases—deeply integrated, highly intelligent, and capable of handling dynamic, multi-step operations. They grow with your business, automate more over time, and deliver continuous efficiency, accuracy, and innovation.",
+        sectionImage: "/assets/Services/ai-agents/ai-agents.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section2: {
+        subheading: "Core Features",
+        heading: "Key Capabilities of Our AI Agents",
+        description:
+          "Our process begins by understanding your workflows, challenges, and operational goals. From there, we design intelligent agents that deliver measurable impact—combining smart automation with practical execution and seamless integration.",
+        featuredPoints: [
+          "Purpose-Built AI Agents",
+          "Insight-Driven Decision Logic",
+          "Scalable Agent Architecture",
+          "Intuitive Interaction Interfaces",
+          "Effortless System Integration",
+          "Performance Tracking",
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section3: {
+        icon: <GiBrain />,
+        heading: "Future-Ready AI Agents",
+        description:
+          "Our future-ready AI Agents are built to grow with your business, delivering long-term value through continuous learning, real-time intelligence, and scalable architecture. Whether automating workflows, generating predictions, powering recommendations, or enabling smart interactions, these agents adapt to your evolving needs while ensuring high performance, efficiency, and innovation at every stage.",
+        sectionImage: "/assets/Services/ai-agents/ai-agents-future.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section4: {
+        subheading: "Success Solutions",
+        heading: "Success with Intelligent AI Agents",
+        description:
+          "As your trusted partner in AI-driven growth, we build intelligent, reliable, and business-ready AI Agents tailored to your operational needs. Supported by expert engineers and strategic specialists, our focus is on precision, performance, and real impact. Whether you’re launching your first automation or scaling advanced AI capabilities, we help you lead with confidence in a data-driven world.",
+        iconBox: [
+          {
+            id: 1,
+            title: "Strategic AI Agent Planning",
+            description:
+              "Custom-built roadmaps based on your processes, data, and business objectives.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 2,
+            title: "Full-Cycle Agent Development",
+            description:
+              "From workflow mapping and logic design to deployment, testing, and continuous improvement.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 3,
+            title: "Intelligence Powered by Insights",
+            description:
+              "Real-time data, behavioral patterns, and predictive logic drive smarter automated decisions.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 4,
+            title: "Clear, Collaborative Process",
+            description:
+              "Transparent updates, regular checkpoints, and full visibility into how your agents learn and operate.",
+            icon: <AiFillCode />,
+          },
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+    },
+    {
+      id: 12,
+      icon: <FaCloudUploadAlt />,
+      slug: "saas-solutions",
+      subtitle: "SaaS Solutions",
+      title: "SaaS Solutions",
+      description:
+        "We develop scalable SaaS platforms that simplify operations and reduce maintenance overhead. Our solutions provide seamless access, automatic updates, and reliable performance across all user environments.",
+      featuredImage: "/assets/Services/saas-solutions-tab-featured.webp",
+      section1: {
+        subheading: "Why Chose?",
+        heading: "Our SaaS Solutions",
+        description:
+          "Our SaaS platforms are designed to streamline operations, boost productivity, and support smarter decisions through modern, cloud-first software. Every solution is built to align seamlessly with your business processes—delivering reliability, performance, and long-term value.",
+        featuredHeading: "What Sets Our SaaS Solutions Apart",
+        featuredPoints: [
+          "Versatile",
+          "Elastic",
+          "Personalized",
+          "Streamlined",
+          "Intelligent",
+          "Shielded",
+        ],
+        featuredDescription:
+          "Unlike generic templates or pre-built platforms, our SaaS solutions are engineered from the ground up for your exact requirements. With scalable architecture, smart automation, and smooth integrations, our systems evolve with your business and deliver consistent performance, insight, and innovation.",
+        sectionImage: "/assets/Services/saas-solutions/saas-solutions.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section2: {
+        subheading: "Core Features",
+        heading: "Essential Capabilities of Our SaaS Solutions",
+        description:
+          "We begin by understanding your business model, user needs, and operational goals. From there, we build cloud-powered systems that deliver real value—combining strong engineering with seamless, practical functionality.",
+        featuredPoints: [
+          "Custom SaaS Development",
+          "Data-Backed Analytics",
+          "Scalable Cloud Architecture",
+          "Intuitive User Experience",
+          "Seamless Integrations",
+          "Real-Time System Monitoring",
+        ],
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section3: {
+        icon: <FaCloudUploadAlt />,
+        heading: "Future-Ready SaaS Applications",
+        description:
+          "We develop scalable, high-performance SaaS platforms built to evolve as your business grows. From automation and data processing to subscription management and user operations, our software is engineered for long-term stability and continuous improvement. Designed with modern cloud architecture and real-time intelligence, our systems deliver consistent speed, reliability, and innovation—ensuring your product stays competitive today and future-ready for tomorrow.",
+        sectionImage: "/assets/Services/saas-solutions/saas-future.webp",
+        ctaText: "Contact Us",
+        ctaLink: "/contact-us",
+      },
+      section4: {
+        subheading: "Success Solutions",
+        heading: "Your Partner in SaaS-Driven Growth",
+        description:
+          "Our SaaS solutions go far beyond basic software development—we deliver reliable, scalable, and business-ready cloud platforms tailored to your goals. Supported by experienced product engineers, UI/UX designers, and SaaS strategists, we focus on delivering precision, performance, and long-term value. Whether you’re launching your first SaaS product or expanding an existing platform, we help you build software that stands strong in a competitive, digital-first world.",
+        iconBox: [
+          {
+            id: 1,
+            title: "Tailored SaaS Strategies",
+            description:
+              "Custom product planning based on your business model, user requirements, and long-term objectives.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 2,
+            title: "End-to-End SaaS Development",
+            description:
+              "From architecture and coding to deployment, optimization, and continuous updates—we handle the full product lifecycle.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 3,
+            title: "Insight-Driven Product Intelligence",
+            description:
+              "Real-time analytics, user behavior tracking, and performance insights for smarter product decisions.",
+            icon: <AiFillCode />,
+          },
+          {
+            id: 4,
+            title: "Transparent Collaboration & Process",
+            description:
+              "Clear communication, frequent updates, and complete visibility into development—ensuring you stay informed at every step.",
             icon: <AiFillCode />,
           },
         ],

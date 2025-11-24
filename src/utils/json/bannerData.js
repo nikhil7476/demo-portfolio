@@ -173,6 +173,28 @@ const bannerData = {
         { label: "HIre Proxy Developers", href: "/hire-proxy-developers" },
       ],
     },
+    "ai-agents": {
+      subHeading: "AI Agents for Next-Level Automation",
+      heading:
+        "Intelligent AI Agents Built for Precision, Productivity & Scalable Business Growth",
+      bgImage: "/assets/Services/ai-agents/ai-agents-banner.webp",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Our Services", href: "/our-services" },
+        { label: "AI Agents", href: "/ai-agents" },
+      ],
+    },
+    "saas-solutions": {
+      subHeading: "SaaS Solutions",
+      heading:
+        "Cloud-Based Software Tailored for Performance, Efficiency & Scalable Business Growth",
+      bgImage: "/assets/Services/saas-solutions/saas-banner.webp",
+      breadcrumb: [
+        { label: "Home", href: "/" },
+        { label: "Our Services", href: "/our-services" },
+        { label: "SaaS Solutions", href: "/saas-solutions" },
+      ],
+    },
   },
   portfolio: {
     main: [

@@ -10,8 +10,10 @@ import {
   FaDigitalOcean,
   FaShoppingCart,
   FaRobot,
+  FaCloudUploadAlt,
 } from "react-icons/fa";
 import { FaInternetExplorer } from "react-icons/fa6";
+import { GiBrain } from "react-icons/gi";
 import {
   MdOutlineDesignServices,
   MdOutlineSecurity,
@@ -27,70 +29,86 @@ const menuCategories = [
       {
         icon: <FaMicrosoft />,
         name: "Software Development",
-        description: "Softwares For Your Business.",
+        description: "Business Software Solutions",
         href: "/our-services/software-development/",
       },
       {
         icon: <FaAppStoreIos />,
-        name: "Mobile App Development",
-        description: "Apps For Android & iOS.",
+        name: "App Development",
+        description: "Android & iOS Apps",
         href: "/our-services/mobile-app-development/",
       },
       {
         icon: <FaInternetExplorer />,
         name: "Website Development",
-        description: "Modern Websites That Perform",
+        description: "Modern Websites That Convert",
         href: "/our-services/website-development/",
-      },
-      {
-        icon: <MdOutlineDesignServices />,
-        name: "UI/UX Design",
-        description: "Designs That User Loves",
-        href: "/our-services/ui-ux-design/",
       },
     ],
   },
   {
     links: [
       {
+        icon: <MdOutlineDesignServices />,
+        name: "UI/UX Design",
+        description: "User-Loved Designs",
+        href: "/our-services/ui-ux-design/",
+      },
+      {
         icon: <FaDigitalOcean />,
         name: "Digital Marketing",
-        description: "Grow Fast With Smart Marketing",
+        description: "Faster Growth Online",
         href: "/our-services/digital-marketing/",
       },
       {
         icon: <FaShoppingCart />,
         name: "Ecommerce Solutions",
-        description: "Sell Better With Ecommerce",
+        description: "Better Selling Online",
         href: "/our-services/ecommerce-solutions/",
-      },
-      {
-        icon: <MdOutlineSecurity />,
-        name: "Cyber Security Solutions",
-        description: "Smart Digital Threat Protection",
-        href: "/our-services/cyber-security-solutions/",
       },
     ],
   },
   {
     links: [
       {
+        icon: <MdOutlineSecurity />,
+        name: "Cyber Security",
+        description: "Threat Protection & Security",
+        href: "/our-services/cyber-security-solutions/",
+      },
+      {
         icon: <FaRobot />,
         name: "AI Solutions",
-        description: "AI Tools For Smarter Work",
+        description: "Smarter Workflows with AI",
         href: "/our-services/artificial-intelligence-solutions/",
       },
       {
         icon: <MdDeveloperMode />,
-        name: "Hire Dedicated Developers",
-        description: "Full Time Devs For Your Team",
+        name: "Hire Dedicated Devs",
+        description: "Team Support for Your Projects",
         href: "/our-services/hire-dedicated-devlopers/",
       },
+    ],
+  },
+  {
+    links: [
       {
         icon: <SiTraefikproxy />,
         name: "Hire Proxy Developers",
-        description: "Experts For Interview Success",
+        description: "Interview Success with Guidance",
         href: "/our-services/hire-proxy-developers/",
+      },
+      {
+        icon: <GiBrain />,
+        name: "AI Agents",
+        description: "Predictive Autonomy",
+        href: "/our-services/ai-agents/",
+      },
+      {
+        icon: <FaCloudUploadAlt />,
+        name: "SaaS Solutions",
+        description: "Zero Maintenance Software",
+        href: "/our-services/saas-solutions/",
       },
     ],
   },
@@ -98,57 +116,43 @@ const menuCategories = [
 
 const MegaMenuContent = () => (
   <div className="mega-menu-panel shadow p-2">
-    <Container fluid>
+    <Container>
       <Row>
-        <Col xl={9} lg={9} md={8} sm={12} xs={12} className="mb-3">
-          <Row>
-            {menuCategories.map((category, index) => (
-              <Col
-                xl={4}
-                lg={4}
-                md={6}
-                sm={12}
-                xs={12}
-                key={index}
-                className="mb-3 mb-lg-0"
-              >
-                <ul className="list-unstyled h-100">
-                  {category.links.map((link, linkIndex) => (
-                    <li key={linkIndex} className="py-1">
-                      <Link
-                        href={link.href}
-                        title={link.name}
-                        className="mega-menu-link"
-                      >
-                        <div className="d-flex gap-3">
-                          <div>
-                            <span className="fs-2 header-nav-icon">
-                              {link.icon}
-                            </span>
-                          </div>
-                          <div>
-                            <span>{link.name}</span>
-                            <p>{link.description}</p>
-                          </div>
-                        </div>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </Col>
-            ))}
-          </Row>
-        </Col>
-        <Col xl={3} lg={3} md={4} sm={12} xs={12} className="mb-3">
-          <Image
-            src="/assets/Header/mega-menu.webp"
-            alt="Mega Menu"
-            title="Mega Menu"
-            width={350}
-            height={350}
-            className="img-fluid rounded w-100 h-auto"
-          />
-        </Col>
+        {menuCategories.map((category, index) => (
+          <Col
+            xl={3}
+            lg={3}
+            md={6}
+            sm={12}
+            xs={12}
+            key={index}
+            className="mb-3 mb-lg-0"
+          >
+            <ul className="list-unstyled h-100">
+              {category.links.map((link, linkIndex) => (
+                <li key={linkIndex} className="py-1">
+                  <Link
+                    href={link.href}
+                    title={link.name}
+                    className="mega-menu-link"
+                  >
+                    <div className="d-flex gap-3">
+                      <div>
+                        <span className="fs-2 header-nav-icon">
+                          {link.icon}
+                        </span>
+                      </div>
+                      <div>
+                        <span>{link.name}</span>
+                        <p>{link.description}</p>
+                      </div>
+                    </div>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </Col>
+        ))}
       </Row>
     </Container>
   </div>

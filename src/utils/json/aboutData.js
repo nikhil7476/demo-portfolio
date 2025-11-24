@@ -61,40 +61,6 @@ const aboutData = {
     heading: "Developing with Purpose, Driven by Your Goals",
     description:
       "We align our process with your objectives—collaborating closely at every stage to ensure the final product reflects your vision, meets your needs, and drives real results.",
-    timeline: [
-      {
-        id: 1,
-        icon: "1️⃣",
-        step: "Step 1",
-        title: "Discovery & Planning",
-        description:
-          "We work with you to define project goals, understand your audience, and create a clear roadmap for success.",
-      },
-      {
-        id: 2,
-        icon: "2️⃣",
-        step: "Step 2",
-        title: "Design & Development",
-        description:
-          "Our team transforms ideas into intuitive designs and builds scalable solutions tailored to your needs.",
-      },
-      {
-        id: 3,
-        icon: "3️⃣",
-        step: "Step 3",
-        title: "Testing & Quality Assurance",
-        description:
-          "We rigorously test every feature to ensure performance, reliability, and a seamless user experience.",
-      },
-      {
-        id: 4,
-        icon: "4️⃣",
-        step: "Step 4",
-        title: "Deployment & Maintenance",
-        description:
-          "We launch your product with care and provide ongoing support to keep it running smoothly and efficiently.",
-      },
-    ],
     ctaText: "Explore Our Services",
     ctaLink: "/our-services",
   },

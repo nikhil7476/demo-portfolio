@@ -6,7 +6,7 @@ import { useState, useMemo } from "react";
 import Image from "next/image";
 
 const FaqAccordion = ({ data, section, subCategory }) => {
-  const [activeKey, setActiveKey] = useState(null);
+  const [activeKey, setActiveKey] = useState("0");
 
   const handleToggle = (key) => {
     setActiveKey((prevKey) => (prevKey === key ? null : key));
@@ -70,7 +70,7 @@ const FaqAccordion = ({ data, section, subCategory }) => {
           <span>FAQs</span>
           <h2>Frequently Asked Questions</h2>
           <hr />
-          <Accordion activeKey={activeKey} flush>
+          <Accordion activeKey={activeKey} flush className="faq-container">
             {faqItems.map((item, idx) => {
               const key = String(idx);
               const isActive = activeKey === key;
@@ -79,11 +79,12 @@ const FaqAccordion = ({ data, section, subCategory }) => {
                 <Accordion.Item
                   eventKey={key}
                   key={item.id ?? key}
-                  className="mb-3"
+                  className="mb-3 faq-item"
                 >
                   <Accordion.Header
                     onClick={() => handleToggle(key)}
-                    className="fw-semibold"
+                    className="faq-question"
+                    as={"div"}
                   >
                     {isActive ? (
                       <FaMinus className="me-2" />
@@ -92,7 +93,7 @@ const FaqAccordion = ({ data, section, subCategory }) => {
                     )}
                     {item.title}
                   </Accordion.Header>
-                  <Accordion.Body className="text-muted">
+                  <Accordion.Body className="faq-answer">
                     {item.content}
                   </Accordion.Body>
                 </Accordion.Item>
