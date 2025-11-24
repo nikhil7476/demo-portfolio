@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import {
   FaEnvelope,
-  FaGithub,
   FaInstagram,
   FaLinkedin,
   FaPhoneAlt,
@@ -15,12 +14,12 @@ import { FaArrowRightLong } from "react-icons/fa6";
 function Footer() {
   return (
     <>
-      <section>
+      <section className="bg-black">
         <Container>
           <Row>
             <Col
-              xl={6}
-              lg={6}
+              xl={8}
+              lg={8}
               md={6}
               sm={12}
               xs={12}
@@ -29,8 +28,8 @@ function Footer() {
               <h2>Ready To Elevate Your Digital Presence? Contact Us Now!</h2>
             </Col>
             <Col
-              xl={6}
-              lg={6}
+              xl={4}
+              lg={4}
               md={6}
               sm={12}
               xs={12}
@@ -43,7 +42,7 @@ function Footer() {
           </Row>
         </Container>
       </section>
-      <section>
+      <section className="bg-black">
         <Container>
           <Row className="my-5">
             <Col xl={3} lg={3} md={6} sm={12} xs={12} className="mb-3">
@@ -202,71 +201,60 @@ function Footer() {
               </ul>
             </Col>
           </Row>
-          <Row className="bg-light rounded p-2">
-            <Col
-              xl={12}
-              lg={12}
-              md={12}
-              sm={12}
-              xs={12}
-              className="align-content-center"
-            >
-              <ul className="list-unstyled d-flex justify-content-evenly m-0">
-                <li>
-                  <Image
-                    src="/assets/Footer/adobe.webp"
-                    title="Adobe"
-                    alt="Adobe Logo"
-                    width={100}
-                    height={100}
-                  />
-                </li>
-                <li>
-                  <Image
-                    src="/assets/Footer/great-place-to-work.webp"
-                    title="Great Place To Work"
-                    alt="Great Place To Work Logo"
-                    width={100}
-                    height={100}
-                  />
-                </li>
-                <li>
-                  <Image
-                    src="/assets/Footer/hubspot-agency.webp"
-                    title="HubSpot Agency"
-                    alt="HubSpot Agency Logo"
-                    width={100}
-                    height={100}
-                  />
-                </li>
-                <li>
-                  <Image
-                    src="/assets/Footer/hubspot.webp"
-                    title="HubSpot"
-                    alt="HubSpot Logo"
-                    width={100}
-                    height={100}
-                  />
-                </li>
-                <li>
-                  <Image
-                    src="/assets/Footer/iso-logo.webp"
-                    title="ISO"
-                    alt="ISO Logo"
-                    width={125}
-                    height={100}
-                  />
-                </li>
-                <li>
-                  <Image
-                    src="/assets/Footer/pmp.webp"
-                    title="PMP"
-                    alt="PMP Logo"
-                    width={100}
-                    height={100}
-                  />
-                </li>
-              </ul>
+          <Row className="bg-dark rounded p-2 m-3 justify-content-enter">
+            <Col xl={2} lg={2} md={4} sm={4} xs={6} className="text-center p-2">
+              <Image
+                src="/assets/Footer/adobe.webp"
+                title="Adobe"
+                alt="Adobe Logo"
+                width={100}
+                height={100}
+              />
+            </Col>
+            <Col xl={2} lg={2} md={4} sm={4} xs={6} className="text-center p-2">
+              <Image
+                src="/assets/Footer/great-place-to-work.webp"
+                title="Great Place To Work"
+                alt="Great Place To Work Logo"
+                width={100}
+                height={100}
+              />
+            </Col>
+            <Col xl={2} lg={2} md={4} sm={4} xs={6} className="text-center p-2">
+              <Image
+                src="/assets/Footer/hubspot-agency.webp"
+                title="HubSpot Agency"
+                alt="HubSpot Agency Logo"
+                width={100}
+                height={100}
+              />
+            </Col>
+            <Col xl={2} lg={2} md={4} sm={4} xs={6} className="text-center p-2">
+              <Image
+                src="/assets/Footer/hubspot.webp"
+                title="HubSpot"
+                alt="HubSpot Logo"
+                width={100}
+                height={100}
+              />
+            </Col>
+            <Col xl={2} lg={2} md={4} sm={4} xs={6} className="text-center p-2">
+              <Image
+                src="/assets/Footer/iso-logo.webp"
+                title="ISO"
+                alt="ISO Logo"
+                width={125}
+                height={100}
+              />
+            </Col>
+            <Col xl={2} lg={2} md={4} sm={4} xs={6} className="text-center p-2">
+              <Image
+                src="/assets/Footer/pmp.webp"
+                title="PMP"
+                alt="PMP Logo"
+                width={100}
+                height={100}
+              />
             </Col>
           </Row>
           <Row>

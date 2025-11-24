@@ -27,14 +27,7 @@ function Contact() {
                 contactData.title ||
                 contactData.description ||
                 contactData.iconBox?.length > 0) && (
-                <Col
-                  xl={6}
-                  lg={6}
-                  md={6}
-                  sm={12}
-                  xs={12}
-                  className="mb-3 align-content-center"
-                >
+                <Col xl={6} lg={6} md={6} sm={12} xs={12} className="mb-3">
                   {contactData.subheading && (
                     <span>{contactData.subheading}</span>
                   )}

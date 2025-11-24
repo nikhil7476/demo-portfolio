@@ -12,7 +12,7 @@
 }
 
 :root {
-  --background: #28292f;
+  --background: #1b1d20;
   --foreground: #ecf6ed;
 
   --heading: #ffffff;
@@ -21,7 +21,6 @@
 
   --divider: #caef45;
   --icon: #caef45;
-  --section: #1c1d20;
 
   --link: #c1c1c1;
   --link-hover: #caef45;
@@ -69,10 +68,6 @@ a:hover {
 
 section {
   padding: 30px 0px;
-}
-
-section:nth-child(odd) {
-  background: var(--section) !important;
 }
 
 .row,
